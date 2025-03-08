@@ -1,0 +1,64 @@
+.scenarios-box {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+  background: white;
+  padding: 16px;  
+  font-size: larger;
+  border-radius: 8px;
+
+
+  @media (max-width: 768px) {
+    padding: 8px;  
+  }
+
+  button {
+    margin-left: 16px;
+  }
+}
+
+
+// .scenarios-box {
+//   position: absolute;
+//   top: 32px;
+//   right: 32px;
+//   background: rgba(255, 255, 255);
+// }
+
+// .scenarios-box .avatar {
+//   width: 200px;
+//   height: 128px;
+//   background-size: cover;
+//   background-position: center 16px;
+//   background-repeat: no-repeat;
+//   margin: auto;
+// }
+
+// .scenarios-box ul {
+//   list-style: none;
+//   margin: 8px 8px 8px 0;
+//   padding: 4px;
+// }
+
+// .scenarios-box ul li {
+//   margin: 6px 8px 4px 32px;
+// }
+
+// .scenarios-box ul li:hover {
+//   text-decoration: underline;
+//   cursor: pointer;
+// }
+
+// .scenarios-box ul li.completed {
+//   margin: 4px 0;
+// }
+
+// .scenarios-box ul li.completed:hover {
+//   text-decoration: none;
+// }
+
+// .scenarios-box ul li .check {
+//   width: 16px;
+//   height: 16px;
+//   margin: 0 8px -2px 8px;
+// }

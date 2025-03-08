@@ -1,0 +1,79 @@
+{"frames": {
+
+"tile-misc-conveyor-a-1.png":
+{
+	"frame": {"x":0,"y":0,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"tile-misc-conveyor-a-2.png":
+{
+	"frame": {"x":128,"y":0,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"tile-misc-conveyor-a-3.png":
+{
+	"frame": {"x":0,"y":256,"w":129,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":128},
+	"sourceSize": {"w":129,"h":128}
+},
+"tile-misc-conveyor-a-4.png":
+{
+	"frame": {"x":129,"y":256,"w":129,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":129},
+	"sourceSize": {"w":129,"h":129}
+},
+"tile-misc-conveyor-a-5.png":
+{
+	"frame": {"x":256,"y":0,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"tile-misc-conveyor-a-6.png":
+{
+	"frame": {"x":0,"y":128,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"tile-misc-conveyor-a-7.png":
+{
+	"frame": {"x":128,"y":128,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"tile-misc-conveyor-a-8.png":
+{
+	"frame": {"x":256,"y":128,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+}},
+"animations": {
+	"tile-misc-conveyor-a": ["tile-misc-conveyor-a-1.png","tile-misc-conveyor-a-2.png","tile-misc-conveyor-a-3.png","tile-misc-conveyor-a-4.png","tile-misc-conveyor-a-5.png","tile-misc-conveyor-a-6.png","tile-misc-conveyor-a-7.png","tile-misc-conveyor-a-8.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "misc-conveyor.png",
+	"format": "RGBA8888",
+	"size": {"w":384,"h":385},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:abab91e83d703ae22fc264804576242c:dc098c3d51c1e4805bfbb69ed064334a:914541133a5548d91e904a54d93e04bf$"
+}
+}

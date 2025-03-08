@@ -1,0 +1,191 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+    "mapJson": "maps/scenarios-2.json",
+    "stars": 3,
+    "scenarios": {
+      "broken-forklift": {
+        "location": [23, 0],
+        "image": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/broken-forklift/broken-forklift-description.jpg",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "dark-warehouse": {
+        "location": [1, 25],
+        "image": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/dark-warehouse/dark-warehouse-description.jpg",
+        "reactions": [{
+          "id": "reaction1",
+          "correct": true
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "forklift-crash": {
+        "location": [6, 18],
+        "image": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/forklift-crash/forklift-crash-description.jpg",
+        "imageFeedback": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/forklift-crash/forklift-crash-outcome.jpg",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }]
+      },
+      "loading-dock": {
+        "location": [52, 13],
+        "image": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/loading-dock/loading-dock-description.png",
+        "imageFeedback": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/loading-dock/loading-dock-outcome.png",
+      "reactions": [{
+          "id": "reaction1",
+          "correct": true
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      }
+    }
+  },
+  "translations": [{
+    "key": "intro-header",
+    "value": "Wat te doen in de volgende scenario’s?"
+  }, {
+    "key": "intro-description",
+    "value": "In dit spel krijg je vanuit het warehouse toegang tot de scenario’s door op de rode pijltjes te klikken. Per scenario wordt een situatie omschreven en mag je een vraag beantwoorden. Na het beantwoorden van de vraag krijg je uitleg over wat het juiste antwoord is. Per goed beantwoorde vraag verdien je 1 ster. "
+  }, {
+    "key": "intro-start",
+    "value": "Start"
+  }, {
+    "key": "intro-stars-to-gain",
+    "value": "{0}/{1} verdiend"
+  }, {
+    "key": "button-next",
+    "value": "Volgende"
+  }, {
+    "key": "button-prev",
+    "value": "Terug"
+  }, {
+    "key": "button-check",
+    "value": "Check"
+  }, {
+    "key": "button-continue",
+    "value": "Doorgaan"
+  }, {
+    "key": "reactions",
+    "value": "Acties"
+  }, {
+    "key": "feedback-correct",
+    "value": "Goed!"
+  }, {
+    "key": "feedback-wrong",
+    "value": "Fout!"
+  }, {
+    "key": "complete-header",
+    "value": "Gefeliciteerd"
+  }, {
+    "key": "complete-score",
+    "value": "Totale score {0} / {1}"
+  }, {
+    "key": "complete-try-again",
+    "value": "Opnieuw"
+  }, {
+    "key": "feedback",
+    "value": "Feedback"
+  }, {
+    "key": "description-broken-forklift",
+    "value": "Het is ontzettend druk. Je bent nog wel een paar uur bezig met de heftruck om alles op de juiste plek te krijgen. Je maakt je wel wat zorgen. \n\nDe heftruck waar je mee werkt maakt opeens een raar geluid op het moment dat de vork in de hoogste stand staat. Wat doe je?"
+  }, {
+    "key": "reaction-broken-forklift-reaction1",
+    "value": "1. Je gaat voorlopig gewoon door. Op het rare geluid na doet de heftruck het nog steeds prima."
+  }, {
+    "key": "reaction-broken-forklift-reaction2",
+    "value": "2. Je zet hem stil, laat je lading zakken en belt met de technische dienst."
+  }, {
+    "key": "reaction-broken-forklift-reaction3",
+    "value": "3. Je zet hem stil en probeert het probleem zelf op te lossen."
+  }, {
+    "key": "reaction-broken-forklift-reaction4",
+    "value": "4. Je zet hem direct stil en loopt zo snel mogelijk naar het kantoor van je teamleider om te vertellen dat de heftruck een raar geluid maakt."
+  }, {
+    "key": "feedback-broken-forklift",
+    "value": "De belangrijkste regel die je moet volgen wanneer je het idee hebt dat er iets mis is met de heftruck, of welk ander arbeidsmiddel dan ook, is zo snel mogelijk stoppen en zorgen dat er geen gevaar voor jezelf of anderen uit voortkomt.\n\nIn dit geval moet je de heftruck direct stilzetten en de lading naar beneden laten zakken. Lukt het niet de lading te laten zakken dan moet je de plek rondom de heftruck afzetten met bijvoorbeeld lint om aan te geven dat het een gevaarlijke situatie is. Daarna bel je met je teamleider of met de technische dienst om het probleem te melden en te horen wat er vervolgens moet gebeuren.\n\nJe moet dus niet door blijven rijden als er mogelijk iets mis is. Dat kan gevaarlijk zijn voor jezelf en voor je collega’s. Zelf proberen het op te lossen / iets te repareren is niet de bedoeling. Vaak mogen alleen gecertificeerde monteurs reparaties uitvoeren. De heftruck alleen laten met de lading omhoog zonder de plek af te zetten met lint is niet veilig.\n\n_VCA 10.1 (Algemene veiligheidsmaatregelen): ‘Ze (machines) mogen alleen gebruikt worden als ze in goede staat verkeren’. Als ze een vreemd geluid maken zou je daaraan kunnen twijfelen._"
+  }, {
+    "key": "description-forklift-crash",
+    "value": "Je bent net begonnen met werken. Het is je gelukkig nog nooit eerder gebeurd, maar je rijdt net met de achterkant van je heftruck tegen een stellage aan. Gelukkig ging je er maar heel zacht tegen aan. Je stapt uit om te kijken of de stellage en/of de heftruck schade hebben. Je ziet helemaal niets. Er is niets verbogen gedeukt, gekrast of wat dan ook. Pfff, dat is geluk hebben! Wat doe je?"
+  }, {
+    "key": "reaction-forklift-crash-reaction1",
+    "value": "1. Je hebt een goede inspectie gedaan. Er is niets stuk. Geen reden om het te melden en iemand hiermee lastig te vallen."
+  }, {
+    "key": "reaction-forklift-crash-reaction2",
+    "value": "2. Je meldt het direct aan je leidinggevende."
+  }, {
+    "key": "reaction-forklift-crash-reaction3",
+    "value": "3. Je meldt het aan het einde van je dienst aan je leidinggevende."
+  }, {
+    "key": "feedback-forklift-crash",
+    "value": "Als je zoiets overkomt ben je daar natuurlijk niet zo trots op. Meld het echter toch altijd direct. Daarmee voorkom je wellicht veel ernstigere ongelukken bij jezelf of bij je collega’s.\n\nOok niet zichtbare beschadigingen aan stellingen kunnen de hele boel laten instorten met alle gevolgen van dien.\n\n [Een mooi filmpje van een op zichzelf maar klein tikje tegen een stellage met hele grote gevolgen.](https://www.youtube.com/watch?v=-CFTIOQCqTc&feature=youtu.be&t=27)\n\n[Link](https://www.arbo-online.nl/veilig-werken/artikel/2009/10/ongeval-vorkheftruckchauffeur-bedolven-1018334?_ga=2.229806300.1737295247.1598614551-273054752.1598614551) naar een artikel waarin een dergelijk ongeval wordt beschreven.\n\n_VCA 5.1: Werknemers moeten incidenten en bijna-incidenten, maar zelfs ook een mogelijk gevaar melden bij de werkgever._"
+  }, {
+    "key": "description-dark-warehouse",
+    "value": "Je werkt in een wat oudere loods. Niet overal, maar op sommige plekken is de verlichting slecht. Daar kun je bijvoorbeeld je orderpicking formulier alleen maar lezen als je je je flashlight in je mobiele telefoon gebruikt om bij te lichten. Echt vervelend is het dat op sommige van die donkere plekken ook bezoekerspaden lopen. Gelukkig ben je nog nooit tegen iemand aangereden met je heftruck. Wat zou jij doen in zo’n situatie?"
+  }, {
+    "key": "reaction-dark-warehouse-reaction1",
+    "value": "1. Je meldt dit aan je teamleider."
+  }, {
+    "key": "reaction-dark-warehouse-reaction2",
+    "value": "2. Je meldt dit aan de preventiemedewerker. "
+  }, {
+    "key": "reaction-dark-warehouse-reaction3",
+    "value": "3. Je probeert op die plekken zo rustig mogelijk te rijden."
+  }, {
+    "key": "reaction-dark-warehouse-reaction4",
+    "value": "4. Je meldt dit aan de Inspectie (I-SZW)."
+  }, {
+    "key": "description-loading-dock",
+    "value": "Een van de laadplatforms waar de vrachtwagens kunnen laden en lossen is in slechte staat. De wieltjes van de karren die uit de vrachtwagens komen blijven vaak wat hangen in de scheuren en gaten in het betonnen laadplatform. Je moet dan flink duwen en trekken om de karren er overheen te krijgen. Wat doe je?"
+  }, {
+    "key": "reaction-loading-dock-reaction1",
+    "value": "1. Je meldt dit aan je teamleider."
+  }, {
+    "key": "reaction-loading-dock-reaction2",
+    "value": "2. Je meldt het aan de preventiemedewerker."
+  }, {
+    "key": "reaction-loading-dock-reaction3",
+    "value": "3. Je legt plankjes over de gaten en scheuren."
+  }, {
+    "key": "reaction-loading-dock-reaction4",
+    "value": "4. Je vraagt een collega je te helpen."
+  }, {
+    "key": "feedback-loading-dock",
+    "value": "Je moet dit om een aantal redenen melden. Het vertraagt het laden en lossen, is vervelend en extra zwaar voor jou (gezondheid) en ook gewoon gevaarlijk (veiligheid). Wat als je zo hard moet trekken of duwen dat een kar omvalt?\n\nHoewel goed bedoelt, is het meestal niet de bedoeling dat je zelf reparaties gaat uitvoeren of noodoplossingen bedenkt.\n\nWellicht is er een ander laadplatform dat gebruikt kan worden totdat deze is gerepareerd.\n\n _ VCA 5.2: Je hebt recht op een veilige en gezonde werkomgeving._"
+  }],
+  "levelsCompleted": [{
+    "level": 0,
+    "score": 2,
+    "maxScore": 8
+
+  }]
+
+}
+

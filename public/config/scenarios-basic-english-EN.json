@@ -1,0 +1,503 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+    "userId": 2,
+    "settings": {
+      "muted": false
+    },
+    "mapJson": "maps/scenarios-1.json",
+    "mistakeMode": true,
+    "scenarios": {
+      "forklifts-in-operation": {
+        "location": [54, 1],
+        "image": "description-forklifts-in-operation-image",
+        "imageFeedback": "description-forklifts-in-operation-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "emergency": {
+        "location": [50, 30],
+        "image": "description-emergency-image",
+        "imageFeedback": "description-emergency-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4",
+          "correct": true
+        }]
+      },
+      "two-person-lift": {
+        "location": [1, 20],
+        "image": "description-two-person-lift-image",
+        "imageFeedback": "description-two-person-lift-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4",
+          "correct": true
+        }]
+      },
+      "mixer-grinders": {
+        "location": [20, 3],
+        "image": "description-mixer-grinders-image",
+        "imageFeedback": "description-mixer-grinders-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }]
+      },
+      "cold-storage": {
+        "location": [0, 0],
+        "image": "description-cold-storage-image",
+        "imageFeedback": "description-cold-storage-image",
+        "reactions": [{
+          "id": "reaction1",
+          "correct": true
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "fire-exit": {
+        "location": [25, 0],
+        "image": "description-fire-exit-image",
+        "imageFeedback": "description-fire-exit-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "no-pedestrian": {
+        "location": [45, 15],
+        "image": "description-no-pedestrian-image",
+        "imageFeedback": "description-no-pedestrian-image",
+        "reactions": [{
+          "id": "reaction1",
+          "correct": true
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "high-traffic-area": {
+        "location": [38, 20],
+        "image": "description-high-traffic-area-image",
+        "imageFeedback": "description-high-traffic-area-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "disposable-plates": {
+        "location": [25, 20],
+        "image": "description-disposable-plates-image",
+        "imageFeedback": "description-disposable-plates-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "shipping-address": {
+        "location": [6, 30],
+        "image": "description-shipping-address-image",
+        "imageFeedback": "description-shipping-address-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      }
+    },
+    "location": [6, 30, "cantina!"]
+  },
+  "translations": [
+    {
+        "key": "intro-header",
+        "value": "What should you do in the following scenarios?"
+    },
+    {
+        "key": "intro-description",
+        "value": "The yellow marks located in this warehouse will take you to different scenarios. When you click on a marker, a situation will be described and you will have to answer a question. After answering the question you will receive an explanation as to what the correct answer is. Every time you answer a question correctly you will get a star."
+    },
+    {
+        "key": "intro-start",
+        "value": "Start"
+    },
+    {
+        "key": "intro-stars-to-gain",
+        "value": "{0}/{1} earned"
+    },
+    {
+        "key": "button-next",
+        "value": "Next"
+    },
+    {
+        "key": "button-prev",
+        "value": "Back"
+    },
+    {
+        "key": "button-check",
+        "value": "Check"
+    },
+    {
+        "key": "button-continue",
+        "value": "Continue"
+    },
+    {
+        "key": "reactions",
+        "value": "Options"
+    },
+    {
+        "key": "feedback-correct",
+        "value": "Correct!"
+    },
+    {
+        "key": "feedback-wrong",
+        "value": "Wrong!"
+    },
+    {
+        "key": "complete-header",
+        "value": "Congratulations"
+    },
+    {
+        "key": "complete-score",
+        "value": "Total score {0}/{1}"
+    },
+    {
+        "key": "complete-try-again",
+        "value": "Again"
+    },
+    {
+        "key": "complete-exit",
+        "value": "Exit"
+    },
+    {
+        "key": "feedback",
+        "value": "Feedback"
+    },
+    {
+        "key": "description-forklifts-in-operation",
+        "value": "What does this sign mean? \n\n![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/forklifts-in-operation/forklifts-in-operation-sign-en.png)"
+    },
+    {
+        "key": "description-forklifts-in-operation-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/forklifts-in-operation/forklifts-in-operation-image-en.png"
+    },
+    {
+        "key": "reaction-forklifts-in-operation-reaction1",
+        "value": "1. No machines are allowed in this area. You can walk freely in this area."
+    },
+    {
+        "key": "reaction-forklifts-in-operation-reaction2",
+        "value": "2. You should not enter this area on foot. This area is only for forklifts."
+    },
+    {
+        "key": "reaction-forklifts-in-operation-reaction3",
+        "value": "3. You need to be careful. This area has forklifts operating in it."
+    },
+    {
+        "key": "reaction-forklifts-in-operation-reaction4",
+        "value": "4. You cannot enter this area at all."
+    },
+    {
+        "key": "feedback-forklifts-in-operation",
+        "value": "This sign means that you are entering an area with forklifts in operation. \n\n\n\nYou\nwill need to be careful as forklifts can approach you from any direction."
+    },
+    {
+        "key": "description-emergency",
+        "value": "What does this sign mean? \n\n![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/emergency/emergency-sign-en.png)"
+    },
+    {
+        "key": "description-emergency-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/emergency/emergency-image-en.png"
+    },
+    {
+        "key": "reaction-emergency-reaction1",
+        "value": "1. This is where trucks need to stop."
+    },
+    {
+        "key": "reaction-emergency-reaction2",
+        "value": "2. This is an area only for workers who operate machines."
+    },
+    {
+        "key": "reaction-emergency-reaction3",
+        "value": "3. This is where goods are packed."
+    },
+    {
+        "key": "reaction-emergency-reaction4",
+        "value": "4. This is where the workers need to move to in case of an emergency."
+    },
+    {
+        "key": "feedback-emergency",
+        "value": "This sign marks the area where all the workers have to move in case of any emergency, such as a fire in the warehouse."
+    },
+    {
+        "key": "description-two-person-lift",
+        "value": "What does this sign mean? \n\n![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/two-person-lift/two-person-lift-sign-en.png)"
+    },
+    {
+        "key": "description-two-person-lift-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/two-person-lift/two-person-lift-image-en.png"
+    },
+    {
+        "key": "reaction-two-person-lift-reaction1",
+        "value": "1. Keep the area clean."
+    },
+    {
+        "key": "reaction-two-person-lift-reaction2",
+        "value": "2. Do not lift."
+    },
+    {
+        "key": "reaction-two-person-lift-reaction3",
+        "value": "3. Be careful."
+    },
+    {
+        "key": "reaction-two-person-lift-reaction4",
+        "value": "4. Lift with a partner."
+    },
+    {
+        "key": "feedback-two-person-lift",
+        "value": "This sign means that the box is very heavy and you need a partner to lift it safely. Two people should lift this kind of a heavy box together."
+    },
+    {
+        "key": "description-mixer-grinders",
+        "value": "Look at the pick list given on the bottom on the left side. Is the worker at the right location to pick mixer grinders?"
+    },
+    {
+        "key": "description-mixer-grinders-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/mixer-grinders/mixer-grinders-image-en.png"
+    },
+    {
+        "key": "reaction-mixer-grinders-reaction1",
+        "value": "Yes"
+    },
+    {
+        "key": "reaction-mixer-grinders-reaction2",
+        "value": "No"
+    },
+    {
+        "key": "feedback-mixer-grinders",
+        "value": "The worker is in the wrong location. He should be at row F01 aisle 02 and shelf 2B, that is, F01 02 2B, but he is in row F10, not F01. "
+    },
+    {
+        "key": "description-cold-storage",
+        "value": "Look at the description given on the left side. Which of these goods should be stored in the cold storage as per the description?"
+    },
+    {
+        "key": "description-cold-storage-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/cold-storage/cold-storage-en.png"
+    },
+    {
+        "key": "reaction-cold-storage-reaction1",
+        "value": "1. Red tulips, apples"
+    },
+    {
+        "key": "reaction-cold-storage-reaction2",
+        "value": "2. Bananas, coffee"
+    },
+    {
+        "key": "reaction-cold-storage-reaction3",
+        "value": "3. Apples, coffee"
+    },
+    {
+        "key": "reaction-cold-storage-reaction4",
+        "value": "4. Yellow melons, red tulips"
+    },
+    {
+        "key": "feedback-cold-storage",
+        "value": "Red tulips and apples should be stored in the cold storage as they need to be kept in a temperature-controlled environment."
+    },
+    {
+        "key": "description-fire-exit",
+        "value": "What does this sign mean? \n\n![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/fire-exit/fire-exit-sign-en.png)"
+    },
+    {
+        "key": "description-fire-exit-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/fire-exit/fire-exit-image-en.png"
+    },
+    {
+        "key": "reaction-fire-exit-reaction1",
+        "value": "1. This door leads to another section of the warehouse."
+    },
+    {
+        "key": "reaction-fire-exit-reaction2",
+        "value": "2. This door is free for the staff to use on foot, however, forklifts are not allowed through it."
+    },
+    {
+        "key": "reaction-fire-exit-reaction3",
+        "value": "3. This door should be used to get out of the warehouse in case of an emergency."
+    },
+    {
+        "key": "reaction-fire-exit-reaction4",
+        "value": "4. This door leads to an external storage area."
+    },
+    {
+        "key": "feedback-fire-exit",
+        "value": "This sign means that you should use this door in case of an emergency, such as a fire in the warehouse."
+    },
+    {
+        "key": "description-no-pedestrian",
+        "value": "What does this sign mean? \n\n![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/no-pedestrian/no-pedestrian-sign-en.png)"
+    },
+    {
+        "key": "description-no-pedestrian-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/no-pedestrian/no-pedestrian-image-en.png"
+    },
+    {
+        "key": "reaction-no-pedestrian-reaction1",
+        "value": "1. You cannot walk in this area."
+    },
+    {
+        "key": "reaction-no-pedestrian-reaction2",
+        "value": "2. You can drive forklifts only in this area."
+    },
+    {
+        "key": "reaction-no-pedestrian-reaction3",
+        "value": "3. This area has one way traffic."
+    },
+    {
+        "key": "reaction-no-pedestrian-reaction4",
+        "value": "4. There are no exit doors in this area."
+    },
+    {
+        "key": "feedback-no-pedestrian",
+        "value": "This sign means that you cannot walk in the area. Only machines are allowed in this area."
+    },
+    {
+        "key": "description-high-traffic-area",
+        "value": "What does this sign mean? \n\n![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/high-traffic-area/high-traffic-area-sign-en.png)"
+    },
+    {
+        "key": "description-high-traffic-area-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/high-traffic-area/high-traffic-area-image-en.png"
+    },
+    {
+        "key": "reaction-high-traffic-area-reaction1",
+        "value": "1. Only forklifts are allowed in this area."
+    },
+    {
+        "key": "reaction-high-traffic-area-reaction2",
+        "value": "2. Only pickers are allowed in this area."
+    },
+    {
+        "key": "reaction-high-traffic-area-reaction3",
+        "value": "3. This is a high activity area."
+    },
+    {
+        "key": "reaction-high-traffic-area-reaction4",
+        "value": "4. This is a low activity area."
+    },
+    {
+        "key": "feedback-high-traffic-area",
+        "value": "This sign means that a lot of activity happens in this area. Both machines and workers use this area a lot."
+    },
+    {
+        "key": "description-disposable-plates",
+        "value": "Look at the pick list on the left. Where are the disposable plates stored in the warehouse?"
+    },
+    {
+        "key": "description-disposable-plates-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/disposable-plates/disposable-plates-image-en.png"
+    },
+    {
+        "key": "reaction-disposable-plates-reaction1",
+        "value": "1. Aisle B24, Row 33, Shelf 2"
+    },
+    {
+        "key": "reaction-disposable-plates-reaction2",
+        "value": "2. Aisle H20, Row 54, Shelf 13"
+    },
+    {
+        "key": "reaction-disposable-plates-reaction3",
+        "value": "3. Aisle G14, Row 60, Shelf 42"
+    },
+    {
+        "key": "reaction-disposable-plates-reaction4",
+        "value": "4. Aisle D43, Row 12, Shelf 4"
+    },
+    {
+        "key": "feedback-disposable-plates",
+        "value": "Disposable plates are stored in H20-54-13, that is, Row H20 Aisle 42 Row 13."
+    },
+    {
+        "key": "description-shipping-address",
+        "value": "Look at the pick list on the left. Can you tell what the shipping address is?"
+    },
+    {
+        "key": "description-shipping-address-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-english/shipping-address/shipping-address-image-en.png"
+    },
+    {
+        "key": "reaction-shipping-address-reaction1",
+        "value": "1. AB Industrial Area, Hisar, Haryana"
+    },
+    {
+        "key": "reaction-shipping-address-reaction2",
+        "value": "2. WH Industrial Area, Ambala, Haryana"
+    },
+    {
+        "key": "reaction-shipping-address-reaction3",
+        "value": "3. AB Industrial Area, Gurugram, Haryana"
+    },
+    {
+        "key": "reaction-shipping-address-reaction4",
+        "value": "4. AB Industrial Area, Bhiwani, Haryana"
+    },
+    {
+        "key": "feedback-shipping-address",
+        "value": "The shipping address is AB Industrial Area, Gurugram, Haryana."
+    }
+],
+  "levelsCompleted": []
+}

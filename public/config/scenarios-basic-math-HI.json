@@ -1,0 +1,515 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+    "userId": 2,
+    "settings": {
+      "muted": false
+    },
+    "mapJson": "maps/scenarios-1.json",
+    "mistakeMode": true,
+    "scenarios": {
+      "multiply": {
+        "location": [54, 1],
+        "image": "multiply-image",
+        "imageFeedback": "multiply-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "subtraction": {
+        "location": [50, 30],
+        "image": "subtraction-image",
+        "imageFeedback": "subtraction-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+          }]
+        },
+      "addition-days": {
+        "location": [1, 20],
+        "image": "addition-days-image",
+        "imageFeedback": "addition-days-image",
+        "reactions": [{
+          "id": "reaction1",
+          "correct": true
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "multiply-2": {
+        "location": [20, 3],
+        "image": "multiply-2-image",
+        "imageFeedback": "multiply-2-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "division": {
+        "location": [0, 0],
+        "image": "division-image",
+        "imageFeedback": "division-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "subtraction-2": {
+        "location": [25, 0],
+        "image": "subtraction-2-image",
+        "imageFeedback": "subtraction-2-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4",
+          "correct": true
+        }]
+      },
+      "multiply-3": {
+        "location": [45, 15],
+        "image": "multiply-3-image",
+        "imageFeedback": "multiply-3-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "combination": {
+        "location": [38, 20],
+        "image": "combination-image",
+        "imageFeedback": "combination-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "division-2": {
+        "location": [25, 20],
+        "image": "division-2-image",
+        "imageFeedback": "division-2-image",
+        "reactions": [{
+          "correct": true,
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "combination-2": {
+        "location": [6, 30],
+        "image": "combination-2-image",
+        "imageFeedback": "combination-2-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      }
+    },
+    "location": [6, 30, "cantina!"]
+  },
+  "translations": [
+    {
+        "key": "intro-header",
+        "value": "क्या आप बेसिक गणित कर सकते हैं?"
+    },
+    {
+        "key": "intro-description",
+        "value": "इस वेयरहाउस में मौजूद पीले निशान आपको अलग-अलग सिनेरियो में ले जाएंगे। जब आप मार्कर पर क्लिक करेंगे तो वेयरहाउस में एक गणितीय समस्या दिखाई देगी और आपको एक प्रश्न का उत्तर देना होगा। प्रश्न का उत्तर देने के बाद आपको एक स्पष्टीकरण प्राप्त होगा कि सही उत्तर क्या है। जब भी आप किसी प्रश्न का सही उत्तर देंगे तो आपको एक स्टार मिलेगा।"
+    },
+    {
+        "key": "intro-start",
+        "value": "शुरू करें"
+    },
+    {
+        "key": "intro-stars-to-gain",
+        "value": "{0}/{1} प्राप्तांक"
+    },
+    {
+        "key": "button-next",
+        "value": "अगला"
+    },
+    {
+        "key": "button-prev",
+        "value": "पिछला"
+    },
+    {
+        "key": "button-check",
+        "value": "चेक करें"
+    },
+    {
+        "key": "button-continue",
+        "value": "जारी रखें"
+    },
+    {
+        "key": "reactions",
+        "value": "विकल्प"
+    },
+    {
+        "key": "feedback-correct",
+        "value": "सही!"
+    },
+    {
+        "key": "feedback-wrong",
+        "value": "गलत!"
+    },
+    {
+        "key": "complete-header",
+        "value": "बधाई हो"
+    },
+    {
+        "key": "complete-score",
+        "value": "कुल स्कोर {0}/{1}"
+    },
+    {
+        "key": "complete-try-again",
+        "value": "दोबारा खेलें"
+    },
+    {
+        "key": "complete-exit",
+        "value": "बाहर निकलें"
+    },
+    {
+        "key": "feedback",
+        "value": "प्रतिक्रिया"
+    },
+    {
+        "key": "description-multiply",
+        "value": "यदि कपों के एक डिब्बे में 24 यूनिट हैं, तो 18 डिब्बों में कितने यूनिट होंगे?"
+    },
+    {
+        "key": "multiply-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/multiply.png"
+    },
+    {
+        "key": "reaction-multiply-reaction1",
+        "value": "क. 192"
+    },
+    {
+        "key": "reaction-multiply-reaction2",
+        "value": "ख. 312"
+    },
+    {
+        "key": "reaction-multiply-reaction3",
+        "value": "ग. 432"
+    },
+    {
+        "key": "reaction-multiply-reaction4",
+        "value": "घ. 576"
+    },
+    {
+        "key": "feedback-multiply",
+        "value": "18 डिब्बों में 432 यूनिट या कप होंगे।\n \n\nएक डिब्बा = 24 यूनिट\n \n\n18 डिब्बे = `18 x 24 यूनिट = 432 यूनिट`"
+    },
+    {
+        "key": "description-subtraction",
+        "value": "पिछले महीने, एक ग्राहक ने मोबाइल फ़ोन केस के 44 यूनिट का ऑर्डर दिया था लेकिन इस महीने बिक्री में गिरावट आने के कारण वे पिछली बार के ऑर्डर की तुलना में 8 यूनिट कम चाहते हैं। आपको कितने यूनिट पिक करने चाहिए?"
+    },
+    {
+        "key": "subtraction-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/subtraction.png"
+    },
+    {
+        "key": "reaction-subtraction-reaction1",
+        "value": "क. 40"
+    },
+    {
+        "key": "reaction-subtraction-reaction2",
+        "value": "ख. 36"
+    },
+    {
+        "key": "reaction-subtraction-reaction3",
+        "value": "ग. 32"
+    },
+    {
+        "key": "reaction-subtraction-reaction4",
+        "value": "घ. 28"
+    },
+    {
+        "key": "feedback-subtraction",
+        "value": "आपको 36 यूनिट पिक करने होंगे।\n \n\n44 यूनिट से 8 यूनिट कम = `44 - 8 यूनिट = 36 यूनिट`"
+    },
+    {
+        "key": "description-addition-days",
+        "value": "आज बुधवार, 13 जून है। एक ग्राहक ने आपको एक ईमेल द्वारा बताया कि वे 28 जून तक अपना ऑर्डर प्राप्त करना चाहते हैं। ट्रक ड्राइवर को वेयरहाउस से ग्राहक के स्थान तक पहुंचने में 5 दिन लगते हैं।\n \n\nआपको वेयरहाउस से ऑर्डर कब भेजना चाहिए ताकि वह समय पर ग्राहक तक पहुंच जाए?"
+    },
+    {
+        "key": "addition-days-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/addition-days.png"
+    },
+    {
+        "key": "reaction-addition-days-reaction1",
+        "value": "क. 22 जून"
+    },
+    {
+        "key": "reaction-addition-days-reaction2",
+        "value": "ख. 24 जून"
+    },
+    {
+        "key": "reaction-addition-days-reaction3",
+        "value": "ग. 26 जून"
+    },
+    {
+        "key": "reaction-addition-days-reaction4",
+        "value": "घ. 28 जून"
+    },
+    {
+        "key": "feedback-addition-days",
+        "value": "अगर ट्रक को ग्राहक के स्थान तक पहुंचने में 5 दिन लगते हैं, तो सामान 28 जून से कम से कम 5 दिन पहले, यानी 23 जून से पहले, भेज देना चाहिए। तो सही उत्तर 22 जून है।"
+    },
+    {
+        "key": "description-multiply-2",
+        "value": "वेयरहाउस में माल पैलेटों पर प्राप्त किया जाता है। पैलेट पर सामान की संख्या की गणना पैलेट पर एक परत में बक्सों की संख्या को परतों की कुल संख्या से गुणा करके की जा सकती है।\n \n\nयदि पैलेट की एक परत पर 9 डिब्बे हैं और डिब्बों की 4 परतें हैं, तो पैलेट पर कुल कितने डिब्बे हैं?"
+    },
+    {
+        "key": "multiply-2-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/multiply-2.png"
+    },
+    {
+        "key": "reaction-multiply-2-reaction1",
+        "value": "क. 30"
+    },
+    {
+        "key": "reaction-multiply-2-reaction2",
+        "value": "ख. 32"
+    },
+    {
+        "key": "reaction-multiply-2-reaction3",
+        "value": "ग. 36"
+    },
+    {
+        "key": "reaction-multiply-2-reaction4",
+        "value": "घ. 40"
+    },
+    {
+        "key": "feedback-multiply-2",
+        "value": "पैलेट पर कुल 36 डिब्बे हैं।\n \n\nएक परत में डिब्बे = `9`\nपरतों की संख्या = `4`\n \n\n4 परतों में डिब्बे = `9 x 4 = 36`"
+    },
+    {
+        "key": "description-division",
+        "value": "आज आपको लैपटॉप के 400 डिब्बों की एक शिपमेंट प्राप्त होने वाली है। प्रत्येक पैलेट पर 40 केस हैं। पैलेट को वेयरहाउस के सेक्शन F1 में स्टोर किया जाना है।\n \n\nयदि इस सेक्शन में 4 पैलेट एक स्टोरेज रैक पर फिट होते हैं, तो आपको 400 डिब्बों के लिए कितने रैक की आवश्यकता होगी?"
+    },
+    {
+        "key": "division-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/division.png"
+    },
+    {
+        "key": "reaction-division-reaction1",
+        "value": "क. 2"
+    },
+    {
+        "key": "reaction-division-reaction2",
+        "value": "ख. 2.5"
+    },
+    {
+        "key": "reaction-division-reaction3",
+        "value": "ग. 3"
+    },
+    {
+        "key": "reaction-division-reaction4",
+        "value": "घ. 3.5"
+    },
+    {
+        "key": "feedback-division",
+        "value": "आपको 400 डिब्बों के लिए 2.5 रैक की आवश्यकता होगी।\n \n\nकुल डिब्बों की संख्या = `400`\n \n\nएक पैलेट पर डिब्बों की संख्या = `40`\n \n\nपैलेटों की संख्या = `400/40 = 10`\n \n\nएक रैक में स्टोर किये जा सकने वाले पैलेटों की संख्या = `4`\n \n\n400 डिब्बे या 10 पैलेट को स्टोर करने के लिए आवश्यक रैक की संख्या = `10/4 = 2.5`"
+    },
+    {
+        "key": "description-subtraction-2",
+        "value": "यदि वेयरहाउस के सेक्शन F2 में 6 खुले रैक हैं, तो उस सेक्शन में 2.5 रैक की आवश्यकता वाले लैपटॉप के 400 डिब्बों को स्टोर करने के बाद कितने रैक खुले रहेंगे?"
+    },
+    {
+        "key": "subtraction-2-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/open_racks.png"
+    },
+    {
+        "key": "reaction-subtraction-2-reaction1",
+        "value": "क. 2"
+    },
+    {
+        "key": "reaction-subtraction-2-reaction2",
+        "value": "ख. 2.5"
+    },
+    {
+        "key": "reaction-subtraction-2-reaction3",
+        "value": "ग. 3"
+    },
+    {
+        "key": "reaction-subtraction-2-reaction4",
+        "value": "घ. 3.5"
+    },
+    {
+        "key": "feedback-subtraction-2",
+        "value": "चूंकि 400 बक्से को स्टोर करने के लिए 2.5 रैक की आवश्यकता होगी, इसलिए उन्हें स्टोर करने के बाद खुले रहने वाले रैक की संख्या = `6 - 2.5 = 3.5` रैक।"
+    },
+    {
+        "key": "description-multiply-3",
+        "value": "मोबाइल फोन के एक पैलेट में प्रत्येक परत में 5 डिब्बे हैं और पैलेट पर डिब्बों की 7 परतें हैं। प्रत्येक डिब्बे में 12 यूनिट या 12 फ़ोन हैं। पैलेट पर फ़ोन के कुल कितने यूनिट हैं?"
+    },
+    {
+        "key": "multiply-3-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/racks.png"
+    },
+    {
+        "key": "reaction-multiply-3-reaction1",
+        "value": "क. 70"
+    },
+    {
+        "key": "reaction-multiply-3-reaction2",
+        "value": "ख. 280"
+    },
+    {
+        "key": "reaction-multiply-3-reaction3",
+        "value": "ग. 420"
+    },
+    {
+        "key": "reaction-multiply-3-reaction4",
+        "value": "घ. 1008"
+    },
+    {
+        "key": "feedback-multiply-3",
+        "value": "पैलेट पर फोन के कुल 420 यूनिट हैं।\n \n\nएक पैलेट परत में डिब्बों की संख्या = `5`\n \n\nपैलेट परतों की संख्या = `7`\n \n\nपैलेट पर डिब्बों की कुल संख्या = `5 x 7 = 35` डिब्बे\n \n\nएक डिब्बे में यूनिट की संख्या = `12`\n \n\n35 डिब्बों में कुल यूनिट की संख्या = `12 x 35 = 420` यूनिट"
+    },
+    {
+        "key": "description-combination",
+        "value": "आपको वेयरहाउस में कंप्यूटर मॉनीटर की इनवेंट्री लेनी है, यानी, आपको वेयरहाउस में स्टोर कंप्यूटर मॉनीटर की कुल संख्या पता करनी है।\n \n\nआप पाते हैं कि वेयरहाउस के एक सेक्शन में इसके 12 फुल पैलेट और दूसरे सेक्शन में 8 लूज़ डिब्बे हैं। प्रत्येक पैलेट में 2 परतें हैं और प्रत्येक परत में 5 डिब्बे हैं। प्रत्येक डिब्बे में एक यूनिट है। वेयरहाउस में कितने कंप्यूटर मॉनिटर हैं?"
+    },
+    {
+        "key": "combination-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/two_pallets.png"
+    },
+    {
+        "key": "reaction-combination-reaction1",
+        "value": "क. 100"
+    },
+    {
+        "key": "reaction-combination-reaction2",
+        "value": "ख. 128"
+    },
+    {
+        "key": "reaction-combination-reaction3",
+        "value": "ग. 156"
+    },
+    {
+        "key": "reaction-combination-reaction4",
+        "value": "घ. 184"
+    },
+    {
+        "key": "feedback-combination",
+        "value": "पैलेटों की संख्या = `12`\n \n\nपैलेट परतों की संख्या = `2`\n \n\nएक पैलेट परत में डिब्बों की संख्या = `5`\n \n\nएक पैलेट पर डिब्बों की संख्या = `2 x 5 = 10`\n \n\n12 पैलेटों पर डिब्बों की संख्या = `10 x 12 = 120`\n \n\nलूज़ डिब्बों की संख्या = `8`\n \n\nडिब्बों की कुल संख्या = `120 + 8 = 128`\n \n\nचूँकि प्रत्येक डिब्बे में केवल एक यूनित है, वेयरहाउस में 128 कंप्यूटर मॉनिटर के यूनिट हैं।"
+    },
+    {
+        "key": "description-division-2",
+        "value": "आपको एक ग्राहक के ऑर्डर के लिए प्रेशर कुकर के 60 यूनिट पिक करने हैं। यदि हर डिब्बे में 4 यूनिट हैं तो आपको कितने डिब्बे पिक करने होंगे?"
+    },
+    {
+        "key": "division-2-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/pallets_and_racks.png"
+    },
+    {
+        "key": "reaction-division-2-reaction1",
+        "value": "क. 15"
+    },
+    {
+        "key": "reaction-division-2-reaction2",
+        "value": "ख. 20"
+    },
+    {
+        "key": "reaction-division-2-reaction3",
+        "value": "ग. 25"
+    },
+    {
+        "key": "reaction-division-2-reaction4",
+        "value": "घ. 30"
+    },
+    {
+        "key": "feedback-division-2",
+        "value": "आपको 15 डिब्बे पिक करने होंगे।\n \n\nपिक किए जाने वाले यूनिट की संख्या = `60`\n \n\nएक डिब्बे में यूनिटों की संख्या = `4`\n \n\nपिक किए जाने वाले डिब्बों की संख्या = `60/4 = 15` डिब्बे"
+    },
+    {
+        "key": "description-combination-2",
+        "value": "वेयरहाउस में प्रेशर कुकर 1050 यूनिट के थे। आपने ग्राहक के ऑर्डर के लिए 15 डिब्बे उठाए हैं। प्रत्येक डिब्बे में 4 यूनिट हैं। अब वेयरहाउस में कितने प्रेशर कुकर बचे हैं?"
+    },
+    {
+        "key": "combination-2-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/cart_with_15_boxes.png"
+    },
+    {
+        "key": "reaction-combination-2-reaction1",
+        "value": "क. 890"
+    },
+    {
+        "key": "reaction-combination-2-reaction2",
+        "value": "ख. 900"
+    },
+    {
+        "key": "reaction-combination-2-reaction3",
+        "value": "ग. 990"
+    },
+    {
+        "key": "reaction-combination-2-reaction4",
+        "value": "घ. 1008"
+    },
+    {
+        "key": "feedback-combination-2",
+        "value": "वेयरहाउस में 990 प्रेशर कुकर बचे हैं।\n\nपिक किए गए डिब्बों की संख्या = `15`\n \nएक डिब्बे में कुल यूनिट = `4`\n \nपिक किए गए यूनिट की संख्या = `15 x 4 = 60`\n \nपिक करने से पहले कुल यूनिट = `1050`\n \nपिक करने के बाद कुल यूनिट = `1050 - 60 = 990`"
+    }
+],
+  "levelsCompleted": []
+}

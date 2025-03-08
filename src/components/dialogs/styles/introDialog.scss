@@ -1,0 +1,52 @@
+.intro-dialog {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .top {
+    flex: 1;
+    text-align: center;
+    padding-top: 16px;
+  }
+
+  .center {
+    text-align: center;
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+
+  .bottom {
+    height: 94px;
+    background: #24A5C5;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+    .star {
+      margin: auto 16px;
+    }
+
+    .stars-to-gain {
+      align-self: center;
+      color: white;
+      font-size: x-large;
+      flex: 1;
+    }
+
+    .start {
+      // margin: auto;
+      margin: auto 32px;
+    }
+  }
+}
+
+/** medium and large resolutions */
+@media only screen and (min-width: 576px) {
+  .intro-dialog {
+    font-size: large;
+  }
+}

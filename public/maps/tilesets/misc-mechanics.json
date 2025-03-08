@@ -1,0 +1,21 @@
+{"frames": {
+
+"tile-misc-mechanics-01.png":
+{
+	"frame": {"x":0,"y":0,"w":128,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":64},
+	"sourceSize": {"w":128,"h":64},
+	"anchor": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "misc-mechanics.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":64},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:25a67b0e4064313ea5ce3f4bc3448f48:432a0f04c18922d398da9832dde4a511:005b74ac49ce3b78d9e8a6b84e77051d$"
+}
+}

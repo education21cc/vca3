@@ -1,0 +1,442 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+      "mapJson": "maps/testmap3.json",
+      "stars": 3,
+      "scenarios": {
+        "broken-forklift": {
+          "location": [10, 10],
+          "image": "http://lorempixel.com/output/animals-q-c-640-480-6.jpg",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2",
+            "correct": true
+          }, {
+            "id": "reaction3"
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "misplaced-boxes": {
+          "location": [12, 21],
+          "image": "http://lorempixel.com/output/sports-q-c-640-480-5.jpg",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+            }, {
+              "id": "reaction3",
+              "correct": true
+          }]
+        },
+        "forklift-crash": {
+          "location": [21, 11],
+          "image": "http://lorempixel.com/output/transport-q-c-640-480-6.jpg",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2",
+            "correct": true
+          }, {
+            "id": "reaction3"
+          }]
+        },
+        "dark-warehouse": {
+          "location": [31, 21],
+          "image": "http://lorempixel.com/output/transport-q-c-640-480-6.jpg",
+          "reactions": [{
+            "id": "reaction1",
+            "correct": true
+          }, {
+            "id": "reaction2",
+            "correct": true
+          }, {
+            "id": "reaction3"
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "wet-product": {
+          "location": [41, 21],
+          "image": "http://lorempixel.com/output/transport-q-c-640-480-6.jpg",
+          "reactions": [{
+            "id": "reaction1",
+            "correct": true
+          }, {
+            "id": "reaction2",
+            "correct": true
+          }, {
+            "id": "reaction3"
+          }, {
+            "id": "reaction4"
+          }, {
+            "id": "reaction5"
+          }]
+        },
+        "loading-dock": {
+          "location": [41, 11],
+          "image": "http://lorempixel.com/output/transport-q-c-640-480-6.jpg",
+          "reactions": [{
+            "id": "reaction1",
+            "correct": true
+          }, {
+            "id": "reaction2",
+            "correct": true
+          }, {
+            "id": "reaction3"
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "agv-path": {
+          "location": [51, 11],
+          "image": "http://lorempixel.com/output/transport-q-c-640-480-6.jpg",
+          "reactions": [{
+            "id": "reaction1",
+            "correct": true
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3"
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "together-cantina": {
+          "location": [51, 5],
+          "image": "http://lorempixel.com/output/transport-q-c-640-480-6.jpg",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "agv-walk": {
+          "location": [41, 5],
+          "image": "http://lorempixel.com/output/transport-q-c-640-480-6.jpg",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "forklift-hole": {
+          "location": [27, 13],
+          "image": "http://lorempixel.com/output/transport-q-c-640-480-6.jpg",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3"
+          }, {
+            "id": "reaction4",
+            "correct": true
+          }]
+        },
+        "store-cargo": {
+          "location": [10, 8],
+          "image": "http://lorempixel.com/output/transport-q-c-640-480-6.jpg",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2",
+            "correct": true
+          }, {
+            "id": "reaction3"
+          }]
+        },
+        "emergency-door": {
+          "location": [25, 18],
+          "image": "http://lorempixel.com/output/transport-q-c-640-480-6.jpg",
+          "reactions": [{
+            "id": "reaction1",
+            "correct": true
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3"
+          }]
+        }
+      }
+  },
+  "translations": [{
+    "key": "intro-header",
+    "value": "The warehouse"
+  }, {
+    "key": "intro-description",
+    "value": "Dit is een tijdelijk warehouse met alle scenarios tot nu toe"
+  }, {
+    "key": "intro-start",
+    "value": "Start"
+  }, {
+    "key": "intro-stars-to-gain",
+    "value": "{0}/{1} verdiend"
+  }, {
+    "key": "button-next",
+    "value": "Volgende"
+  }, {
+    "key": "button-prev",
+    "value": "Terug"
+  }, {
+    "key": "button-check",
+    "value": "Check"
+  }, {
+    "key": "button-continue",
+    "value": "Doorgaan"
+  }, {
+    "key": "reactions",
+    "value": "Acties"
+  }, {
+    "key": "feedback-correct",
+    "value": "Goed!"
+  }, {
+    "key": "feedback-wrong",
+    "value": "Fout!"
+  }, {
+      "key": "complete-header",
+      "value": "Gefeliciteerd"
+  }, {
+      "key": "complete-score",
+      "value": "Totale score {0} / {1}"
+  }, {
+      "key": "complete-try-again",
+      "value": "Opnieuw"
+  }, {
+      "key": "complete-exit",
+      "value": "Afsluiten"
+  }, {
+      "key": "feedback",
+      "value": "Feedback"
+  }, {
+    "key": "description-broken-forklift",
+    "value": "Het is ontzettend druk. Je bent nog wel een paar uur bezig met de heftruck om alles op de juiste plek te krijgen. Je maakt je wel wat zorgen. \n\nDe heftruck waar je mee werkt maakt opeens een raar geluid op het moment dat de vork in de hoogste stand staat. Wat doe je?"
+  }, {
+    "key": "reaction-broken-forklift-reaction1",
+    "value": "1. Je gaat voorlopig gewoon door. Op het rare geluid na doet de heftruck het nog steeds prima."
+  }, {
+    "key": "reaction-broken-forklift-reaction2",
+    "value": "2. Je zet hem stil, laat je lading zakken en belt met de technische dienst."
+  }, {
+    "key": "reaction-broken-forklift-reaction3",
+    "value": "3. Je zet hem stil en probeert het probleem zelf op te lossen."
+  }, {
+    "key": "reaction-broken-forklift-reaction4",
+    "value": "4. Je zet hem direct stil en loopt zo snel mogelijk naar het kantoor van je teamleider om te vertellen dat de heftruck een raar geluid maakt."
+  }, {
+    "key": "feedback-broken-forklift",
+    "value": "De belangrijkste regel die je moet volgen wanneer je het idee hebt dat er iets mis is met de heftruck, of welk ander arbeidsmiddel dan ook, is zo snel mogelijk stoppen en zorgen dat er geen gevaar voor jezelf of anderen uit voortkomt.\n\nIn dit geval moet je de heftruck direct stilzetten en de lading naar beneden laten zakken. Lukt het niet de lading te laten zakken dan moet je de plek rondom de heftruck afzetten met bijvoorbeeld lint om aan te geven dat het een gevaarlijke situatie is. Daarna bel je met je teamleider of met de technische dienst om het probleem te melden en te horen wat er vervolgens moet gebeuren.\n\nJe moet dus niet door blijven rijden als er mogelijk iets mis is. Dat kan gevaarlijk zijn voor jezelf en voor je collega’s. Zelf proberen het op te lossen / iets te repareren is niet de bedoeling. Vaak mogen alleen gecertificeerde monteurs reparaties uitvoeren. De heftruck alleen laten met de lading omhoog zonder de plek af te zetten met lint is niet veilig.\n\n_VCA 10.1 (Algemene veiligheidsmaatregelen): ‘Ze (machines) mogen alleen gebruikt worden als ze in goede staat verkeren’. Als ze een vreemd geluid maken zou je daaraan kunnen twijfelen._"
+  }, {
+    "key": "description-misplaced-boxes",
+    "value": "Je krijgt van je teamleider de opdracht om een aantal pallets te verplaatsen om ruimte te maken voor een nieuwe lading pallets. De vrachtwagen met die lading staat al te wachten aan een dock. Je pakt een steekkarretje en gaat naar de betreffende pallets. Je ziet dat er dozen niet goed gestapeld zijn en er losse goederen op de dozen liggen. Wat kun je het beste doen?"
+  }, {
+    "key": "reaction-misplaced-boxes-reaction1",
+    "value": "1. Je laat de pallets staan en gaat terug naar je teamleider om aan te geven dat de pallets niet juist gestapeld zijn en zo niet verplaatst kunnen worden."
+  }, {
+    "key": "reaction-misplaced-boxes-reaction2",
+    "value": "2. Zonder iets aan te passen verplaats je de pallets, maar om te zorgen dat er niets afvalt, loop je wat langzamer naar de nieuwe plek. Je meldt het vervolgens aan je teamleider."
+  }, {
+    "key": "reaction-misplaced-boxes-reaction3",
+    "value": "3. Je neemt de tijd om de pallets opnieuw, op de juiste manier, op te bouwen zodat alles goed staat en verplaatst dan de pallets."
+  }, {
+    "key": "feedback-misplaced-boxes",
+    "value": "Je hebt gezien dat de pallets niet goed gestapeld zijn. Je moet de pallets dan niet gaan verplaatsen. En natuurlijk kan je het eerst even aan je teamleider vragen, maar het beste wat je kunt doen is direct zelf de pallets opnieuw opbouwen en daarna verplaatsen. Het is wel goed om dit voorval daarna te melden aan je teamleider.\n\nVolgens de Arbowet is de werkgever verplicht voorlichting en onderricht aan werknemers (inclusief stagiaires) te geven. Bijvoorbeeld over hoe een pallet gestapeld moet zijn voordat je er mee mag gaan rijden. \n\nVolgens diezelfde Arbowet hebben werknemers de plicht arbeidsmiddelen (steekkar met pallet) op de juiste wijze te gebruiken en de werkgever in te lichten over opgemerkte gevaren voor de veiligheid en gezondheid in het bedrijf. \n\n _ Weet je nog wat een LRMA is? Kijk maar eens naar VCA 2.3._ \n\n _In dit voorbeeld moet je zelf een LMRA doen voordat je begint met het verplaatsen van de pallets. Je ziet dan risico’s (verkeerd gestapelde pallets) en je neemt maatregelen (goed opstapelen) om te zorgen dat het verplaatsen veilig kan gebeuren._\n\n_ Laatste Minuut Risico Analyse (LMRA): Kijk om je heen: zijn er gevaren?_ \n\n1. _Denk goed na over de risico’s._\n1. _Beoordeel de risico’s._\n1. _Beheers de risico’s: neem maatregelen._\n1. _Risico’s aanwezig? Ja! Stop met werken._\n1. _Alles veilig? Ja! Start of hervat je werk._ "
+  }, {
+    "key": "description-forklift-crash",
+    "value": "Je bent net begonnen met werken. Het is je gelukkig nog nooit eerder gebeurd, maar je rijdt net met de achterkant van je heftruck tegen een stellage aan. Gelukkig ging je er maar heel zacht tegen aan. Je stapt uit om te kijken of de stellage en/of de heftruck schade hebben. Je ziet helemaal niets. Er is niets verbogen gedeukt, gekrast of wat dan ook. Pfff, dat is geluk hebben! Wat doe je?"
+  }, {
+    "key": "reaction-forklift-crash-reaction1",
+    "value": "1. Je hebt een goede inspectie gedaan. Er is niets stuk. Geen reden om het te melden en iemand hiermee lastig te vallen."
+  }, {
+    "key": "reaction-forklift-crash-reaction2",
+    "value": "2. Je meldt het direct aan je leidinggevende."
+  }, {
+    "key": "reaction-forklift-crash-reaction3",
+    "value": "3. Je meldt het aan het einde van je dienst aan je leidinggevende."
+  }, {
+    "key": "feedback-forklift-crash",
+    "value": "Als je zoiets overkomt ben je daar natuurlijk niet zo trots op. Meld het echter toch altijd direct. Daarmee voorkom je wellicht veel ernstigere ongelukken bij jezelf of bij je collega’s.\n\nOok niet zichtbare beschadigingen aan stellingen kunnen de hele boel laten instorten met alle gevolgen van dien.\n\n [Een mooi filmpje van een op zichzelf maar klein tikje tegen een stellage met hele grote gevolgen.](https://www.youtube.com/watch?v=-CFTIOQCqTc&feature=youtu.be&t=27)\n\n[Link](https://www.arbo-online.nl/veilig-werken/artikel/2009/10/ongeval-vorkheftruckchauffeur-bedolven-1018334?_ga=2.229806300.1737295247.1598614551-273054752.1598614551) naar een artikel waarin een dergelijk ongeval wordt beschreven.\n\n_VCA 5.1: Werknemers moeten incidenten en bijna-incidenten, maar zelfs ook een mogelijk gevaar melden bij de werkgever._"
+  }, {
+    "key": "description-dark-warehouse",
+    "value": "Je werkt in een wat oudere loods. Niet overal, maar op sommige plekken is de verlichting slecht. Daar kun je bijvoorbeeld je orderpicking formulier alleen maar lezen als je je je flashlight in je mobiele telefoon gebruikt om bij te lichten. Echt vervelend is het dat op sommige van die donkere plekken ook bezoekerspaden lopen. Gelukkig ben je nog nooit tegen iemand aangereden met je heftruck. Wat zou jij doen in zo’n situatie?"
+  }, {
+    "key": "reaction-dark-warehouse-reaction1",
+    "value": "1. Je meldt dit aan je teamleider."
+  }, {
+    "key": "reaction-dark-warehouse-reaction2",
+    "value": "2. Je meldt dit aan de preventiemedewerker. "
+  }, {
+    "key": "reaction-dark-warehouse-reaction3",
+    "value": "3. Je probeert op die plekken zo rustig mogelijk te rijden."
+  }, {
+    "key": "reaction-dark-warehouse-reaction4",
+    "value": "4. Je meldt dit aan de Inspectie (I-SZW)."
+  }, {
+    "key": "feedback-dark-warehouse",
+    "value": "Gevaarlijke situaties meld je direct bij je teamleider of bij de preventiemedewerker.\n\nSlecht zicht is erg gevaarlijk. Het risico op aanrijdingen van voetgangers en met kruisend verkeer wordt daardoor veel groter. En je mobiel (moeten) gebruiken tijdens het rijden op de heftruck is een no-go!\n\nNatuurlijk is het goed dat je rustig rijdt, maar als je een in jouw ogen gevaarlijke situatie nooit meldt, zal er wellicht niets veranderen. \n\nGevaarlijke situaties meld je niet direct aan de inspectie (de volledige naam is: Inspectiedienst van het Ministerie van Sociale Zaken en Werkgelegenheid). Pas wanneer het niet mogelijk blijkt de problemen binnen de organisatie in redelijk overleg op te lossen kun je besluiten het te melden bij de inspectie.\n\n _VCA 5.1: Werknemers moeten incidenten en bijna-incidenten, maar zelfs ook een mogelijk gevaar melden bij de werkgever._\n\n _VCA 1.3.1: Inspectiedienst SZW_ \n\n _VCA 13.5: Verlichting_"
+  }, {
+    "key": "description-wet-product",
+    "value": "Je komt aan bij een bijna lege stelling. Er staat nog maar een doos met het product dat je moet hebben. De doos ziet er aan een kant nat uit. Waarschijnlijk is een product in de doos gaan lekken. Het etiket op de doos kan je daardoor niet goed meer lezen. Je ziet wel dat er twee stickers met een ruit met een rode rand op \n\ngeplakt zijn. Maar ook die zijn doorweekt geweest en het plaatje binnenin de rode rand is een zwarte vlek geworden. Het is de laatste doos in deze stelling, je kunt dus geen andere doos pakken. In het magazijn waar je werkt worden drogisterij spullen opgeslagen. Wat doe je?"
+  }, {
+    "key": "reaction-wet-product-reaction1",
+    "value": "1. Je neemt de doos mee om te kijken of wat erin zit nog goed is en verstuurd kan worden in een nieuwe doos."
+  }, {
+    "key": "reaction-wet-product-reaction2",
+    "value": "2. Je laat de doos staan en vraagt een collega die gecertificeerd is om met gevaarlijke stoffen om te gaan om naar de doos te gaan kijken."
+  }, {
+    "key": "reaction-wet-product-reaction3",
+    "value": "3. Je laat de doos staan en zegt tegen je teamleider dat deze laatste doos beschadigd is en zo niet verzonden kan worden."
+  }, {
+    "key": "reaction-wet-product-reaction4",
+    "value": "4. Je doet handschoenen aan, pakt de doos voorzichtig op en brengt hem naar je teamleider om te vragen wat je er het beste mee kunt doen."
+  }, {
+    "key": "reaction-wet-product-reaction5",
+    "value": "5. Je laat de doos staan en geeft op je orderformulier aan dat het product niet meer op voorraad is."
+  }, {
+    "key": "feedback-wet-product",
+    "value": "Het is belangrijk om te weten met wat voor je spullen je werkt. \nEr kunnen gevaarlijke stoffen tussen zitten. Om je daarvoor te waarschuwen zijn zogenaamde gevaarsetiketten gemaakt. Is of bevat een product een gevaarlijke stof dan moeten er op de verpakking een of meerdere gevaarsetiketten staan. Het gevaarsetiket voor een buitende stof ziet er bijvoorbeeld zo uit:\n ![Bijtend](https://21cccdn.blob.core.windows.net/21cc/games/images/flashcards/vca/gevaarlijke-stoffen-bijtend.png) \n\nAls een doos beschadigd is en er iets gelekt is en een gevaarsetiket heeft moet je dus oppassen. Zeker als je niet kunt zien welk etiket het is of niet weet wat de betekenis ervan is. Laat de doos staan en laat iemand komen die opgeleid en gecertificeerd is om met gevaarlijke stoffen om te gaan. \n\nVoordat je aan een taak begint moet je een LMRA (Laatste Minuut Risico Analyse) doen. Je ziet de risico’s (gelekte gevaarlijke stoffen), je stopt met werken en je neemt maatregelen (je haalt hulp) om te zorgen dat de gevaarlijke stoffen veilig kunnen worden opborgen. Daarna kun je weer aan verder met je werk. \n\n **Gevaarlijke stoffen in kleinverpakkingen, zoals bijvoorbeeld nagellakverwijderaar bij een drogist, worden wettelijk niet gezien als gevaarlijke stoffen. ** \n\n_VCA 2.3: Laatste Minuut Risico Analyse _ \n\n _VCA 8.2: omgaan met gevaarlijke stoffen_ \n\n _VCA 8.5: etiketten en informatie op producten_ "
+  }, {
+    "key": "description-loading-dock",
+    "value": "Een van de laadplatforms waar de vrachtwagens kunnen laden en lossen is in slechte staat. De wieltjes van de karren die uit de vrachtwagens komen blijven vaak wat hangen in de scheuren en gaten in het betonnen laadplatform. Je moet dan flink duwen en trekken om de karren er overheen te krijgen. Wat doe je?"
+  }, {
+    "key": "reaction-loading-dock-reaction1",
+    "value": "1. Je meldt dit aan je teamleider."
+  }, {
+    "key": "reaction-loading-dock-reaction2",
+    "value": "2. Je meldt het aan de preventiemedewerker."
+  }, {
+    "key": "reaction-loading-dock-reaction3",
+    "value": "3. Je legt plankjes over de gaten en scheuren."
+  }, {
+    "key": "reaction-loading-dock-reaction4",
+    "value": "4. Je vraagt een collega je te helpen."
+  }, {
+    "key": "feedback-loading-dock",
+    "value": "Je moet dit om een aantal redenen melden. Het vertraagt het laden en lossen, is vervelend en extra zwaar voor jou (gezondheid) en ook gewoon gevaarlijk (veiligheid). Wat als je zo hard moet trekken of duwen dat een kar omvalt?\n\nHoewel goed bedoelt, is het meestal niet de bedoeling dat je zelf reparaties gaat uitvoeren of noodoplossingen bedenkt.\n\nWellicht is er een ander laadplatform dat gebruikt kan worden totdat deze is gerepareerd.\n\n _ VCA 5.2: Je hebt recht op een veilige en gezonde werkomgeving._"
+  }, {
+    "key": "description-agv-path",
+    "value": "Je bent op weg naar de kantine voor je lunch. Toevallig kijk je links een pad in. Je ziet dat er iets voorbij het midden van het pad wat rommel ligt. Waarschijnlijk is er iets uitgevallen toen er van de andere kant wat in is gezet. Dit pad wordt ook gebruikt door een AGV (Automated Guided Vehicle). Wat doe je?"
+  }, {
+    "key": "reaction-agv-path-reaction1",
+    "value": "1. Je haalt de rommel weg en meldt het bij je teamleider. "
+  }, {
+    "key": "reaction-agv-path-reaction2",
+    "value": "2. Je meldt het direct bij je teamleider en gaat lunchen. "
+  }, {
+    "key": "reaction-agv-path-reaction3",
+    "value": "3. Je ruimt de rommel op en gaat lunchen."
+  }, {
+    "key": "reaction-agv-path-reaction4",
+    "value": "4. Je belt je teamleider om te vragen wat je het beste kunt doen. "
+  }, {
+    "key": "feedback-agv-path",
+    "value": "Aanrijdingen met en struikelen over rommel op het pad kan zorgen voor onveilige situaties. Daarnaast kan het zorgen voor onnodige reparatiekosten door verstrengeling van bijvoorbeeld pallethout in de wielen van een AGV, heftruck etc.\n\nIedereen is verantwoordelijk voor veiligheid. De rommel direct opruimen en het melden is het beste wat je kunt doen. \n\nAls je het alleen meldt en dan gaat lunchen blijft de gevaarlijke situatie op zijn minst toch bestaan totdat je teamleider actie heeft ondernomen. \n\nHet alleen zelf direct opruimen is heel goed, maar je moet het toch ook melden. Hiermee kan je teamleider stappen ondernemen om het in de toekomst te voorkomen.\n\nNatuurlijk kun je eerst je teamleider bellen om te vragen wat je moet doen. Maar waarschijnlijk mag er best wat eigen initiatief van je verwacht worden in dit soort gevallen.\n\n _ VCA 4.3: Orde en netheid op de werkplek._"
+  }, {
+    "key": "description-together-cantina",
+    "value": "Je loopt gezellig samen met je collega naar de kantine. Je loopt naast elkaar aan de linkerkant van het pad in de bovenstaande tekening. Mag dat?"
+  }, {
+    "key": "reaction-together-cantina-reaction1",
+    "value": "1. Ja, aan de linkerkant is het pad voor voetgangers die richting de kantine gaan."
+  }, {
+    "key": "reaction-together-cantina-reaction2",
+    "value": "2. Nee, jullie moeten aan de rechterkant van het pad gaan lopen. Altijd zoveel mogelijk rechts aanhouden. "
+  }, {
+    "key": "reaction-together-cantina-reaction3",
+    "value": "3. Nee, het pad is te smal om naast elkaar te lopen."
+  }, {
+    "key": "reaction-together-cantina-reaction4",
+    "value": "4. Nee, je mag op dit pad niet lopen. Dit hele pad is voor AGV’s."
+  }, {
+    "key": "feedback-together-cantina",
+    "value": "Looproutes zijn belangrijk omdat ze bijvoorbeeld botsingen tussen mensen en machines kunnen voorkomen.\n\nLooproutes worden niet voor niets aangegeven. Hou je er aan en wees je steeds bewust van de mogelijke gevaren om je heen.\n\nIn bovenstaande situatie is er een duidelijke looproute aangegeven om naar de kantine te lopen aan de linkerkant van het pad. Dit pad is echter niet breed genoeg om naast elkaar te lopen. Loop dus achter elkaar, aan de linkerkant van het pad naar de kantine.\n\nAGV's kunnen heel stil zijn en zware lasten vervoeren. Het is daarom veiliger om met gescheiden banen te werken waar het kan.\n\n\n\n_VCA 6.4.6: Markeren en afzetten._"
+  }, {
+    "key": "description-agv-walk",
+    "value": "Je moet naar de uitgang. Mag je de kortste weg nemen en over de verschillende AGV paden (de rode en zwarte lijnen op de vloer) lopen naar de uitgang?"
+  }, {
+    "key": "reaction-agv-walk-reaction1",
+    "value": "1. Nee, je mag als voetganger niet over AGV lijnen lopen. Je moet in zo’n situatie altijd op zoek naar een duidelijk aangegeven looproute. "
+  }, {
+    "key": "reaction-agv-walk-reaction2",
+    "value": "2. Ja, maar je moet dan wel werkschoenen en een veiligheidshelm dragen. "
+  }, {
+    "key": "reaction-agv-walk-reaction3",
+    "value": "3. Ja, dat mag als je maar goed uitkijkt."
+  }, {
+    "key": "reaction-agv-walk-reaction4",
+    "value": "4. Nee, dat mag alleen als je zelf in een heftruck zit en dus goed beschermd bent. "
+  }, {
+    "key": "feedback-agv-walk",
+    "value": "Looproutes zijn belangrijk om botsingen en opstoppingen te voorkomen. Helaas zijn er niet altijd duidelijke looproutes aangegeven en/of zijn er plekken waarbij verschillende routes elkaar kruisen. Het hebben van looproutes is volgens de VCA ook niet verplicht.\n\nAls er geen duidelijke looproutes zijn mag je meestal wel over AGV-paden lopen of ze oversteken.\n\nVraag direct aan je teamleider wat de regels hierover zijn op jouw werkplek. Dit zou in het veiligheidsplan of de veiligheidsinstructie van je werkgever moeten staan.\n\nDe Arbowet verplicht de werkgever dat hij je voorlicht en leert hoe het zit. Jij bent volgens de Arbowet verplicht die plannen en instructies te kennen."
+  }, {
+    "key": "description-forklift-hole",
+    "value": "Een collega rijdt tijdens het werk op een heftruck langs je heen. Je ziet dat hij schuin op een kuil in het pad afrijdt. Je roept nog net op tijd naar hem dat hij moet stoppen en helpt hem om de gevaarlijke plek heen te navigeren. Samen bellen jullie de leidinggevende en je collega geeft aan vanuit zijn positie op de heftruck niet duidelijk te kunnen zien dat er een gevaarlijk stuk in het pad zit. Je leidinggevende vraagt jou om de juiste markering rondom de kuil aan te brengen, terwijl hij zelf een bedrijf belt om het pad te laten repareren.\n\nWat voor markering moet je in dit geval aanbrengen?"
+  }, {
+    "key": "reaction-forklift-hole-reaction1",
+    "value": "1. Een geel driehoekig bord met zwart uitroepteken erop."
+  }, {
+    "key": "reaction-forklift-hole-reaction2",
+    "value": "2. Een hek voor en achter de kuil."
+  }, {
+    "key": "reaction-forklift-hole-reaction3",
+    "value": "3. Rood/wit lint of tape."
+  }, {
+    "key": "reaction-forklift-hole-reaction4",
+    "value": "4. Geel/zwart lint of tape."
+  }, {
+    "key": "feedback-forklift-hole",
+    "value": "Geel/zwart lint of tape wordt gebruikt bij afstappen, onderdoorgangen, in situaties waarbij mensen zich kunnen stoten en voor het markeren van gevaarlijke gebieden.\n\nDat laatste is hier het geval. Rood/wit lint of tape gebruik je bij overige situaties. Je mag een lint nooit passeren (VCA 6.4.6: Markeren en afzetten).\n\nOp zich is het goed om een ‘algemeen gevaar’ bord te plaatsen. Echter dat alleen is niet voldoende."
+  }, {
+    "key": "description-store-cargo",
+    "value": "De chauffeur van de vrachtwagen is net vertrokken en op het dock staan zes pallets met grote dozen erop. \n\n ![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/image11.jpg) ![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/image13.jpg) ![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/image12.jpg)Je teamleider vraagt je om ze met de palletwagen op de juiste plek te zetten wat verderop in het magazijn. Het bijbehorende orderformulier kun je hierboven zien. Ook zie je hierboven meer informatie over de palletwagen die je kunt gebruiken. Wat doe je?"
+  }, {
+    "key": "reaction-store-cargo-reaction1",
+    "value": "1. Je pakt de palletwagen en zet ze een voor een op de juiste plek."
+  }, {
+    "key": "reaction-store-cargo-reaction2",
+    "value": "2. Je geeft je teamleider aan dat de palletwagen niet geschikt is om deze pallets mee te vervoeren. "
+  }, {
+    "key": "reaction-store-cargo-reaction3",
+    "value": "3. Je vraagt aan je collega de pallets met de heftruck te verplaatsen."
+  }, {
+    "key": "feedback-store-cargo",
+    "value": "Op je orderformulier staat dat de pallets 2750 kilo wegen. Op je palletwagen staat dat het laadvermogen (capacity) 2500 kilo is.\n\nVoor alle arbeidsmiddelen geldt dat je ze alleen mag gebruiken binnen de aangeven grenzen. Met deze palletwagen mag je ladingen verplaatsen die 2500 kilo of minder wegen (zie afbeelding X).\n\nMet deze palletwagen toch pallets van 2750 kilo gaan verplaatsen gaat wellicht wel, maar het is officieel niet toegestaan omdat het voor gevaarlijke situaties kan zorgen.\n\nGevaar voor jezelf, voor collega’s, voor de spullen op de pallet en/of voor constructies (o.a. de stellingen) waar de spullen tegenaan vallen als de palletwagen de last niet meer kan dragen en kapot gaat. Geef je teamleider dus aan dat deze palletwagen niet geschikt is omdat de pallets te zwaar zijn.\n\nMet een heftruck mag je deze pallets waarschijnlijk wel verplaatsen. Maar je teamleider vraagt je waarschijnlijk niet voor niets om het met een palletwagen te doen. Wellicht mag de heftruck wel niet op dit dock komen. Informeer dus eerst je teamleider dat de palletwagen hiervoor niet geschikt is.\n\n_VCA 10.1: Algemene veiligheidsmaatregelen arbeidsmiddelen_\n\n_VCA 10.5.4: Palletwagen_"
+  }, {
+    "key": "description-emergency-door",
+    "value": "Dit lijkt een goede plaats om snel even naar buiten te gaan voor een kopje koffie. Mag dat?"
+  }, {
+    "key": "reaction-emergency-door-reaction1",
+    "value": "1. Ja, hoor. Een nooddeur mag zelfs open blijven staan zodat je na je koffie weer makkelijk naar binnen kan. "
+  }, {
+    "key": "reaction-emergency-door-reaction2",
+    "value": "2. Ja, maar de nooddeur moet wel weer zo snel mogelijk goed gesloten worden en kan je dus niet meer van buiten openen."
+  }, {
+    "key": "reaction-emergency-door-reaction3",
+    "value": "3. Nee, een nooddeur is er alleen voor noodgevallen.    "
+  }, {
+    "key": "feedback-emergency-door",
+    "value": "Een nooddeur wordt aangegeven met het onderstaande groene pictogram. Een nooddeur mag vanuit veiligheidsoogpunt open blijven staan.![](https://21cccdn.blob.core.windows.net/21cc/games/images/flashcards/vca/veiligheidsvoorzieningen-uitgang-die-tevens-dient-als-nooduitgang.png) \n\nEen branddeur heeft een brandwerende functie en mag meestal best geopend worden, maar niet open blijven staan. Dan werkt de brandwerende functie niet. Een branddeur is te herkennen aan het onderstaande rode pictogram of het staat in letters op de deur. ![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/branddeur.pn  g) ![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/branddeur2.jpg)\n\nEr zijn situaties wanneer het niet gewenst is dat je zomaar een nooddeur of branddeur gebruikt. Bijvoorbeeld wanneer er een alarm op zit."
+  }],
+  "levelsCompleted": [{
+    "level": 0,
+    "score": 6,
+    "maxScore": 8
+
+  }]
+
+}
+

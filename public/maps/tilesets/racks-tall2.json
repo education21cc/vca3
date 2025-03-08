@@ -1,0 +1,63 @@
+{"frames": {
+
+"tile-racks-tall2-01.png":
+{
+	"frame": {"x":2,"y":2,"w":192,"h":609},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":609},
+	"sourceSize": {"w":192,"h":609}
+},
+"tile-racks-tall2-02.png":
+{
+	"frame": {"x":194,"y":2,"w":192,"h":609},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":609},
+	"sourceSize": {"w":192,"h":609}
+},
+"tile-racks-tall2-03.png":
+{
+	"frame": {"x":2,"y":611,"w":192,"h":609},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":609},
+	"sourceSize": {"w":192,"h":609}
+},
+"tile-racks-tall2-04.png":
+{
+	"frame": {"x":194,"y":611,"w":192,"h":609},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":609},
+	"sourceSize": {"w":192,"h":609}
+},
+"tile-racks-tall2-05.png":
+{
+	"frame": {"x":2,"y":1220,"w":192,"h":608},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":608},
+	"sourceSize": {"w":192,"h":608}
+},
+"tile-racks-tall2-end.png":
+{
+	"frame": {"x":194,"y":1220,"w":94,"h":609},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":609},
+	"sourceSize": {"w":94,"h":609}
+}},
+"animations": {
+	"tile-racks-tall2": ["tile-racks-tall2-01.png","tile-racks-tall2-02.png","tile-racks-tall2-03.png","tile-racks-tall2-04.png","tile-racks-tall2-05.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "racks-tall2.png",
+	"format": "RGBA8888",
+	"size": {"w":388,"h":1831},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f768751f0c290d155c81a5764c32037b:0cf2c7fdffd401e1d62958b5c85501d0:3f7a77042284ae8df13fca2816c5e85a$"
+}
+}

@@ -1,0 +1,158 @@
+{
+  "url-": "https://spassvogel.github.io/vca/",
+  "url": "http://localhost:3000",
+  "data": {
+    "userId": 2,
+    "settings": {
+      "muted": false
+
+    },
+    "content": {
+        "mapJson": "maps/testmap3.json",
+        "situations": {
+            "fire": {
+              "url": "https://21cccdn.blob.core.windows.net/21cc/webgl_portfolio/games/ForkliftLabels/",
+              "title": "Fire in the garbage bin!"
+            }
+        },
+        "scenarios": {
+          "test": {
+            "location": [10, 10],
+            "title": "The Trouble with Kumar",
+            "imageBaseUrl": "https://21cceducation.nl/content/games/images/vcaWarehouse/kumar/image.php?image=",
+            "scene": [{
+              "image":  "background.png"
+            }, {
+              "image":  "dev.png",
+              "position": [784, 175]
+            }],
+            "sequence": [{
+              "type": "caption",
+              "text": "As you’re taking a round in the warehouse in the morning, Dev approaches you with a complaint against his team mate, Kumar"
+            }, {
+              "type": "speech",
+              "text": "Kumar and I are scheduled for the same warehouse shift.",
+              "balloonArrowPos": 33
+            }, {
+              "type": "speech",
+              "text": "He regularly plays games on his cell phone while I pick the orders.",
+              "scene": [{
+                "image":  "background.png"
+              }, {
+                "image":  "dev.png",
+                "position": [784, 175]
+              }, {
+                "image":  "kumar-playing.png",
+                "position": [112, 77]
+              }]
+            }, {
+              "type": "speech",
+              "text": "I have to do the bulk of the work while he plays."
+            }, {
+              "type": "speech",
+              "text": "I've asked him on four different occasions to help me, but he doesn't listen to me.",
+              "scene": [{
+                "image":  "background.png"
+              }, {
+                "image":  "dev-handsup.png",
+                "position": [758, 175]
+              }]
+            }],
+            "description": "You’ve already reprimanded Kumar in the past about his slack behaviour. What kind of disciplinary action should you take against him now?",
+            "options": [
+              "Send Kumar a notification of termination",
+              "Scold Kumar in front of his team mates",
+              "Set strict productivity targets for Kumar"
+            ],
+            "reactions": [{
+              "confirmText": "Are you sure you want to terminate Kumar without giving him a chance to take responsibility?",
+              "yesText": "he’s hampering warehouse productivity",
+              "noText": "I’m a softie; I can’t fire anyone really",
+              "correct": false,
+              "text": "You’ve fired Kumar without allowing him a chance to take responsibility. This has negatively affected the morale of the employees. \nWorkers feel that your response was disproportionate to Kumar’s offence and now feel discouraged and worried about their own job security.",
+              "scene": [{
+                "image":  "kumar-fired.png"
+              }]
+            }, {
+              "confirmText": "Are you sure you want to embarrass Kumar like that?",
+              "yesText": "I want to discourage others from this kind of behaviour",
+              "noText": "perhaps that won’t let me cultivate a trusting relationship",
+              "correct": false,
+              "text": "You gave Kumar a dressing down in front of others. He resents you now as he has become a laughing stock for a group of warehouse workers. \nHe wants to quit and his friends are not happy about how things panned out either.",
+              "scene": [{
+                "image":  "kumar-humiliated.png"
+              }]
+            }, {
+              "confirmText": "Are you sure you want to give Kumar a second chance?",
+              "yesText": "it’s the only way I’ll be able to build trust in the team",
+              "noText": "he lacks discipline and won’t change his behaviour",
+              "correct": true,
+              "text": "You did the right thing by giving Kumar a chance to take responsibility and become more professional. You made him and—by extension—others in the team feel supported and laid the ground for cultivating a more trusting relationship with the employees.",
+              "scene": [{
+                "image":  "kumar-working.png"
+              }]
+            }]
+          }
+        },
+        "finder": {
+          "instruction": "Vind drie gevaarlijke situaties..",
+          "situations": ["burningBin", "tallBoxes", "tallBoxes2"],
+          "final": {
+              "url": "https://21cccdn.blob.core.windows.net/21cc/webgl_portfolio/games/OrderGame/",
+              "data": {
+                "userId": 1,
+                "settings": {
+                    "muted": false
+                },
+                "content": {
+                    "stepsAmount": 5
+                },
+                "translations": [
+                  {"key": "step_1",
+                    "value": "Stop onmiddellijk met werken (eigen veiligheid)"},
+                  {"key": "step_2",
+                    "value": "Verwittig je opdrachtgever en volg zijn instructies"},
+                  {"key": "step_3",
+                    "value": "Ga naar de evacuatieplaats en loop bovenwinds bij gevaarlijke dampen"},
+                  {"key": "step_4",
+                    "value": "Meld je op de evacuatieplaats"},
+                  {"key": "step_5",
+                    "value": "Pas de evacuatieplaats verlaten als daar toestemming voor is."},
+                  {"key": "task",
+                    "value": "Zet in de juiste volgorde"},
+                  {"key": "fail_message_short",
+                    "value": "Sorry,"},
+                  {"key": "fail_message_long",
+                    "value": "De volgorde is niet juist. Probeer het nog eens!"},
+                  {"key": "win_message_short",
+                    "value": "Goed!"},
+                  {"key": "win_message_long",
+                    "value": "Dit is juiste volgorde. Je hebt 1 ster verdiend!"},
+                  {"key": "introduction_short",
+                    "value": "Noodsituaties"},
+                  {"key": "introduction_long",
+                    "value": "Deze game heeft z'n config van VCA game gekregen. omg wat cool!!"}
+                  ],
+                "levelsCompleted": [
+                    {
+                        "level": 1,
+                        "score": 2,
+                        "maxScore": 2
+                      }
+                  ]
+              }
+          }
+        }
+    },
+    "translations": [{
+        "key": "outro-description",
+        "value": "You did not remember {0} cards"
+    }],
+    "levelsCompleted": [{
+      "level": 0,
+      "score": 6,
+      "maxScore": 8
+
+    }]
+  }
+}

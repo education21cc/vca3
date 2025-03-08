@@ -1,0 +1,303 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+      "mapJson": "maps/scenarios-1.json",
+      "stars": 4,
+      "scenarios": {
+        "together-cantina": {
+          "location": [8, 14],
+          "image": "description-together-cantina-image",
+          "imageFeedback": "description-together-cantina-image-feedback",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "agv-walk": {
+          "location": [49, 18],
+          "image": "description-agv-walk-image",
+          "imageFeedback": "description-agv-walk-image-feedback",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "store-cargo": {
+          "location": [45, 25],
+          "image": "description-store-cargo-image",
+          "imageFeedback": "description-store-cargo-image-feedback",
+          "hotspots": [{
+            "image": "description-store-cargo-hotspot-image",
+            "hotspot": "description-store-cargo-hotspot-hotspot",
+            "left": 51.2,
+            "top": 78.8,
+            "width": 14.6
+          }],
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2",
+            "correct": true
+          }, {
+            "id": "reaction3"
+          }]
+        },
+        "emergency-door": {
+          "location": [23, -2],
+          "image": "description-emergency-door-image",
+          "imageFeedback": "description-emergency-door-image-feedback",
+          "reactions": [{
+            "id": "reaction1",
+            "correct": true
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3"
+          }]
+        }
+      }
+  },
+  "translations": [
+    {
+        "key": "intro-header",
+        "value": "নিম্নলিখিত পরিস্থিতিতে আপনার কি করা উচিত?"
+    },
+    {
+        "key": "intro-description",
+        "value": "এই গুদামে অবস্থিত লাল চিহ্নগুলি আপনাকে বিভিন্ন পরিস্থিতিতে নিয়ে যাবে। যখন আপনি একটি লাল মার্কারে ক্লিক করবেন, তখন একটি পরিস্থিতি বর্ণনা করা হবে এবং আপনাকে একটি প্রশ্নের উত্তর দিতে হবে। প্রশ্নের উত্তর দেওয়ার পর আপনি একটি ব্যাখ্যা পাবেন যে সঠিক উত্তরটি কী। যতবার আপনি একটি প্রশ্নের সঠিক উত্তর দেবেন ততবার আপনি একটি স্টার পাবেন।"
+    },
+    {
+        "key": "intro-start",
+        "value": "স্টার্ট"
+    },
+    {
+        "key": "intro-stars-to-gain",
+        "value": "{0}/{1} আর্নড"
+    },
+    {
+        "key": "button-next",
+        "value": "পরবর্তী"
+    },
+    {
+        "key": "button-prev",
+        "value": "পেছনে"
+    },
+    {
+        "key": "button-check",
+        "value": "চেক করুন"
+    },
+    {
+        "key": "button-continue",
+        "value": "এগিয়ে যান"
+    },
+    {
+        "key": "reactions",
+        "value": "অপশন"
+    },
+    {
+        "key": "feedback-correct",
+        "value": "সঠিক!"
+    },
+    {
+        "key": "feedback-wrong",
+        "value": "ভুল!"
+    },
+    {
+        "key": "complete-header",
+        "value": "অভিনন্দন"
+    },
+    {
+        "key": "complete-score",
+        "value": "মোট স্কোর {0}/{1}"
+    },
+    {
+        "key": "complete-try-again",
+        "value": "আবার"
+    },
+    {
+        "key": "complete-exit",
+        "value": "প্রস্থান করুন"
+    },
+    {
+        "key": "feedback",
+        "value": "প্রতিক্রিয়া"
+    },
+    {
+        "key": "description-together-cantina",
+        "value": "আপনি আপনার সহকর্মীর সাথে ক্যান্টিনে যাচ্ছেন। এই ছবিতে আপনি পথের বাম পাশে পাশাপাশি হাঁটছেন। আপনি কি এটা করতে অনুমোদিত?"
+    },
+    {
+        "key": "description-together-cantina-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/together-cantina/together-cantina-description-bn.png"
+    },
+    {
+        "key": "description-together-cantina-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/together-cantina/together-cantina-outcome-bn.png"
+    },
+    {
+        "key": "reaction-together-cantina-reaction1",
+        "value": "1. হ্যাঁ, বাম দিকের পথটি ক্যান্টিনে যাওয়া পথচারীদের জন্য।"
+    },
+    {
+        "key": "reaction-together-cantina-reaction2",
+        "value": "2. না, আপনাকে পথের ডান দিকে হাঁটতে হবে। সবসময় ডান দিক দিয়ে চলার চেষ্টা করুন।"
+    },
+    {
+        "key": "reaction-together-cantina-reaction3",
+        "value": "3. না, পথটি পাশাপাশি হাঁটার জন্য খুব সরু।"
+    },
+    {
+        "key": "reaction-together-cantina-reaction4",
+        "value": "4. না, আপনার এই পথে হাঁটার অনুমতি নেই। এই পুরো পথটি অটোমেটেড গাইডেড ভেহিকেল (AGVs) এর জন্য।"
+    },
+    {
+        "key": "feedback-together-cantina",
+        "value": "নির্দিষ্ট হাঁটার পথগুলি গুরুত্বপূর্ণ কারণ এগুলি মানুষ এবং মেশিনের মধ্যে সংঘর্ষ রোধ করতে পারে। সর্বদা নির্ধারিত পথগুলি অনুসরণ করুন এবং আপনার চারপাশের সম্ভাব্য বিপদগুলি সম্পর্কে সচেতন থাকুন। এই পরিস্থিতিতে, ক্যান্টিনের দিকে যাওয়ার জন্য বাম দিকে একটি হাঁটার পথ রয়েছে। কিন্তু এই পথ কাঁধে কাঁধ মিলিয়ে চলার মতো প্রশস্ত নয়। তাই এই পরিস্থিতিতে আপনাকে রাস্তার বাম দিকে একের পর এক হাঁটতে হবে। অটোমেটেড গাইডেড ভেহিকেলস (AGV) খুব শান্ত এবং ভারী পণ্য বহন করে। তাই যেখানে সম্ভব বিভিন্ন লেনে হাঁটা নিরাপদ।"
+    },
+    {
+        "key": "description-agv-walk",
+        "value": "আপনাকে এক্জিটে যেতে হবে। আপনি কি সংক্ষিপ্ততম পথটি গ্রহণ করতে পারেন এবং প্রস্থানের জন্য বিভিন্ন অটোমেটেড গাইডেড ভেহিকল (AGV) পথে (মেঝেতে লাল এবং কালো রেখা) হাঁটতে পারেন?"
+    },
+    {
+        "key": "description-agv-walk-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/agv-walk/agv-walk-description-bn.png"
+    },
+    {
+        "key": "description-agv-walk-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/agv-walk/agv-walk-outcome-bn.png"
+    },
+    {
+        "key": "reaction-agv-walk-reaction1",
+        "value": "1. না, একজন পথচারী হিসেবে আপনার AGV লাইনে হাঁটার অনুমতি নেই। এমন পরিস্থিতিতে আপনাকে সর্বদা একটি পরিষ্কারভাবে নির্দেশিত হাঁটার পথ খুঁজে নিতে হবে।"
+    },
+    {
+        "key": "reaction-agv-walk-reaction2",
+        "value": "2. হ্যাঁ, তবে আপনাকে অবশ্যই কাজের জুতো এবং একটি নিরাপত্তা হেলমেট পরতে হবে।"
+    },
+    {
+        "key": "reaction-agv-walk-reaction3",
+        "value": "3. হ্যাঁ, আপনি করতে পারেন, যতক্ষণ আপনি সতর্ক থাকুন।"
+    },
+    {
+        "key": "reaction-agv-walk-reaction4",
+        "value": "4. না, এটি শুধুমাত্র তখনই অনুমোদিত হয় যদি আপনি নিজে একটি ফর্কলিফটে থাকেন এবং সুরক্ষিত থাকেন৷"
+    },
+    {
+        "key": "feedback-agv-walk",
+        "value": "সংঘর্ষ এবং ভিড় এড়ানোর জন্য ওয়াকওয়েগুলি গুরুত্বপূর্ণ। দুর্ভাগ্যক্রমে, পরিষ্কার হাঁটার রুটগুলি সর্বদা নির্দেশিত হয় না বা এমন জায়গা থাকতে পারে যেখানে বিভিন্ন রুট গুলি সংযুক্ত হয়। ভিসিএ অনুসারে হাঁটার রুট থাকা বাধ্যতামূলক নয়।\n \n যদি কোনও পরিষ্কার হাঁটার পথ না থাকে তবে আপনাকে সাধারণত এজিভি পথগুলি হাঁটতে বা ক্রস করার অনুমতি দেওয়া হয়।\n \n আপনার কর্মক্ষেত্রে এই সম্পর্কিত নিয়মসম্পর্কে আপনার টিম লিডারকে সরাসরি জিজ্ঞাসা করুন। এটি আপনার নিয়োগকর্তার সুরক্ষা পরিকল্পনা বা সুরক্ষা নির্দেশাবলীতে উল্লেখ করা উচিত।\n \n কাজের শর্তাবলী আইন নিয়োগকর্তাকে আপনাকে অবহিত করতে এবং এটি কীভাবে কাজ করে তা আপনাকে শেখাতে বাধ্য করে। কাজের শর্তাবলী আইন অনুসারে আপনি সেই পরিকল্পনা এবং নির্দেশাবলী জানতে বাধ্য।"
+    },
+    {
+        "key": "description-store-cargo",
+        "value": "ট্রাক চালক ডকের উপর ছয়টি বড় বাক্স রেখে গেছেন।\n \n আপনার টিম লিডার আপনাকে ওয়্যারহাউজে প্যালেট ট্রাকের সাথে তাদের সঠিক জায়গায় রাখতে বলেছেন। আপনি সম্পর্কিত অর্ডার ফর্ম টি দেখতে পারেন। আপনি যে প্যালেট ট্রাকটি ব্যবহার করতে পারেন সে সম্পর্কে আরও বিশদ দেখতে পারেন। আপনার কোনটা করা উচিৎ?"
+    },
+    {
+        "key": "description-store-cargo-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-description-bn.png"
+    },
+    {
+        "key": "description-store-cargo-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-outcome-bn.png"
+    },
+    {
+        "key": "description-store-cargo-hotspot-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-insert-bn.png"
+    },
+    {
+        "key": "description-store-cargo-hotspot-hotspot",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-hotspot.png"
+    },
+    {
+        "key": "reaction-store-cargo-reaction1",
+        "value": "1. আপনাকে প্যালেট ট্রাক নিতে হবে এবং প্যালেটগুলিকে এক এক করে সঠিক জায়গায় রাখতে হবে।"
+    },
+    {
+        "key": "reaction-store-cargo-reaction2",
+        "value": "2. আপনাকে আপনার টিম লিডারকে বলতে হবে যে একটি প্যালেট ট্রাক এই প্যালেটগুলি পরিবহনের জন্য উপযুক্ত নয়।"
+    },
+    {
+        "key": "reaction-store-cargo-reaction3",
+        "value": "3. আপনার সহকর্মীকে ফর্কলিফ্ট দিয়ে প্যালেটগুলি সরাতে বলা উচিত।"
+    },
+    {
+        "key": "feedback-store-cargo",
+        "value": "অর্ডার ফর্মে বলা হয়েছে যে প্যালেটগুলির ওজন 2750 কেজি। আপনার প্যালেট ট্রাক বলেছে যে এটির লোড ক্ষমতা 2500 কেজি।\n \n  সমস্ত কাজের সরঞ্জাম শুধুমাত্র নির্দিষ্ট সীমার মধ্যে ব্যবহার করা উচিত। \n এই প্যালেট ট্রাকের সাহায্যে আপনি 2500 কেজি বা তার কম ওজনের বোঝা সরাতে পারেন। \n \n এই প্যালেট ট্রাক দিয়ে 2750 কেজি প্যালেট সরানো সম্ভব হতে পারে, তবে এটি আনুষ্ঠানিকভাবে অনুমোদিত নয় কারণ এটি একটি বিপজ্জনক পরিস্থিতি তৈরি করতে পারে। \n \n আপনার টিম লিডারকে বলুন যে এই প্যালেট ট্রাকটি উপযুক্ত নয় কারণ প্যালেটগুলি খুব ভারী। \n \n আপনি সম্ভবত এই প্যালেটগুলিকে ফোর্কলিফট দিয়ে সরাতে পারেন তবে এই ডকটি এটিতে ফোর্কলিফ্টগুলি ব্যবহার করার অনুমতি নাও দিতে পারে। তাই প্রথমেই আপনার টিম লিডারকে জানিয়ে দিন যে প্যালেট ট্রাকটি এই কাজের জন্য উপযুক্ত নয়।"
+    },
+    {
+        "key": "description-emergency-door",
+        "value": "দ্রুত কফি খাওয়ার জন্য এটি একটি ভাল জায়গা বলে মনে হচ্ছে। এটা কি অনুমোদিত?"
+    },
+    {
+        "key": "description-emergency-door-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/emergency-door-description-bn.png"
+    },
+    {
+        "key": "description-emergency-door-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/emergency-door-outcome-bn.png"
+    },
+    {
+        "key": "reaction-emergency-door-reaction1",
+        "value": "1. হ্যাঁ, একটি এমার্জেন্সি ডোর খোলা থাকতে পারে যাতে আপনি সহজেই কফি খাওয়ার পরে ফিরে যেতে পারেন।"
+    },
+    {
+        "key": "reaction-emergency-door-reaction2",
+        "value": "2. হ্যাঁ, কিন্তু এমার্জেন্সি ডোরটি যত তাড়াতাড়ি সম্ভব সঠিকভাবে বন্ধ করতে হবে এবং তাই আপনি বাইরে থেকে এটি আর খুলতে পারবেন না।"
+    },
+    {
+        "key": "reaction-emergency-door-reaction3",
+        "value": "3. না, একটি এমার্জেন্সি ডোর শুধুমাত্র জরুরী অবস্থার জন্য।"
+    },
+    {
+        "key": "feedback-emergency-door",
+        "value": "নীচের সবুজ আইকন দ্বারা একটি এমার্জেন্সি ডোর নির্দেশিত হয়।\n \n An emergency door may remain open from a safety point of view. ![](https://21cccdn.blob.core.windows.net/21cc/games/images/flashcards/vca/veiligheidsvoorzieningen-uitgang-die-tevens-dient-als-nooduitgang.png)\n \n ফায়ার এমার্জেন্সি ডোরগুলিতে একটি ফায়ার রেজিসট্যান্ট ব্যবস্থা থাকে এবং সাধারণত এটি খোলা যেতে পারে, তবে এটি খোলা রাখা উচিত নয় কারণ দরজাটি খোলা থাকলে ব্যবস্থাটি কাজ করে না। একটি ফায়ার ডোরের নীচে লাল চিহ্ন দ্বারা চিহ্নিত করা যেতে পারে বা এটি দরজায় অক্ষরে লেখা থাকে।![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/branddeur.png) ![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/fire-sign-bn.png)\n \n এমন পরিস্থিতি রয়েছে যখন আপনার কেবল জরুরি দরজা বা ফায়ার ডোর ব্যবহার করা কাম্য নয়। উদাহরণস্বরূপ, যখন এটিতে একটি অ্যালার্ম থাকে।"
+    },
+    {
+        "key": "description-forklift-hole",
+        "value": "একজন সহকর্মী কাজের সময় আপনার পাশ দিয়ে একটি ফর্কলিফ্টে চালিয়ে যায়। আপনি দেখতে পাচ্ছেন যে সে পথের একটি গর্তের দিকে তির্যকভাবে ফর্কলিফ্টেটি চালাচ্ছেন। আপনি ঠিক সময়ে তাকে থামতে এবং বিপজ্জনক জায়গায় চলাচল করতে সাহায্য করার জন্য ফোন করেন। একই সময় আপনি সুপারভাইজারকে ফোন করেন এবং আপনার সহকর্মী ইঙ্গিত দেন যে তিনি ফর্কলিফ্টে তাঁর অবস্থান থেকে স্পষ্টভাবে দেখতে পাচ্ছেন না যে পথে একটি বিপজ্জনক অংশ রয়েছে। আপনার তত্ত্বাবধায়ক আপনাকে গর্তের চারপাশে সঠিক চিহ্নগুলি রাখতে বলেন,এবং তিনি নিজেই একটি কোম্পানিকে পথ মেরামত করার জন্য ডাকেন। গর্তের চারপাশে কোন চিহ্ন রাখা কি উচিত?"
+    },
+    {
+        "key": "reaction-forklift-hole-reaction1",
+        "value": "1. একটি কালো বিস্ময় চিহ্ন সহ একটি হলুদ ত্রিভুজাকার চিহ্ন।"
+    },
+    {
+        "key": "reaction-forklift-hole-reaction2",
+        "value": "2. গর্তের সামনে এবং পিছনে একটি বেড়া।"
+    },
+    {
+        "key": "reaction-forklift-hole-reaction3",
+        "value": "3. লাল এবং সাদা ফিতে বা টেপ।"
+    },
+    {
+        "key": "reaction-forklift-hole-reaction4",
+        "value": "4. হলুদ এবং কালো ফিতে বা টেপ."
+    },
+    {
+        "key": "feedback-forklift-hole",
+        "value": "হলুদ এবং কালো ফিতে বা টেপ এমন পরিস্থিতিতে ব্যবহৃত হয় যেখানে লোকেরা সংঘর্ষ করতে পারে, ফ্ল্যাঙ্ক এবং আন্ডারপাসের জন্য এবং বিপজ্জনক অঞ্চলগুলি চিহ্নিত করতে।\n \n আপনি অন্যান্য পরিস্থিতিতে লাল এবং সাদা ফিতে বা টেপ ব্যবহার করতে পারেন। আপনার কখনই এমন কোনও অঞ্চলে প্রবেশ করা উচিত নয় যা ফিতে দিয়ে বেষ্টিত।\n \n নিজের মধ্যে, একটি \"সাধারণ বিপদ\" চিহ্ন স্থাপন করা ভাল। তবে শুধু এটুকুই যথেষ্ট নয়।"
+    }
+],
+
+  "levelsCompleted": [{
+    "level": 0,
+    "score": 2,
+    "maxScore": 8
+
+  }]
+
+}
+

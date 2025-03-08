@@ -1,0 +1,153 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+  },
+  "content": {
+    "mapJson": "maps/plan-your-lift-level2.json",
+    "gameMode": "timedFinder",
+    "finder": {
+      "situations": [
+        "junk8",
+        "junk7",
+        "junk6",
+        "junk5",
+        "junk4",
+        "junk3",
+        "junk2",
+        "junk1"
+      ],
+      "time": 20,
+      "path": [
+        [2, 28],
+        [3, 28],
+        [3, 27],
+        [13, 27],
+        [13, 15],
+        [10, 12],
+        [3, 12]
+      ],
+      "complete": {
+        "buttons": [{
+          "text": "complete-try-again",
+          "action": "again",
+          "color": "green"
+        }, {
+          "text": "complete-next",
+          "action": "loadConfig",
+          "actionArgs": "config/data-plan-your-lift-3.json",
+          "color": "red",
+          "condition": {
+            "type": "starsMinimum",
+            "args": 2,
+            "text": "complete-next-not-enough-stars"
+          }
+        }]
+      }
+    },
+    "instructions": [{
+      "text": "The box at this location ...",
+      "time": 3000,
+      "x": 1400,
+      "y": 1100,
+      "zoom": 2
+    }, {
+      "text": "... needs to be transported to this location",
+      "time": 3000,
+      "delay": 1000,
+      "x": 2500,
+      "y": 645,
+      "zoom": 2
+    }, {
+      "text": "Make sure the path is clear! \n\n You have {time}. Get ready!!",
+      "time": 3000,
+      "delay": 1000,
+      "x": 2200,
+      "y": 1220,
+      "zoom": 0.5
+    }],
+    "disableBackButton": true
+  },
+  "translations": [{
+      "key": "intro-header",
+      "value": "Plan your lift"
+    },
+    {
+      "key": "intro-description",
+      "value": "Before lifting or carrying, always make sure that there are no obstacles in your way.\n  Can you clear the lift route of all obstructions and slippery areas?"
+    },
+    {
+      "key": "intro-start",
+      "value": "Start"
+    },
+    {
+      "key": "intro-stars-to-gain",
+      "value": "{0}/{1} gained"
+    },
+    {
+      "key": "items-remain",
+      "value": "{0} obstructions"
+    },
+    {
+      "key": "complete-header",
+      "value": "Complete"
+    },
+    {
+      "key": "timeup-header",
+      "value": "Time up!"
+    },
+    {
+      "key": "time-component-minute",
+      "value": "minute"
+    },
+    {
+      "key": "time-component-minutes",
+      "value": "minutes"
+    },
+    {
+      "key": "time-component-seconds",
+      "value": "seconds"
+    },
+    {
+      "key": "score-list-0",
+      "value": "You found nothing 😞"
+    },
+    {
+      "key": "score-list-1",
+      "value": "Found some trash"
+    },
+    {
+      "key": "score-list-2",
+      "value": "Found all trash"
+    },
+    {
+      "key": "score-list-3",
+      "value": "50% time bonus"
+    },
+    {
+      "key": "score-list-4",
+      "value": "80% time bonus"
+    },
+    {
+      "key": "complete-try-again",
+      "value": "Again"
+    },
+    {
+        "key": "complete-exit",
+        "value": "Exit"
+    },
+    {
+      "key": "complete-next",
+      "value": "Next"
+    },
+    {
+      "key": "complete-next-not-enough-stars",
+      "value": "Not enough stars"
+    }
+  ],
+  "levelsCompleted": [{
+    "level": 0,
+    "score": 0,
+    "maxScore": 4
+  }]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="135.033" height="128.282" viewBox="0 0 135.033 128.282">
+    <defs>
+        <style>
+            .star-full {
+                fill: #fcda00;
+            }
+        </style>
+    </defs>
+    <path class="star-full"
+        d="M67.517,0l21.1,42.2,46.418,6.752L101.275,81.864l7.6,46.418L67.517,106.339,26.163,128.282l7.6-46.418L0,48.95,46.418,42.2Z" />
+</svg>

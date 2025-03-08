@@ -1,0 +1,303 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+      "mapJson": "maps/scenarios-1.json",
+      "stars": 4,
+      "scenarios": {
+        "together-cantina": {
+          "location": [8, 14],
+          "image": "description-together-cantina-image",
+          "imageFeedback": "description-together-cantina-image-feedback",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "agv-walk": {
+          "location": [49, 18],
+          "image": "description-agv-walk-image",
+          "imageFeedback": "description-agv-walk-image-feedback",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "store-cargo": {
+          "location": [45, 25],
+          "image": "description-store-cargo-image",
+          "imageFeedback": "description-store-cargo-image-feedback",
+          "hotspots": [{
+            "image": "description-store-cargo-hotspot-image",
+            "hotspot": "description-store-cargo-hotspot-hotspot",
+            "left": 51.2,
+            "top": 78.8,
+            "width": 14.6
+          }],
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2",
+            "correct": true
+          }, {
+            "id": "reaction3"
+          }]
+        },
+        "emergency-door": {
+          "location": [23, -2],
+          "image": "description-emergency-door-image",
+          "imageFeedback": "description-emergency-door-image-feedback",
+          "reactions": [{
+            "id": "reaction1",
+            "correct": true
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3"
+          }]
+        }
+      }
+  },
+  "translations": [
+    {
+        "key": "intro-header",
+        "value": "What should you do in the following scenarios?"
+    },
+    {
+        "key": "intro-description",
+        "value": "The red marks located in this warehouse will take you to different scenarios. When you click on a red marker, a situation will be described and you will have to answer a question. After answering the question you will receive an explanation as to what the correct answer is. Every time you answer a question correctly you will get a star."
+    },
+    {
+        "key": "intro-start",
+        "value": "Start"
+    },
+    {
+        "key": "intro-stars-to-gain",
+        "value": "{0}/{1} earned"
+    },
+    {
+        "key": "button-next",
+        "value": "Next"
+    },
+    {
+        "key": "button-prev",
+        "value": "Back"
+    },
+    {
+        "key": "button-check",
+        "value": "Check"
+    },
+    {
+        "key": "button-continue",
+        "value": "Continue"
+    },
+    {
+        "key": "reactions",
+        "value": "Options"
+    },
+    {
+        "key": "feedback-correct",
+        "value": "Correct!"
+    },
+    {
+        "key": "feedback-wrong",
+        "value": "Wrong!"
+    },
+    {
+        "key": "complete-header",
+        "value": "Congratulations"
+    },
+    {
+        "key": "complete-score",
+        "value": "Total score {0}/{1}"
+    },
+    {
+        "key": "complete-try-again",
+        "value": "Again"
+    },
+    {
+        "key": "complete-exit",
+        "value": "Exit"
+    },
+    {
+        "key": "feedback",
+        "value": "Feedback"
+    },
+    {
+        "key": "description-together-cantina",
+        "value": "You are going to the cafeteria with your colleague. You are walking side by side on the left side of the path in this picture. Are you allowed to do this?"
+    },
+    {
+        "key": "description-together-cantina-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/together-cantina/together-cantina-description-en-US.png"
+    },
+    {
+        "key": "description-together-cantina-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/together-cantina/together-cantina-outcome-en-US.png"
+    },
+    {
+        "key": "reaction-together-cantina-reaction1",
+        "value": "1. Yes, the path on the left is for pedestrians going to the cafeteria."
+    },
+    {
+        "key": "reaction-together-cantina-reaction2",
+        "value": "2. No, you have to walk on the right side of the path. Always stay on the right side as much as possible."
+    },
+    {
+        "key": "reaction-together-cantina-reaction3",
+        "value": "3. No, the path is too narrow to walk side by side."
+    },
+    {
+        "key": "reaction-together-cantina-reaction4",
+        "value": "4. No, you are not allowed to walk on this path. This entire path is for Automated Guided Vehicles (AGVs)."
+    },
+    {
+        "key": "feedback-together-cantina",
+        "value": "Designated walkways are important because they can prevent collisions between people and machines.\n\nAlways follow the designated routes and be aware of the potential dangers around you.\n\nIn this situation, there is a walking path on the left side leading to the cafeteria. But this path is not wide enough to walk shoulder to shoulder. So in this situation you have to walk one after the other on the left side of the path.\n\nAutomated Guided Vehicles (AGVs) are very quiet and carry heavy goods. So it is safer to walk in different lanes where possible."
+    },
+    {
+        "key": "description-agv-walk",
+        "value": "You have to go to the exit. Are you allowed to take the shortest route and walk on the different Automated Guided Vehicle (AGV) paths (the red and black lines on the floor) to the exit?"
+    },
+    {
+        "key": "description-agv-walk-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/agv-walk/agv-walk-description-en-US.png"
+    },
+    {
+        "key": "description-agv-walk-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/agv-walk/agv-walk-outcome-en-US.png"
+    },
+    {
+        "key": "reaction-agv-walk-reaction1",
+        "value": "1. No, as a pedestrian you are not allowed to walk on AGV lines. In such a situation you always have to look for a clearly indicated walking route."
+    },
+    {
+        "key": "reaction-agv-walk-reaction2",
+        "value": "2. Yes, but you must wear work shoes and a safety helmet."
+    },
+    {
+        "key": "reaction-agv-walk-reaction3",
+        "value": "3. Yes, you can, as long as you watch out."
+    },
+    {
+        "key": "reaction-agv-walk-reaction4",
+        "value": "4. No, this is only allowed if you yourself are in a forklift and are therefore well protected."
+    },
+    {
+        "key": "feedback-agv-walk",
+        "value": "Walkways are important to avoid collisions and congestion. Unfortunately, clear walking routes are not always indicated or there may be places where different routes intersect.\n\nIf there are no clear walking routes, you are usually allowed to walk or cross AGV paths.\n\nAsk your team leader directly about the rules regarding this at your workplace. This should be stated in your employer's safety plan or safety instructions.\n\nThe Working Conditions Act obliges the employer to inform you and to teach you how it works. According to the Working Conditions Act you are obliged to know those plans and instructions."
+    },
+    {
+        "key": "description-store-cargo",
+        "value": "The truck driver has left six pallets of big boxes on the dock.\n\nYour team leader asks you to put them in the right place with the pallet truck in the warehouse. You can see the related order form. You can also see more details about the pallet truck you can use. What you should do?"
+    },
+    {
+        "key": "description-store-cargo-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-description-en-US.png"
+    },
+    {
+        "key": "description-store-cargo-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-outcome-en-US.png"
+    },
+    {
+        "key": "description-store-cargo-hotspot-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-insert-en-US.png"
+    },
+    {
+        "key": "description-store-cargo-hotspot-hotspot",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-hotspot.png"
+    },
+    {
+        "key": "reaction-store-cargo-reaction1",
+        "value": "1. You should take the pallet truck and put the pallets one by one at the right place."
+    },
+    {
+        "key": "reaction-store-cargo-reaction2",
+        "value": "2. You should tell your team leader that a pallet truck is not suitable for transporting these pallets."
+    },
+    {
+        "key": "reaction-store-cargo-reaction3",
+        "value": "3. You should ask your colleague to move the pallets with the forklift."
+    },
+    {
+        "key": "feedback-store-cargo",
+        "value": "The order form states that the weight of the pallets is 6000 lb. Your pallet truck states that it has a load capacity of 5500 lb.\n\nAll work equipment should be used only within specified limits. With this pallet truck you can move loads weighing 5500 lb or less.\n\nIt may be possible to move 6000 lb of pallets with this pallet truck, but it is not officially allowed as it can create a dangerous situation.\n\nTell your team leader that this pallet truck is not suitable because the pallets are too heavy. \n\nYou can probably move these pallets with a forklift but this dock may not allow forklifts to be used on it. So first inform your team leader that the pallet truck is not suitable for this job."
+    },
+    {
+        "key": "description-emergency-door",
+        "value": "This seems like a good place to pop out for a quick coffee. Is that allowed?"
+    },
+    {
+        "key": "description-emergency-door-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/emergency-door-description-en-US.png"
+    },
+    {
+        "key": "description-emergency-door-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/emergency-door-outcome-en-US.png"
+    },
+    {
+        "key": "reaction-emergency-door-reaction1",
+        "value": "1. Yes, an emergency door can even remain open so that you can easily enter back after your coffee."
+    },
+    {
+        "key": "reaction-emergency-door-reaction2",
+        "value": "2. Yes, but the emergency door must be closed properly as soon as possible and you can therefore no longer open it from the outside."
+    },
+    {
+        "key": "reaction-emergency-door-reaction3",
+        "value": "3. No, an emergency door is only for emergencies."
+    },
+    {
+        "key": "feedback-emergency-door",
+        "value": "An emergency door is indicated by the green icon below.\n\nAn emergency door may remain open from a safety point of view. ![](https://21cccdn.blob.core.windows.net/21cc/games/images/flashcards/vca/veiligheidsvoorzieningen-uitgang-die-tevens-dient-als-nooduitgang.png)\n\nFire emergency doors have a fire resistant system and can usually be opened, but should not be left open because the system does not work if the door is left open. A fire door can be identified by the red sign at the bottom or it is written in letters on the door. ![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/branddeur.png) ![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/fire-sign-en.png)\n\nThere are situations when it is not desirable that you just use an emergency door or fire door. For example, when there is an alarm on it."
+    },
+    {
+        "key": "description-forklift-hole",
+        "value": "A colleague drives past you on a forklift during work. You can see that he is driving diagonally towards a hole in the path. You call out to him just in time to stop and help him navigate the dangerous place. Together you call the supervisor and your colleague indicates that he cannot clearly see from his position on the forklift that there is a dangerous part in the path. Your supervisor asks you to put the correct markings around the hole, while he himself calls a company to have the path repaired.\n\nWhich mark should you put around the hole?"
+    },
+    {
+        "key": "reaction-forklift-hole-reaction1",
+        "value": "1. A yellow triangular sign with a black exclamation mark on it."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction2",
+        "value": "2. A fence in front of and behind the hole."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction3",
+        "value": "3. Red and white ribbon or tape."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction4",
+        "value": "4. Yellow and black ribbon or tape."
+    },
+    {
+        "key": "feedback-forklift-hole",
+        "value": "Yellow and black ribbon or tape is used in situations where people may collide, for flanks and underpasses, and to mark dangerous areas.\n\nYou can use red and white ribbon or tape in other situations. You should never cross into an area that is surrounded by ribbons.\n\nIn itself, it is good to place a \"general danger\" sign. However, that alone is not enough."
+    }
+],
+
+  "levelsCompleted": [{
+    "level": 0,
+    "score": 2,
+    "maxScore": 8
+
+  }]
+
+}
+

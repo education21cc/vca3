@@ -1,0 +1,515 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+    "userId": 2,
+    "settings": {
+      "muted": false
+    },
+    "mapJson": "maps/scenarios-1.json",
+    "mistakeMode": true,
+    "scenarios": {
+      "multiply": {
+        "location": [54, 1],
+        "image": "multiply-image",
+        "imageFeedback": "multiply-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "subtraction": {
+        "location": [50, 30],
+        "image": "subtraction-image",
+        "imageFeedback": "subtraction-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+          }]
+        },
+      "addition-days": {
+        "location": [1, 20],
+        "image": "addition-days-image",
+        "imageFeedback": "addition-days-image",
+        "reactions": [{
+          "id": "reaction1",
+          "correct": true
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "multiply-2": {
+        "location": [20, 3],
+        "image": "multiply-2-image",
+        "imageFeedback": "multiply-2-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "division": {
+        "location": [0, 0],
+        "image": "division-image",
+        "imageFeedback": "division-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "subtraction-2": {
+        "location": [25, 0],
+        "image": "subtraction-2-image",
+        "imageFeedback": "subtraction-2-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4",
+          "correct": true
+        }]
+      },
+      "multiply-3": {
+        "location": [45, 15],
+        "image": "multiply-3-image",
+        "imageFeedback": "multiply-3-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "combination": {
+        "location": [38, 20],
+        "image": "combination-image",
+        "imageFeedback": "combination-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "division-2": {
+        "location": [25, 20],
+        "image": "division-2-image",
+        "imageFeedback": "division-2-image",
+        "reactions": [{
+          "correct": true,
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "combination-2": {
+        "location": [6, 30],
+        "image": "combination-2-image",
+        "imageFeedback": "combination-2-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      }
+    },
+    "location": [6, 30, "cantina!"]
+  },
+  "translations": [
+    {
+        "key": "intro-header",
+        "value": "আপনি কি বেসিক অঙ্ক করতে পারেন?"
+    },
+    {
+        "key": "intro-description",
+        "value": "এই ওয়্যারহাউজে অবস্থিত হলুদ চিহ্নগুলি আপনাকে বিভিন্ন পরিস্থিতিতে নিয়ে যাবে। আপনি যখন কোনও মার্কারে ক্লিক করবেন, তখন ওয়্যারহাউজে একটি অঙ্ক প্রদর্শিত হবে এবং আপনাকে একটি প্রশ্নের উত্তর দিতে হবে। প্রশ্নের উত্তর দেওয়ার পর আপনি একটি ব্যাখ্যা পাবেন যে সঠিক উত্তরটি কী। যতবার আপনি একটি প্রশ্নের সঠিক উত্তর দেবেন ততবার আপনি একটি স্টার পাবেন।"
+    },
+    {
+        "key": "intro-start",
+        "value": "স্টার্ট"
+    },
+    {
+        "key": "intro-stars-to-gain",
+        "value": "{0}/{1} আর্নড"
+    },
+    {
+        "key": "button-next",
+        "value": "পরবর্তী"
+    },
+    {
+        "key": "button-prev",
+        "value": "পেছনে"
+    },
+    {
+        "key": "button-check",
+        "value": "চেক করুন"
+    },
+    {
+        "key": "button-continue",
+        "value": "এগিয়ে যান"
+    },
+    {
+        "key": "reactions",
+        "value": "অপশন"
+    },
+    {
+        "key": "feedback-correct",
+        "value": "সঠিক!"
+    },
+    {
+        "key": "feedback-wrong",
+        "value": "ভুল!"
+    },
+    {
+        "key": "complete-header",
+        "value": "অভিনন্দন"
+    },
+    {
+        "key": "complete-score",
+        "value": "মোট স্কোর {0}/{1}"
+    },
+    {
+        "key": "complete-try-again",
+        "value": "আবার"
+    },
+    {
+        "key": "complete-exit",
+        "value": "প্রস্থান করুন"
+    },
+    {
+        "key": "feedback",
+        "value": "প্রতিক্রিয়া"
+    },
+    {
+        "key": "description-multiply",
+        "value": "যদি কাপের একটি বাক্সে 24 টি ইউনিট থাকে তবে 18 টি বাক্সে কটি ইউনিট থাকবে?"
+    },
+    {
+        "key": "multiply-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/multiply.png"
+    },
+    {
+        "key": "reaction-multiply-reaction1",
+        "value": "a. 192"
+    },
+    {
+        "key": "reaction-multiply-reaction2",
+        "value": "b. 312"
+    },
+    {
+        "key": "reaction-multiply-reaction3",
+        "value": "c. 432"
+    },
+    {
+        "key": "reaction-multiply-reaction4",
+        "value": "d. 576"
+    },
+    {
+        "key": "feedback-multiply",
+        "value": "18 টি বাক্সে 432 ইউনিট বা কাপ থাকবে।\n \n একটি বাক্স = 24 ইউনিট\n \n 18টি বাক্স = '18 x 24 ইউনিট = 432 ইউনিট'"
+    },
+    {
+        "key": "description-subtraction",
+        "value": "গত মাসে একজন গ্রাহক 44  ইউনিট মোবাইল ফোনের অর্ডার দিলেও এ মাসে বিক্রি কমে গেছে এবং তারা গতবারের চেয়ে 8 ইউনিট কম চান। আপনার কয়টি ইউনিট নেওয়া উচিত?"
+    },
+    {
+        "key": "subtraction-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/subtraction.png"
+    },
+    {
+        "key": "reaction-subtraction-reaction1",
+        "value": "a. 40"
+    },
+    {
+        "key": "reaction-subtraction-reaction2",
+        "value": "b. 36"
+    },
+    {
+        "key": "reaction-subtraction-reaction3",
+        "value": "c. 32"
+    },
+    {
+        "key": "reaction-subtraction-reaction4",
+        "value": "d. 28"
+    },
+    {
+        "key": "feedback-subtraction",
+        "value": "আপনার 36 ইউনিট নেওয়া উচিত।\n \n 44 ইউনিটের চেয়ে 8 ইউনিট কম = '44 - 8 ইউনিট = 36 ইউনিট'"
+    },
+    {
+        "key": "description-addition-days",
+        "value": "আজ বুধবার, 13-ই জুন। একজন গ্রাহক আপনাকে একটি ইমেল পাঠিয়েছেন যে তারা 28শে জুনের মধ্যে তাদের অর্ডার পেতে চান। ওয়্যারহাউজ থেকে গ্রাহকের অবস্থানে পৌঁছাতে ট্র‍্যাক চালকের সময় লাগে 5 দিন। \n \n আপনি কবে ওয়্যারহাউজ থেকে অর্ডারটি প্রেরণ করবেন যাতে এটি সময়মতো গ্রাহকের কাছে পৌঁছায়?"
+    },
+    {
+        "key": "addition-days-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/addition-days.png"
+    },
+    {
+        "key": "reaction-addition-days-reaction1",
+        "value": "a. 22শে জুন"
+    },
+    {
+        "key": "reaction-addition-days-reaction2",
+        "value": "b. 24শে জুন"
+    },
+    {
+        "key": "reaction-addition-days-reaction3",
+        "value": "c. 26শে জুন"
+    },
+    {
+        "key": "reaction-addition-days-reaction4",
+        "value": "d. 28শে জুন"
+    },
+    {
+        "key": "feedback-addition-days",
+        "value": "যদি ট্র‍্যাকটি গ্রাহকের অবস্থানে পৌঁছাতে 5 দিন সময় নেয়, তাহলে 28শে জুনের অন্তত 5 দিন আগে পণ্যগুলি পাঠানো উচিত। তাই সময়মতো গ্রাহকের কাছে পৌঁছানোর জন্য পণ্যগুলি 23শে জুনের আগে পাঠানো উচিত। তাই সঠিক উত্তর 22শে জুন।"
+    },
+    {
+        "key": "description-multiply-2",
+        "value": "প্যালেটগুলিতে ওয়্যারহাউজে পণ্য গ্রহণ করা হয়। প্যালেটের পণ্যগুলির সংখ্যা টি স্তরগুলির মোট সংখ্যার সাথে প্যালেটের একটি স্তরে বাক্সের সংখ্যাগুণ করে গণনা করা যেতে পারে। \n \n যদি একটি প্যালেটের এক স্তরে 9 টি বাক্স থাকে এবং বাক্সের 4 স্তর থাকে তবে প্যালেটটিতে মোট কতটি বাক্স রয়েছে?"
+    },
+    {
+        "key": "multiply-2-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/multiply-2.png"
+    },
+    {
+        "key": "reaction-multiply-2-reaction1",
+        "value": "a. 30"
+    },
+    {
+        "key": "reaction-multiply-2-reaction2",
+        "value": "b. 32"
+    },
+    {
+        "key": "reaction-multiply-2-reaction3",
+        "value": "c. 36"
+    },
+    {
+        "key": "reaction-multiply-2-reaction4",
+        "value": "d. 40"
+    },
+    {
+        "key": "feedback-multiply-2",
+        "value": "প্যালেটটিতে মোট 36 টি বাক্স রয়েছে।\n \n এক স্তরে বাক্সের সংখ্যা = '9'\n স্তরের সংখ্যা = '4'\n \n 4 স্তরের বাক্স = '9 x 4 = 36'"
+    },
+    {
+        "key": "description-division",
+        "value": "আপনি আজ 400 বাক্স ল্যাপটপের একটি চালান পাবেন। প্রতিটি প্যালেটে 40টি কেস রয়েছে। প্যালেটগুলি ওয়্যারহাউজের F1 বিভাগে সংরক্ষণ করতে হবে। \n \n যদি এই বিভাগে একটি স্টোরেজ র্যাকে 4 টি প্যালেট ফিট হয় তবে 400 বাক্সের জন্য আপনার কতগুলি র্যাকের প্রয়োজন হবে?"
+    },
+    {
+        "key": "division-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/division.png"
+    },
+    {
+        "key": "reaction-division-reaction1",
+        "value": "a. 2"
+    },
+    {
+        "key": "reaction-division-reaction2",
+        "value": "b. 2.5"
+    },
+    {
+        "key": "reaction-division-reaction3",
+        "value": "c. 3"
+    },
+    {
+        "key": "reaction-division-reaction4",
+        "value": "d. 3.5"
+    },
+    {
+        "key": "feedback-division",
+        "value": "আপনার 400টি বাক্সের জন্য 2.5 র‍্যাকের প্রয়োজন হবে।\n \n মোট বাক্সের সংখ্যা = '400'\n \n একটি প্যালেটে বাক্সের সংখ্যা = '40'\n \n প্যালেটের সংখ্যা = '400/40 = 10'\n \n একটি র‍্যাকে সংরক্ষণ করা যেতে পারে এমন প্যালেটের সংখ্যা = '4'\n \n 400 বাক্স বা 10 প্যালেট সংরক্ষণের জন্য প্রয়োজনীয় র‍্যাকের সংখ্যা = '10/4 = 2.5'"
+    },
+    {
+        "key": "description-subtraction-2",
+        "value": "যদি ওয়্যারহাউজে F2 সেকশনে 6টি খোলা র‍্যাক থাকে, তাহলে সেই বিভাগে 2.5টি র‍্যাকের প্রয়োজনের 400টি ল্যাপটপের বক্স সংরক্ষণ করার পর কতটি র‍্যাক খোলা থাকবে?"
+    },
+    {
+        "key": "subtraction-2-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/open_racks.png"
+    },
+    {
+        "key": "reaction-subtraction-2-reaction1",
+        "value": "a. 2"
+    },
+    {
+        "key": "reaction-subtraction-2-reaction2",
+        "value": "b. 2.5"
+    },
+    {
+        "key": "reaction-subtraction-2-reaction3",
+        "value": "c. 3"
+    },
+    {
+        "key": "reaction-subtraction-2-reaction4",
+        "value": "d. 3.5"
+    },
+    {
+        "key": "feedback-subtraction-2",
+        "value": "যেহেতু 400টি বাক্স সংরক্ষণ করার জন্য 2.5 র‍্যাক প্রয়োজন, তাই সেগুলি সংরক্ষণ করার পরে খোলা থাকবে এমন র‍্যাকের সংখ্যা = `6 - 2.5 = 3.5` র‍্যাক"
+    },
+    {
+        "key": "description-multiply-3",
+        "value": "মোবাইল ফোনের একটি প্যালেটের প্রতিটি স্তরে 5টি বাক্স থাকে এবং প্যালেটে 7টি স্তরের বাক্স থাকে। প্রতিটি বাক্সে 12টি ইউনিট বা 12টি ফোন রয়েছে৷ প্যালেটে মোট কত ইউনিট ফোন আছে?"
+    },
+    {
+        "key": "multiply-3-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/racks.png"
+    },
+    {
+        "key": "reaction-multiply-3-reaction1",
+        "value": "a. 70"
+    },
+    {
+        "key": "reaction-multiply-3-reaction2",
+        "value": "b. 280"
+    },
+    {
+        "key": "reaction-multiply-3-reaction3",
+        "value": "c. 420"
+    },
+    {
+        "key": "reaction-multiply-3-reaction4",
+        "value": "d. 1008"
+    },
+    {
+        "key": "feedback-multiply-3",
+        "value": "প্যালেটে মোট ফোনের 420 ইউনিট রয়েছে।\n \n একটি প্যালেট স্তরে বাক্সের সংখ্যা = `5`\n \n প্যালেট স্তরের সংখ্যা = `7`\n \n প্যালেটে বাক্সের সংখ্যা = `5 x 7 = 35` বাক্স\n \n একটি বাক্সে ইউনিটের সংখ্যা = `12`\n \n 35টি বাক্সে মোট ইউনিটের সংখ্যা = `12 x 35 = 420` ইউনিট"
+    },
+    {
+        "key": "description-combination",
+        "value": "আপনাকে ওয়্যারহাউজে কম্পিউটার মনিটরের তালিকা নিতে হবে, অর্থাৎ, আপনাকে ওয়্যারহাউজে সংরক্ষিত কম্পিউটার মনিটরের মোট সংখ্যা গণনা করতে হবে।\n \n আপনি দেখতে পাচ্ছেন যে একটি বিভাগে এই আইটেমের 12টি সম্পূর্ণ প্যালেট এবং ওয়্যারহাউজের অন্য বিভাগে 8টি আলগা বাক্স রয়েছে। প্রতিটি প্যালেটে 2টি স্তর রয়েছে যার প্রতিটি স্তরে 5টি বাক্স রয়েছে। প্রতিটি বাক্সে একটি একক রয়েছে। ওয়্যারহাউজে কয়টি কম্পিউটার মনিটর সংরক্ষণ করা হয়?"
+    },
+    {
+        "key": "combination-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/two_pallets.png"
+    },
+    {
+        "key": "reaction-combination-reaction1",
+        "value": "a. 100"
+    },
+    {
+        "key": "reaction-combination-reaction2",
+        "value": "b. 128"
+    },
+    {
+        "key": "reaction-combination-reaction3",
+        "value": "c. 156"
+    },
+    {
+        "key": "reaction-combination-reaction4",
+        "value": "d. 184"
+    },
+    {
+        "key": "feedback-combination",
+        "value": "প্যালেটের সংখ্যা = `12`\n \n প্যালেট স্তরের সংখ্যা = `2`\n \n একটি প্যালেট স্তরে বাক্সের সংখ্যা = `5`\n \n একটি প্যালেটে বাক্সের সংখ্যা = `2 x 5 = 10`\n \n 12টি প্যালেটে বাক্সের সংখ্যা = `10 x 12 = 120`\n \n আলগা বাক্সের সংখ্যা = `8`\n \n বাক্সের মোট সংখ্যা = `120 + 8 = 128`\n \n যেহেতু প্রতিটি বাক্সে শুধুমাত্র একটি ইউনিট আছে, ওয়্যারহাউজে কম্পিউটার মনিটরের 128 ইউনিট রয়েছে।"
+    },
+    {
+        "key": "description-division-2",
+        "value": "গ্রাহক অর্ডারের জন্য আপনাকে 60 ইউনিট প্রেসার কুকার পিক করতে হবে। প্রতিটি বাক্সে 4 টি ইউনিট থাকলে আপনার কতগুলি বাক্স পিক করা উচিত?"
+    },
+    {
+        "key": "division-2-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/pallets_and_racks.png"
+    },
+    {
+        "key": "reaction-division-2-reaction1",
+        "value": "a. 15"
+    },
+    {
+        "key": "reaction-division-2-reaction2",
+        "value": "b. 20"
+    },
+    {
+        "key": "reaction-division-2-reaction3",
+        "value": "c. 25"
+    },
+    {
+        "key": "reaction-division-2-reaction4",
+        "value": "d. 30"
+    },
+    {
+        "key": "feedback-division-2",
+        "value": "আপনাকে 15 টি বাক্স বেছে নিতে হবে।\n \n নির্বাচিত ইউনিটের সংখ্যা = '60'\n \n একটি বাক্সে ইউনিটের সংখ্যা = '4'\n \n পিক করা বাক্সের সংখ্যা = '60/4 = 15' বাক্স"
+    },
+    {
+        "key": "description-combination-2",
+        "value": "ওয়্যারহাউজে 1050 ইউনিট প্রেসার কুকার ছিল। আপনি একটি গ্রাহক অর্ডারের জন্য 15 টি বাক্স পিক করেছেন। প্রতিটি বাক্সে ৪টি ইউনিট রয়েছে। ওয়্যারহাউজে এখন কয়টি প্রেসার কুকার অবশিষ্ট আছে?"
+    },
+    {
+        "key": "combination-2-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/cart_with_15_boxes.png"
+    },
+    {
+        "key": "reaction-combination-2-reaction1",
+        "value": "a. 890"
+    },
+    {
+        "key": "reaction-combination-2-reaction2",
+        "value": "b. 900"
+    },
+    {
+        "key": "reaction-combination-2-reaction3",
+        "value": "c. 990"
+    },
+    {
+        "key": "reaction-combination-2-reaction4",
+        "value": "d. 1008"
+    },
+    {
+        "key": "feedback-combination-2",
+        "value": "ওয়্যারহাউজে 990টি প্রেসার কুকার অবশিষ্ট রয়েছে।\n \n পিক করা বাক্সের সংখ্যা = `15`\n \n একটি বাক্সে ইউনিটের সংখ্যা = '4'\n \n নির্বাচিত ইউনিটের সংখ্যা = '15 x 4 = 60'\n \n পিক করার আগে মোট ইউনিটের সংখ্যা = '1050'\n \n পিক করার পরে মোট ইউনিটের সংখ্যা = '1050 - 60 = 990'"
+    }
+],
+  "levelsCompleted": []
+}

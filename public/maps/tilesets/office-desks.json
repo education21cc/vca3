@@ -1,0 +1,64 @@
+{"frames": {
+
+"tile-office-desk-cantina-01.png":
+{
+	"frame": {"x":2,"y":2,"w":164,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":122},
+	"sourceSize": {"w":164,"h":122}
+},
+"tile-office-desk-cantina-02.png":
+{
+	"frame": {"x":166,"y":2,"w":164,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":122},
+	"sourceSize": {"w":164,"h":122}
+},
+"tile-office-desk-cantina-03.png":
+{
+	"frame": {"x":330,"y":2,"w":164,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":122},
+	"sourceSize": {"w":164,"h":122}
+},
+"tile-office-desk-wood-01.png":
+{
+	"frame": {"x":494,"y":2,"w":134,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":134,"h":122},
+	"sourceSize": {"w":134,"h":122}
+},
+"tile-office-desk-wood-02.png":
+{
+	"frame": {"x":628,"y":2,"w":135,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":122},
+	"sourceSize": {"w":135,"h":122}
+},
+"tile-office-desk-wood-03.png":
+{
+	"frame": {"x":763,"y":2,"w":134,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":134,"h":122},
+	"sourceSize": {"w":134,"h":122}
+}},
+"animations": {
+	"tile-office-desk-cantina": ["tile-office-desk-cantina-01.png","tile-office-desk-cantina-02.png","tile-office-desk-cantina-03.png"],
+	"tile-office-desk-wood": ["tile-office-desk-wood-01.png","tile-office-desk-wood-02.png","tile-office-desk-wood-03.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "office-desks.png",
+	"format": "RGBA8888",
+	"size": {"w":899,"h":126},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:de447f26981b1c49f3d3c484c76ab6e8:ea078e522953357b0b8d508f2d0e03b0:4860242fd68c745b4d6e053ed2f65779$"
+}
+}

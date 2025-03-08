@@ -1,0 +1,30 @@
+{"frames": {
+
+"tile-people-pallet-boxes-01.png":
+{
+	"frame": {"x":192,"y":4,"w":121,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":121,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"tile-people-pallet-manyboxes-01.png":
+{
+	"frame": {"x":4,"y":4,"w":184,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":23,"w":184,"h":170},
+	"sourceSize": {"w":192,"h":193}
+}},
+"animations": {
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "people-pallet.png",
+	"format": "RGBA8888",
+	"size": {"w":317,"h":178},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8642b3475b53c42ed01422a9e25eee71:4cd90b5302f56c4fa612e94c81728d3f:af77147948f56275885cc8ef26dac969$"
+}
+}

@@ -1,0 +1,19 @@
+.instructions-box {
+  position: absolute;
+  left: 32px;
+  right: 32px;
+  top: 32px;
+  background: white;
+  padding: 16px;
+  font-size: larger;
+  border-radius: 8px;
+  transition: opacity 0.5s;
+
+  @media (max-width: 768px) {
+    padding: 8px;
+  }
+
+  button {
+    margin-left: 16px;
+  }
+}

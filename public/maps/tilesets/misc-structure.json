@@ -1,0 +1,71 @@
+{"frames": {
+
+"tile-misc-structure-aed-left.png":
+{
+	"frame": {"x":0,"y":0,"w":128,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":192},
+	"sourceSize": {"w":128,"h":192}
+},
+"tile-misc-structure-aed-right.png":
+{
+	"frame": {"x":128,"y":0,"w":128,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":192},
+	"sourceSize": {"w":128,"h":192}
+},
+"tile-misc-structure-fireextinguisher-1.png":
+{
+	"frame": {"x":256,"y":0,"w":128,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":224},
+	"sourceSize": {"w":128,"h":224}
+},
+"tile-misc-structure-fireextinguisher-2.png":
+{
+	"frame": {"x":0,"y":224,"w":128,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":224},
+	"sourceSize": {"w":128,"h":224}
+},
+"tile-misc-structure-fireextinguisher-3.png":
+{
+	"frame": {"x":128,"y":224,"w":128,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":224},
+	"sourceSize": {"w":128,"h":224}
+},
+"tile-misc-structure-light.png":
+{
+	"frame": {"x":256,"y":224,"w":128,"h":544},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":544},
+	"sourceSize": {"w":128,"h":544}
+},
+"tile-misc-structure-lightspot.png":
+{
+	"frame": {"x":0,"y":768,"w":384,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":384,"h":224},
+	"sourceSize": {"w":384,"h":224}
+}},
+"animations": {
+	"tile-misc-structure-fireextinguisher": ["tile-misc-structure-fireextinguisher-1.png","tile-misc-structure-fireextinguisher-2.png","tile-misc-structure-fireextinguisher-3.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "misc-structure.png",
+	"format": "RGBA8888",
+	"size": {"w":384,"h":992},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4fa7501c04184e5458fbdf16d0bfbb17:ee454b84549d4f2d9763e1db68cf05bc:604b1fef0f7baa39165d900c9d8583ab$"
+}
+}

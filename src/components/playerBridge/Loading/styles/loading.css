@@ -1,0 +1,140 @@
+.loading-background {
+    background: #47C3FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.white-block {
+    background: #FFFFFF;
+    width: 128px;
+    height: 128px;
+    position: relative;
+}
+
+.blue-block {
+    background: #47C3FF;
+    width: 50%;
+    height: 50%;
+    animation: square-round-the-world 3.5s none 200ms infinite;
+    position: absolute;
+}
+
+@keyframes square-round-the-world {
+    0% { transform: translate(-1px, -1px) }
+    15% { transform: translate(-1px, 100%) }
+    25% { transform: translate(-1px, 100%) }
+    40% { transform: translate(100%, 100%) }
+    50% { transform: translate(100%, 100%) }
+    60% { transform: translate(100%, -1px) }
+    70% { transform: translate(100%, -1px) }
+    90% { transform: translate(-1px, -1px) }
+}
+
+.outset {
+    background: white;
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    animation: outside-go-out 3.5s none 200ms infinite;
+}
+
+@keyframes outside-go-out {
+    0% { right: 0; top: 0}
+    50% { right: 0; top: 0}
+    60% { right: -20%; top: -20% }
+    70% { right: -20%; top: -20% }
+    90% { right: 0; top: 0 }
+    100% { right: 0; top: 0 }
+}
+
+.subtext {
+    margin-top: 32px;
+    color: white;
+    font: 26px 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.dot1 {
+    animation: visibility 3s linear infinite;
+}
+
+@keyframes visibility {
+    0% {
+        opacity: 1;
+    }
+
+    65% {
+        opacity: 1;
+    }
+
+    66% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.dot2 {
+    animation: visibility2 3s linear infinite;
+}
+
+@keyframes visibility2 {
+    0% {
+        opacity: 0;
+    }
+
+    21% {
+        opacity: 0;
+    }
+
+    22% {
+        opacity: 1;
+    }
+
+    65% {
+        opacity: 1;
+    }
+
+    66% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.dot3 {
+    animation: visibility3 3s linear infinite;
+}
+
+@keyframes visibility3 {
+    0% {
+        opacity: 0;
+    }
+
+    43% {
+        opacity: 0;
+    }
+
+    44% {
+        opacity: 1;
+    }
+
+    65% {
+        opacity: 1;
+    }
+
+    66% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

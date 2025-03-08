@@ -1,0 +1,28 @@
+{"frames": {
+
+"tile-transport-forklift-A-left.png":
+{
+	"frame": {"x":0,"y":0,"w":256,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":224},
+	"sourceSize": {"w":256,"h":224}
+},
+"tile-transport-forklift-A-right.png":
+{
+	"frame": {"x":0,"y":224,"w":257,"h":225},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":257,"h":225},
+	"sourceSize": {"w":257,"h":225}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "transports-forklifts.png",
+	"format": "RGBA8888",
+	"size": {"w":257,"h":449},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:676817ccee57a0c6d2392d37a91c5a53:0f74aff366dbfb8f734db40e0aa903b4:73018447053f0f897dc9290985d0b57c$"
+}
+}

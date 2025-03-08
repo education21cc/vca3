@@ -1,0 +1,115 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+  },
+  "content": {
+    "mapJson": "maps/testmap3.json",
+    "stars": 1,
+    "finder": {
+      "situations": [
+        "extinguisher5",
+        "extinguisher4",
+        "extinguisher3",
+        "extinguisher2",
+        "extinguisher1"
+      ],
+      "final": {
+        "url": "https://21cccdn.blob.core.windows.net/21cc/webgl_portfolio/games/OrderGame/",
+        "data": {
+          "userId": 1,
+          "settings": {
+            "muted": false
+          },
+          "content": {
+            "stepsAmount": 5
+          },
+          "translations": [{
+              "key": "step_1",
+              "value": "Stop onmiddellijk met werken (eigen veiligheid)"
+            },
+            {
+              "key": "step_2",
+              "value": "Verwittig je opdrachtgever en volg zijn instructies"
+            },
+            {
+              "key": "step_3",
+              "value": "Ga naar de evacuatieplaats en loop bovenwinds bij gevaarlijke dampen"
+            },
+            {
+              "key": "step_4",
+              "value": "Meld je op de evacuatieplaats"
+            },
+            {
+              "key": "step_5",
+              "value": "Pas de evacuatieplaats verlaten als daar toestemming voor is."
+            },
+            {
+              "key": "task",
+              "value": "Zet in de juiste volgorde"
+            },
+            {
+              "key": "fail_message_short",
+              "value": "Sorry,"
+            },
+            {
+              "key": "fail_message_long",
+              "value": "De volgorde is niet juist. Probeer het nog eens!"
+            },
+            {
+              "key": "win_message_short",
+              "value": "Goed!"
+            },
+            {
+              "key": "win_message_long",
+              "value": "Dit is juiste volgorde. Je hebt 1 ster verdiend!"
+            },
+            {
+              "key": "introduction_short",
+              "value": "Noodsituaties"
+            },
+            {
+              "key": "introduction_long",
+              "value": "Deze game heeft z'n config van VCA game gekregen. omg wat cool!"
+            }
+          ],
+          "levelsCompleted": [{
+            "level": 1,
+            "score": 2,
+            "maxScore": 2
+          }]
+        }
+      }
+    }
+  },
+  "translations": [{
+      "key": "intro-header",
+      "value": "Brandblussers in het magazijn"
+    },
+    {
+      "key": "intro-description",
+      "value": "Klik op alle brandblussers en beantwoord daarna de vraag om 1 ster te verdienen. Succes! "
+    },
+    {
+      "key": "intro-start",
+      "value": "Start"
+    },
+    {
+      "key": "intro-stars-to-gain",
+      "value": "{0}/{1} verdiend"
+    },
+    {
+      "key": "button-next",
+      "value": "Next"
+    },
+    {
+      "key": "finder-instruction",
+      "value": "Vind 5 brandbrussers"
+    }
+  ],
+  "levelsCompleted": [{
+    "level": 0,
+    "score": 6,
+    "maxScore": 8
+  }]
+}

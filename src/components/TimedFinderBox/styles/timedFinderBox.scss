@@ -1,0 +1,19 @@
+.timed-finder-box {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  background: white;
+  padding: 16px;
+  font-size: larger;
+  border-radius: 8px;
+  display: flex;
+
+  @media (max-width: 768px) {
+    padding: 8px;
+  }
+
+  .items-remain {
+    margin-right: 0.5rem;
+    margin-top: 0.25rem;
+  }
+}

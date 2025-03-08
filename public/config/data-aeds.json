@@ -1,0 +1,93 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+      "mapJson": "maps/testmap3.json",
+      "stars": 1,
+      "finder": {
+        "situations": ["aed1", "aed2", "aed3"],
+        "final": {
+            "url-": "https://21cccdn.blob.core.windows.net/21cc/webgl_portfolio/games/ConveyorGame/",
+            "url": "http://localhost:61703/",
+            "data": {
+                "userId": 7,
+                "settings": {
+                    "muted": false
+                },
+                "content": {
+                    "increase": ["Raindrops on roses", "Whiskers on kittens", "Bright copper kettles", "warm woolen mittens"],
+                    "reduce": ["The dog bites", "The bee stings", "I'm feeling sad"],
+                    "winCondition": 2
+                },
+                "translations": [{
+                "key": "intro-header",
+                "value": "Intro"
+                }, {
+                "key": "intro-description",
+                "value": "Test your knowledge. Swipe the boxes as they come along the conveyor belt to 'increase' or 'reduce' slots. Don't let the boxes fall to the ground!"
+                }, {
+                "key": "intro-button",
+                "value": "Start"
+                }, {
+                "key": "lose-header",
+                "value": "Game Over"
+                }, {
+                "key": "lose-description",
+                "value": "You lost all your hearts!"
+                }, {
+                "key": "lose-button",
+                "value": "Try again?"
+                }, {
+                "key": "win-header",
+                "value": "Good job!"
+                }, {
+                "key": "win-description",
+                "value": "You sure know about warehouse management."
+                }, {
+                "key": "win-button",
+                "value": "Continue"
+                }, {
+                "key": "left-area",
+                "value": "Favourite things"
+                }, {
+                "key": "right-area",
+                "value": "Crappy things"
+                }], "levelsCompleted": [{
+                "level": 1,
+                "score": 2,
+                "maxScore": 2
+                }]
+            }
+        }
+      }
+  },
+  "translations": [{
+      "key": "intro-header",
+      "value": "Automatische externe defibrillator"
+  }, {
+    "key": "intro-description",
+    "value": "Een automatische externe defibrillator (AED) of hartstarter is een draagbaar toestel dat wordt gebruikt bij de reanimatie van een persoon met een hartstilstand (circulatiestilstand). Indien de hartstilstand het gevolg is van bepaalde levensbedreigende ritmestoornissen (ventrikelfibrilleren of polsloze ventrikeltachycardie) kan een elektrische schok van een AED het gestoorde hartritme doen stoppen."
+  }, {
+    "key": "intro-start",
+    "value": "Start"
+  }, {
+    "key": "intro-stars-to-gain",
+    "value": "{0}/{1} verdiend"
+  }, {
+    "key": "button-next",
+    "value": "Next"
+  }, {
+    "key": "finder-instruction",
+    "value": "Vind 3 AED's"
+  }],
+  "levelsCompleted": [{
+    "level": 0,
+    "score": 6,
+    "maxScore": 8
+
+  }]
+
+}

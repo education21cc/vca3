@@ -1,0 +1,108 @@
+{"frames": {
+
+"tile-structure-door-blue-left.png":
+{
+	"frame": {"x":2,"y":2,"w":128,"h":262},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":262},
+	"sourceSize": {"w":128,"h":262}
+},
+"tile-structure-door-blue-right.png":
+{
+	"frame": {"x":130,"y":2,"w":128,"h":262},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":262},
+	"sourceSize": {"w":128,"h":262}
+},
+"tile-structure-door-docks-right-open.png":
+{
+	"frame": {"x":258,"y":2,"w":192,"h":288},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":288},
+	"sourceSize": {"w":192,"h":288}
+},
+"tile-structure-door-docks-right.png":
+{
+	"frame": {"x":2,"y":290,"w":192,"h":288},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":288},
+	"sourceSize": {"w":192,"h":288}
+},
+"tile-structure-door-emergency-b-left.png":
+{
+	"frame": {"x":194,"y":290,"w":128,"h":262},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":262},
+	"sourceSize": {"w":128,"h":262}
+},
+"tile-structure-door-emergency-b-right.png":
+{
+	"frame": {"x":322,"y":290,"w":128,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":236},
+	"sourceSize": {"w":128,"h":236}
+},
+"tile-structure-door-emergency-c-left.png":
+{
+	"frame": {"x":2,"y":578,"w":129,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":224},
+	"sourceSize": {"w":129,"h":224}
+},
+"tile-structure-door-emergency-c-right.png":
+{
+	"frame": {"x":131,"y":578,"w":128,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":224},
+	"sourceSize": {"w":128,"h":224}
+},
+"tile-structure-door-emergency-left.png":
+{
+	"frame": {"x":259,"y":578,"w":128,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":192},
+	"sourceSize": {"w":128,"h":192}
+},
+"tile-structure-door-emergency-right.png":
+{
+	"frame": {"x":2,"y":802,"w":128,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":192},
+	"sourceSize": {"w":128,"h":192}
+},
+"tile-structure-door-red-left.png":
+{
+	"frame": {"x":130,"y":802,"w":128,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":192},
+	"sourceSize": {"w":128,"h":192}
+},
+"tile-structure-door-red-right.png":
+{
+	"frame": {"x":258,"y":802,"w":128,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":192},
+	"sourceSize": {"w":128,"h":192}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "structure-door.png",
+	"format": "RGBA8888",
+	"size": {"w":452,"h":996},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:88bb01395a7b29a62a41a6f1fbaf1fb6:97dee755bae7ab33b88a232e99891d0c:9f9fb0116562c3d03c55fa92773391e5$"
+}
+}

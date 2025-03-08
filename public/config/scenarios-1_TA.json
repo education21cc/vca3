@@ -1,0 +1,303 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+      "mapJson": "maps/scenarios-1.json",
+      "stars": 4,
+      "scenarios": {
+        "together-cantina": {
+          "location": [8, 14],
+          "image": "description-together-cantina-image",
+          "imageFeedback": "description-together-cantina-image-feedback",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "agv-walk": {
+          "location": [49, 18],
+          "image": "description-agv-walk-image",
+          "imageFeedback": "description-agv-walk-image-feedback",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "store-cargo": {
+          "location": [45, 25],
+          "image": "description-store-cargo-image",
+          "imageFeedback": "description-store-cargo-image-feedback",
+          "hotspots": [{
+            "image": "description-store-cargo-hotspot-image",
+            "hotspot": "description-store-cargo-hotspot-hotspot",
+            "left": 51.2,
+            "top": 78.8,
+            "width": 14.6
+          }],
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2",
+            "correct": true
+          }, {
+            "id": "reaction3"
+          }]
+        },
+        "emergency-door": {
+          "location": [23, -2],
+          "image": "description-emergency-door-image",
+          "imageFeedback": "description-emergency-door-image-feedback",
+          "reactions": [{
+            "id": "reaction1",
+            "correct": true
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3"
+          }]
+        }
+      }
+  },
+  "translations": [
+    {
+        "key": "intro-header",
+        "value": "பின்வரும் சூழ்நிலைகாட்சிகளில் நீங்கள் என்ன செய்ய வேண்டும்?"
+    },
+    {
+        "key": "intro-description",
+        "value": "இந்தக் கிடங்கில் அமைந்துள்ள சிவப்பு மார்க்கர்கள் உங்களை வெவ்வேறு சூழ்நிலை காட்சிகளுக்கு அழைத்துச் செல்லும். மார்க்கரைக் கிளிக் செய்ததும், சூழ்நிலை விவரிக்கப்பட்டு அதற்கேற்ற  கேள்வி கேட்கப்படும். உங்கள் பதிலை பதிவிட்ட பிறகு, சரியான பதிலிற்கான விளக்கத்தைப் பெறுவீர்கள். ஒவ்வொரு சரியான பதிலிற்கும், உங்களுக்கு ஒரு நட்சத்திரம் கிடைக்கும்.  "
+    },
+    {
+        "key": "intro-start",
+        "value": "தொடங்கு"
+    },
+    {
+        "key": "intro-stars-to-gain",
+        "value": "{0}/{1} ஈட்டப்பட்டது"
+    },
+    {
+        "key": "button-next",
+        "value": "அடுத்து"
+    },
+    {
+        "key": "button-prev",
+        "value": "பின்னே"
+    },
+    {
+        "key": "button-check",
+        "value": "சரி பார்க்கவும்    "
+    },
+    {
+        "key": "button-continue",
+        "value": "தொடரவும்"
+    },
+    {
+        "key": "reactions",
+        "value": "தேர்வுகள்"
+    },
+    {
+        "key": "feedback-correct",
+        "value": "சரி "
+    },
+    {
+        "key": "feedback-wrong",
+        "value": "தவறு "
+    },
+    {
+        "key": "complete-header",
+        "value": "வாழ்த்துக்கள்"
+    },
+    {
+        "key": "complete-score",
+        "value": "மொத்த புள்ளிகள்"
+    },
+    {
+        "key": "complete-try-again",
+        "value": "மீண்டும்"
+    },
+    {
+        "key": "complete-exit",
+        "value": "வெளியேறு"
+    },
+    {
+        "key": "feedback",
+        "value": "பின்னூட்டம்"
+    },
+    {
+        "key": "description-together-cantina",
+        "value": "நீங்கள் உங்கள் சக ஊழியருடன் கேண்டீனுக்குச் செல்கிறீர்கள். இந்தப் படத்தில் உள்ள பாதையின் இடது பக்கம் நீங்கள் அருகருகே நடந்து செல்கிறீர்கள். இதைச் செய்ய உங்களுக்கு அனுமதி உள்ளதா?"
+    },
+    {
+        "key": "description-together-cantina-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/together-cantina/together-cantina-description-ta.png"
+    },
+    {
+        "key": "description-together-cantina-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/together-cantina/together-cantina-outcome-ta.png"
+    },
+    {
+        "key": "reaction-together-cantina-reaction1",
+        "value": "1. ஆம், இடதுபுறம் உள்ள பாதை கேன்டீனுக்கு செல்லும் பாதசாரிகளுக்கானது."
+    },
+    {
+        "key": "reaction-together-cantina-reaction2",
+        "value": "2. இல்லை, நீங்கள் பாதையின் வலது பக்கத்தில் நடக்க வேண்டும். முடிந்தவரை எப்போதும் வலது பக்கத்தில் இருங்கள்."
+    },
+    {
+        "key": "reaction-together-cantina-reaction3",
+        "value": "\n3. இல்லை, பாதை மிகவும் குறுகலாக இருப்பதால் அருகருகே நடக்க முடியாது"
+    },
+    {
+        "key": "reaction-together-cantina-reaction4",
+        "value": "4. இல்லை, இந்த பாதையில் நடக்க உங்களுக்கு அனுமதி இல்லை. இந்த முழு பாதையும் தானியங்கி வாகனங்களுக்கானது (AGVs)."
+    },
+    {
+        "key": "feedback-together-cantina",
+        "value": "நியமிக்கப்பட்ட நடைபாதைகள் முக்கியம், ஏனென்றால் அவை மக்களுக்கும் இயந்திரங்களுக்கும் இடையில் மோதல்களைத் தடுக்கும்.\r\n\r\nஎப்போதும் நியமிக்கப்பட்ட வழிகளைப் பின்பற்றவும் மற்றும் உங்களைச் சுற்றியுள்ள ஆபத்துகளைப் பற்றி எச்சரிக்கையாக இருங்கள்.\r\n\r\nஇந்நிலையில், கேன்டீனுக்கு இடதுபுறம் நடைபாதை உள்ளது. ஆனால், தோளோடு தோள் சேர்ந்து நடக்கும் அளவுக்கு இந்தப் பாதை அகலமாக இல்லை. எனவே இந்த சூழ்நிலையில் நீங்கள் பாதையின் இடது பக்கத்தில் ஒருவர் பின் ஒருவராக நடக்க வேண்டும்.\r\n\r\nதானியங்கி வாகனங்கள் (AGVs) மிகவும் அமைதியாக செயல்படுபவை மற்றும் கனரக பொருட்களை எடுத்துச் செல்பவை. எனவே முடிந்தவரை வெவ்வேறு பாதைகளில் நடப்பது பாதுகாப்பானது. "
+    },
+    {
+        "key": "description-agv-walk",
+        "value": "நீங்கள் வெளியேறும் இடத்திற்கு செல்ல வேண்டும். விரைவாக செல்ல, தானியங்கி வாகன (ஏஜிவி) பாதைகளில் (தரையில் உள்ள சிவப்பு மற்றும் கருப்பு கோடுகள்) வெளியேற அனுமதி உண்டா?\n\n "
+    },
+    {
+        "key": "description-agv-walk-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/agv-walk/agv-walk-description-ta.png"
+    },
+    {
+        "key": "description-agv-walk-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/agv-walk/agv-walk-outcome-ta.png"
+    },
+    {
+        "key": "reaction-agv-walk-reaction1",
+        "value": "1. இல்லை, ஒரு பாதசாரியாக நீங்கள் AGV கோடுகளில் நடக்க அனுமதி இல்லை. அத்தகைய சூழ்நிலையில் நீங்கள் எப்போதும் தெளிவாக சுட்டிக்காட்டப்பட்ட நடைபாதையை தேடி கண்டுபிடிக்க வேண்டும்.\r\n  "
+    },
+    {
+        "key": "reaction-agv-walk-reaction2",
+        "value": "2. ஆம், ஆனால் நீங்கள் வேலை காலணிகள் மற்றும் பாதுகாப்பு ஹெல்மெட் அணிய வேண்டும்.\r\n"
+    },
+    {
+        "key": "reaction-agv-walk-reaction3",
+        "value": "3. ஆம், நீங்கள் கவனமாக உள்ளவரை "
+    },
+    {
+        "key": "reaction-agv-walk-reaction4",
+        "value": "4. இல்லை, நீங்களே ஒரு ஃபோர்க்லிஃப்டில் பாதுகாப்பாக இருந்தால் மட்டுமே இது அனுமதிக்கப்படும்"
+    },
+    {
+        "key": "feedback-agv-walk",
+        "value": "மோதல்கள் மற்றும் நெரிசலைத் தவிர்க்க நடைபாதைகள் முக்கியம். துரதிர்ஷ்டவசமாக, தெளிவான நடைபாதைகள் எப்போதும் குறிப்பிடப்படுவதில்லை அல்லது வெவ்வேறு வழிகள் சந்திக்கும் இடங்கள் இருக்கலாம். VCA இன் படி நடைபாதைகள் இருப்பதும் கட்டாயமில்லை.\r\n\r\nதெளிவான நடை பாதைகள் இல்லை என்றால், நீங்கள் வழக்கமாக AGV பாதைகளை நடக்க அல்லது கடக்க அனுமதிக்கப்படுவீர்கள்.\r\n\r\nஉங்கள் பணியிடத்தில் இது தொடர்பான விதிகளைப் பற்றி உங்கள் அணி தலைவரிடம் நேரடியாகக் கேளுங்கள். இது உங்கள் நிறுவனத்தின் பாதுகாப்புத் திட்டம் அல்லது பாதுகாப்பு வழிமுறைகளில் குறிப்பிடப்பட வேண்டும்.\r\n\r\nநிறுவனங்கள் ஊழியர்களுக்கு பாதுகாப்பு திட்டம் பற்றி தெரிவிக்கவும், அது எவ்வாறு செயல்படுகிறது என்பதை கற்பிக்கவும் பணி இட நிலை  சட்டங்கள் கட்டாயப்படுத்துகின்றன. இந்த சட்டங்களின்படி, நீங்கள் அந்தத் திட்டங்களையும் அறிவுறுத்தல்களையும் தெரிந்துகொள்ளக் கடமைப்பட்டிருக்கிறீர்கள்."
+    },
+    {
+        "key": "description-store-cargo",
+        "value": "டிரக் டிரைவர் ஆறு பேலட்டுகளை கொண்ட பெரிய பெட்டிகளை கப்பல்துறையில் விட்டுவிட்டார்.\r\n\r\nஉங்கள் அணி தலைவர், கிடங்கில் உள்ள பேலட் டிரக்கை உபயோகித்து  அவற்றை சரியான இடத்தில் வைக்கும்படி கேட்கிறார். தொடர்புடைய ஆர்டர் படிவம் உங்களிடம் உள்ளது. நீங்கள் பயன்படுத்தக்கூடிய பேலட் டிரக் பற்றிய கூடுதல் விவரங்களும் உங்களிடம் உள்ளது. நீங்கள் என்ன செய்ய வேண்டும்?"
+    },
+    {
+        "key": "description-store-cargo-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-description-ta.png"
+    },
+    {
+        "key": "description-store-cargo-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-outcome-ta.png"
+    },
+    {
+        "key": "description-store-cargo-hotspot-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-insert-ta.png"
+    },
+    {
+        "key": "description-store-cargo-hotspot-hotspot",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-hotspot.png"
+    },
+    {
+        "key": "reaction-store-cargo-reaction1",
+        "value": "1. நீங்கள் பேலட் டிரக்கை எடுத்து சரியான இடத்தில் பேலட்களை ஒவ்வொன்றாக வைக்க வேண்டும்."
+    },
+    {
+        "key": "reaction-store-cargo-reaction2",
+        "value": "2. இந்த பேலட்களை கொண்டு செல்வதற்கு ஒரு பேலட்டிரக் பொருத்தமானது அல்ல என்பதை உங்கள் அணி தலைவரிடம் சொல்ல வேண்டும்.\r"
+    },
+    {
+        "key": "reaction-store-cargo-reaction3",
+        "value": "3. ஃபோர்க்லிஃப்ட் மூலம் பேலட்களை நகர்த்தும்படி சக ஊழியரிடம்  கூற வேண்டும்."
+    },
+    {
+        "key": "feedback-store-cargo",
+        "value": "பேலட்களின்  எடை 2750 கிலோ என்று ஆர்டர் படிவம் கூறுகிறது. உங்கள் பேலட்டிரக் 2500 கிலோ சுமை திறன் கொண்டது என்று கூறுகிறது.\r\n\r\nஅனைத்து வேலை உபகரணங்களும் குறிப்பிட்ட வரம்புகளுக்குள் மட்டுமே பயன்படுத்தப்பட வேண்டும். இந்த பேலட் டிரக் மூலம் நீங்கள் 2500 கிலோ அல்லது அதற்கும் குறைவான எடையுள்ள சுமைகளை நகர்த்தலாம்.\r\n\r\nஇந்த பேலட் டிரக் மூலம் 2750 கிலோ பேலட்களை நகர்த்த முடியும், ஆனால் இது ஆபத்தான சூழ்நிலையை உருவாக்கும் என்பதால் அதிகாரப்பூர்வமாக அனுமதிக்கப்படவில்லை.\r\n\r\nபேலட்கள் மிகவும் கனமாக இருப்பதால், இந்த பேலட் டிரக் பொருத்தமானது அல்ல என்று உங்கள் அணி \r\n தலைவரிடம் சொல்லுங்கள்.\r\n\r\nஒருவேளை ஃபோர்க்லிஃப்ட் மூலம் இந்த பேலட்களை நீங்கள் நகர்த்தலாம் ஆனால் இந்த கப்பற் துறைமுக மேடை ஃபோர்க்லிஃப்ட்களை அதில் பயன்படுத்த அனுமதிக்காது. எனவே பேலட் டிரக் இந்த வேலைக்கு ஏற்றதல்ல என்பதை முதலில் உங்கள் அணி தலைவரிடம் தெரிவிக்கவும்."
+    },
+    {
+        "key": "description-emergency-door",
+        "value": "விரைவாக காபி சாப்பிடுவதற்கு இது ஒரு நல்ல இடமாகத் தெரிகிறது. அது அனுமதிக்கப்படுமா?"
+    },
+    {
+        "key": "description-emergency-door-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/emergency-door-description-ta.png"
+    },
+    {
+        "key": "description-emergency-door-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/emergency-door-outcome-ta.png"
+    },
+    {
+        "key": "reaction-emergency-door-reaction1",
+        "value": "1. ஆம். அவசரகால கதவு திறந்தே இருக்கும், அதனால் காபிக்குப் பிறகு எளிதாக உள்ளே செல்லலாம்."
+    },
+    {
+        "key": "reaction-emergency-door-reaction2",
+        "value": "2. ஆம், ஆனால் அவசரகால கதவு சீக்கிரம் சரியாக மூடப்பட வேண்டும், எனவே நீங்கள் அதை வெளியில் இருந்து திறக்க முடியாது."
+    },
+    {
+        "key": "reaction-emergency-door-reaction3",
+        "value": "3. இல்லை, அவசர கதவு என்பது அவசர தேவைகளுக்கு மட்டுமே."
+    },
+    {
+        "key": "feedback-emergency-door",
+        "value": "கீழே உள்ள பச்சை நிற ஐகானால் அவசர கதவு குறிக்கப்படுகிறது.\r\n\r\nபாதுகாப்புக் கண்ணோட்டத்தில் அவசர கதவு திறந்தே இருக்கலாம். ![](https://21cccdn.blob.core.windows.net/21cc/games/images/flashcards/vca/veiligheidsvoorzieningen-uitgang-die-tevens-dient-als-nooduitgang.png)\r\n\r\nதீ விபத்து அவசர கதவுகள் தீ தடுப்பு அமைப்பைக் கொண்டுள்ளதால் அவை திறக்கப்பட முடிந்தாலும், கதவு திறந்தே  இருந்தால் அந்த அமைப்பு வேலை செய்யாது என்பதால் திறந்திருக்கக்கூடாது. தீ விபத்து கதவை கீழே உள்ள சிவப்பு அடையாளத்தால் அடையாளம் காணலாம் அல்லது கதவில் எழுத்துக்களில் எழுதப்பட்டிருக்கும். ![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/branddeur.png) ![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/fire-sign-ta.png)\r\n\r\nநீங்கள் அவசர கதவு அல்லது தீ விபத்து கதவைப் பயன்படுத்துவது சில சூழ்நிலைகளில் சரியானதாக இருக்காது. உதாரணத்திற்கு, அதில் அலாரம் இருக்கும் போது"
+    },
+    {
+        "key": "description-forklift-hole",
+        "value": "ஒரு சக ஊழியர் ஃபோர்க்லிஃப்டில் உங்களை தாண்டி செல்கிறார். அவர் பாதையில் உள்ள ஓட்டையை நோக்கி குறுக்காக ஓட்டிச் செல்வதை நீங்கள் பார்க்கிறீர்கள். நீங்கள் சரியான நேரத்தில் அவரைக் கூப்பிட்டு, ஆபத்தான இடத்தில் செல்ல அவருக்கு உதவலாம். மற்றும் இருவரும் சேர்ந்து மேற்பார்வையாளரை அழைத்து ஃபோர்க்லிஃப்டில் உள்ள நிலையில் இருந்து, பாதையில் ஆபத்தான பகுதி இருப்பதைத் தெளிவாகப் பார்க்க முடியவில்லை என்பதைக் தெரிவிக்கலாம். உங்கள் மேற்பார்வையாளர் துளையைச் சுற்றி சரியான அடையாளங்களை வைக்கும்படி உங்களிடம் சொல்லி விட்டு, பாதையைச் சரிசெய்ய அதற்கான  நிறுவனத்தை தொலைபேசியில் அழைக்கிறார். \r\n\r\nதுளையைச் சுற்றி எந்த அடையாளத்தை வைக்க வேண்டும்?"
+    },
+    {
+        "key": "reaction-forklift-hole-reaction1",
+        "value": "1. மஞ்சள் நிற முக்கோண அடையாளம், அதன் மீது கருப்பு ஆச்சரியக்குறி."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction2",
+        "value": "2. துளைக்கு முன்னும் பின்னும் ஒரு வேலி."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction3",
+        "value": "3. சிவப்பு மற்றும் வெள்ளை ரிப்பன் அல்லது டேப்."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction4",
+        "value": "4. மஞ்சள் மற்றும் கருப்பு ரிப்பன் அல்லது டேப்."
+    },
+    {
+        "key": "feedback-forklift-hole",
+        "value": "மஞ்சள் மற்றும் கருப்பு ரிப்பன் அல்லது டேப் மக்கள் மோதி கொள்ள கூடிய சூழ்நிலைகளில் பயன்படுத்தப்படுகிறது, பிளாங்க்குகள் மற்றும் அண்டர்பாஸ்கள் மற்றும் ஆபத்தான பகுதிகளிலும்  பயன்படுத்தப்படுகிறது.\r\n\r\nமற்ற சூழ்நிலைகளில் நீங்கள் சிவப்பு மற்றும் வெள்ளை ரிப்பன் அல்லது டேப்பைப் பயன்படுத்தலாம். ரிப்பன்களால் சூழப்பட்ட பகுதிக்குள் நீங்கள் ஒருபோதும் செல்லகூடாது.\r\n\r\n \"பொது ஆபத்து\" என்று அடையாளம் வைப்பது நல்லது. இருப்பினும், அது மட்டுமே போதாது."
+    }
+],
+
+  "levelsCompleted": [{
+    "level": 0,
+    "score": 2,
+    "maxScore": 8
+
+  }]
+
+}
+
