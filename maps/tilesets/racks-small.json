@@ -1,0 +1,47 @@
+{"frames": {
+
+"tile-racks-small-01.png":
+{
+	"frame": {"x":1,"y":1,"w":192,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":232},
+	"sourceSize": {"w":192,"h":232}
+},
+"tile-racks-small-02.png":
+{
+	"frame": {"x":1,"y":674,"w":192,"h":180},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":52,"w":192,"h":180},
+	"sourceSize": {"w":192,"h":232}
+},
+"tile-racks-small-03.png":
+{
+	"frame": {"x":1,"y":469,"w":192,"h":203},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":30,"w":192,"h":203},
+	"sourceSize": {"w":192,"h":233}
+},
+"tile-racks-small-04.png":
+{
+	"frame": {"x":1,"y":235,"w":192,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":232},
+	"sourceSize": {"w":192,"h":232}
+}},
+"animations": {
+	"tile-racks-small": ["tile-racks-small-01.png","tile-racks-small-02.png","tile-racks-small-03.png","tile-racks-small-04.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "racks-small.png",
+	"format": "RGBA8888",
+	"size": {"w":194,"h":855},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a5353a0e0a9153aabac846595981887d:4bea9704e8421d1514ef53df6ab5168b:7abb85d52401dc79396edc68279a8fee$"
+}
+}

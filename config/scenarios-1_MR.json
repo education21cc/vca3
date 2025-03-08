@@ -1,0 +1,303 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+      "mapJson": "maps/scenarios-1.json",
+      "stars": 4,
+      "scenarios": {
+        "together-cantina": {
+          "location": [8, 14],
+          "image": "description-together-cantina-image",
+          "imageFeedback": "description-together-cantina-image-feedback",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "agv-walk": {
+          "location": [49, 18],
+          "image": "description-agv-walk-image",
+          "imageFeedback": "description-agv-walk-image-feedback",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "store-cargo": {
+          "location": [45, 25],
+          "image": "description-store-cargo-image",
+          "imageFeedback": "description-store-cargo-image-feedback",
+          "hotspots": [{
+            "image": "description-store-cargo-hotspot-image",
+            "hotspot": "description-store-cargo-hotspot-hotspot",
+            "left": 51.8,
+            "top": 80.7,
+            "width": 14.6
+          }],
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2",
+            "correct": true
+          }, {
+            "id": "reaction3"
+          }]
+        },
+        "emergency-door": {
+          "location": [23, -2],
+          "image": "description-emergency-door-image",
+          "imageFeedback": "description-emergency-door-image-feedback",
+          "reactions": [{
+            "id": "reaction1",
+            "correct": true
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3"
+          }]
+        }
+      }
+  },
+  "translations": [
+    {
+        "key": "intro-header",
+        "value": "खालील परिस्थितींमध्ये आपण काय केले पाहिजे?"
+    },
+    {
+        "key": "intro-description",
+        "value": "या वेअरहाऊसमध्ये असलेल्या लाल खुणा आपल्याला वेगवेगळ्या परिस्थितीत घेऊन जातील. जेव्हा आपण रेड मार्करवर क्लिक करता, तेव्हा एखाद्या परिस्थितीचे वर्णन केले जाईल आणि आपल्याला एका प्रश्नाचे उत्तर द्यावे लागेल. प्रश्नाचे उत्तर दिल्यानंतर आपल्याला योग्य उत्तर काय आहे याचे स्पष्टीकरण मिळेल. जेव्हा आपण एखाद्या प्रश्नाचे अचूक उत्तर देता तेव्हा प्रत्येक वेळी आपल्याला एक स्टार मिळेल."
+    },
+    {
+        "key": "intro-start",
+        "value": "सुरु करा"
+    },
+    {
+        "key": "intro-stars-to-gain",
+        "value": "{0}/{1} कमावले"
+    },
+    {
+        "key": "button-next",
+        "value": "पुढील"
+    },
+    {
+        "key": "button-prev",
+        "value": "मागील"
+    },
+    {
+        "key": "button-check",
+        "value": "तपासा"
+    },
+    {
+        "key": "button-continue",
+        "value": "पुढे चालू ठेवा"
+    },
+    {
+        "key": "reactions",
+        "value": "पर्याय"
+    },
+    {
+        "key": "feedback-correct",
+        "value": "बरोबर!"
+    },
+    {
+        "key": "feedback-wrong",
+        "value": "चूक!"
+    },
+    {
+        "key": "complete-header",
+        "value": "अभिनंदन"
+    },
+    {
+        "key": "complete-score",
+        "value": "एकूण गुण {0}/{1}"
+    },
+    {
+        "key": "complete-try-again",
+        "value": "पुन्हा"
+    },
+    {
+        "key": "complete-exit",
+        "value": "बाहेर पडा"
+    },
+    {
+        "key": "feedback",
+        "value": "अभिप्राय"
+    },
+    {
+        "key": "description-together-cantina",
+        "value": "आपण आपल्या सहकाऱ्याबरोबर कॅन्टीनमध्ये जात आहात. या चित्रात आपण रस्त्याच्या डाव्या बाजूला शेजारी शेजारी चालत आहात. आपल्याला असे करू शकता का?"
+    },
+    {
+        "key": "description-together-cantina-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/together-cantina/together-cantina-description-mr.png"
+    },
+    {
+        "key": "description-together-cantina-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/together-cantina/together-cantina-outcome-mr.png"
+    },
+    {
+        "key": "reaction-together-cantina-reaction1",
+        "value": "1. होय, डावीकडचा रस्ता कॅन्टीनमध्ये जाणाऱ्या पादचाऱ्यांसाठी आहे."
+    },
+    {
+        "key": "reaction-together-cantina-reaction2",
+        "value": "2. नाही, आपल्याला रस्त्याच्या उजव्या बाजूला चालावे लागेल. शक्य असेल तेव्हा नेहमी उजव्या बाजूला चाला."
+    },
+    {
+        "key": "reaction-together-cantina-reaction3",
+        "value": "3. नाही, शेजारी-शेजारी चालण्यासाठी हा रस्ता इतका अरुंद आहे."
+    },
+    {
+        "key": "reaction-together-cantina-reaction4",
+        "value": "4. नाही, आपल्याला या मार्गावर चालण्याची परवानगी नाही. हा संपूर्ण मार्ग ऑटोमेटेड गाइडेड व्हेइकल्ससाठी (एजीव्ही) आहे."
+    },
+    {
+        "key": "feedback-together-cantina",
+        "value": "नियुक्त केलेले पदपथ महत्वाचे आहेत कारण ते लोकांची आणि मशीनची टक्कर होणे टाळू शकतात.\n\nनेहमी नियुक्त केलेल्या मार्गांचे अनुसरण करा आणि आपल्या सभोवतालच्या संभाव्य धोक्यांबद्दल जागरूक रहा.\n\nयाा परिस्थितीत डाव्या बाजूला कॅन्टीनकडे जाण्यासाठी पदपथ आहे. पण शेजारी-शेजारी चालण्याइतका हा मार्ग प्रशस्त नाही. त्यामुळे या परिस्थितीत मार्गाच्या डाव्या बाजूने एकापाठोपाठ एक चालावे लागेल.\n\nऑटोमेटेड गाईडेड व्हेइकल्स (एजीव्ही) अतिशय शांत असतात आणि जड वस्तूंची ने-आण करतात. त्यामुळे शक्य असेल तेव्हा वेगवेगळ्या लेनमध्ये चालणे सुरक्षित आहे."
+    },
+    {
+        "key": "description-agv-walk",
+        "value": "आपल्याला बाहेर पडण्याच्या मार्गाकडे जायचे आहे. आपण सर्वात लहान मार्गाचा अवलंब करू शकता का आणि वेगवेगळ्या ऑटोमेटेड गाईडेड व्हेइकल्स (एजीव्ही) च्या मार्गांवरून (जमिनीवरील लाल आणि काळ्या रेषांवरून) चालण्याची परवानगी आहे का?"
+    },
+    {
+        "key": "description-agv-walk-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/agv-walk/agv-walk-description-mr.png"
+    },
+    {
+        "key": "description-agv-walk-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/agv-walk/agv-walk-outcome-mr.png"
+    },
+    {
+        "key": "reaction-agv-walk-reaction1",
+        "value": "1. नाही, पादचारी म्हणून आपल्याला एजीव्ही लाइन्सवर चालण्याची परवानगी नाही. अशा परिस्थितीत आपल्याला नेहमीच स्पष्टपणे सूचित केलेला चालण्याचा मार्ग शोधावा लागतो."
+    },
+    {
+        "key": "reaction-agv-walk-reaction2",
+        "value": "2. होय, परंतु आपण वर्क शूज आणि सुरक्षा हेल्मेट घालणे आवश्यक आहे."
+    },
+    {
+        "key": "reaction-agv-walk-reaction3",
+        "value": "3. होय, जर आपण लक्ष देत असाल तर आपण करू शकता."
+    },
+    {
+        "key": "reaction-agv-walk-reaction4",
+        "value": "4. नाही, आपण स्वतः फोर्कलिफ्टमध्ये असाल आणि त्यामुळे सुरक्षित असाल तरच असे करू शकता."
+    },
+    {
+        "key": "feedback-agv-walk",
+        "value": "टक्कर आणि गर्दी टाळण्यासाठी पदपथ महत्वाचे आहेत. दुर्दैवाने, चालण्याचे स्पष्ट मार्ग नेहमीच सूचित केलले नसतात किंवा अशी काही ठिकाणे असू शकतात जिथे वेगवेगळे मार्ग एकमेकांना छेदतात. व्हीसीएनुसार चालण्याचे मार्ग असणे अनिवार्य देखील नाहीत.\n \n\n जर चालण्याचे कोणतेही स्पष्ट मार्ग नसतील तर आपल्याला सहसा एजीव्ही मार्गावर चालण्याची किंवा तो ओलांडण्याची परवानगी असते.\n \n\n आपल्या टीम लीडरला आपल्या कामाच्या ठिकाणी या संदर्भातील नियमांबद्दल थेट विचारा. हे आपल्या नियोक्ताच्या सुरक्षा योजना किंवा सुरक्षा सूचनांमध्ये नमूद केलेले असले पाहिजे."
+    },
+    {
+        "key": "description-store-cargo",
+        "value": "ट्रक चालकाने मोठ्या पेट्यांचे सहा पॅलेट्स गोदीवर सोडल्या आहेत.\n \n\n आपला टीम लीडर आपल्याला ते पॅलेट ट्रकद्वारे गोदामात योग्य ठिकाणी ठेवण्यास सांगतो. आपण संबंधित ऑर्डर फॉर्म पाहू शकता. आपण कोणता पॅलेट ट्रक वापरू शकता या बद्दल अधिक तपशील देखील पाहू शकता. आपण काय केले पाहिजे?"
+    },
+    {
+        "key": "description-store-cargo-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-description-mr.png"
+    },
+    {
+        "key": "description-store-cargo-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-outcome-mr.png"
+    },
+    {
+        "key": "description-store-cargo-hotspot-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-insert-mr.png"
+    },
+    {
+        "key": "description-store-cargo-hotspot-hotspot",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-hotspot.png"
+    },
+    {
+        "key": "reaction-store-cargo-reaction1",
+        "value": "1. पॅलेट ट्रक घेऊन पॅलेट्स एक-एक करून योग्य ठिकाणी ठेवले पाहिजेत."
+    },
+    {
+        "key": "reaction-store-cargo-reaction2",
+        "value": "2. आपण आपल्या टीम लीडरला सांगितले पाहिजे की पॅलेट ट्रक या पॅलेटची वाहतूक करण्यासाठी योग्य नाही."
+    },
+    {
+        "key": "reaction-store-cargo-reaction3",
+        "value": "3. आपण आपल्या सहकाऱ्याला फोर्कलिफ्टने पॅलेट्स हलविण्यास सांगितले पाहिजे."
+    },
+    {
+        "key": "feedback-store-cargo",
+        "value": "ऑर्डर फॉर्ममध्ये असे म्हटले आहे की पॅलेट्सचे वजन 2750 किलो आहे. आपल्या पॅलेट ट्रकमध्ये असे म्हटले आहे की त्याची भार क्षमता 2500 किलो आहे.\n \n\n सर्व कामाची उपकरणे विशिष्ट मर्यादेतच वापरली पाहिजेत. या पॅलेट ट्रकद्वारे आपण 2500 किलो किंवा त्यापेक्षा कमी वजनाचे भार हलवू शकता.\n \n\n या पॅलेट ट्रकनद्वारे 2750 किलो पॅलेट्स हलवणे शक्य आहे, पण धोकादायक परिस्थिती निर्माण होऊ शकते म्हणून असे करण्यास अधिकृतपणे परवानगी नाही.\n \n\n आपल्या टीम लीडरला सांगा की हा पॅलेट ट्रक योग्य नाही कारण पॅलेट्स खूप जड आहेत. \n \n\n आपण कदाचित फोर्कलिफ्टने हे पॅलेट्स हलवू शकता परंतु कदाचित या गोदीमध्ये फोर्कलिफ्ट वापरण्यास परवानगी मिळणार नाही. म्हणून प्रथम आपल्या टीम लीडरला कळवा की पॅलेट ट्रक या कामासाठी योग्य नाही."
+    },
+    {
+        "key": "description-emergency-door",
+        "value": "पटकन कॉफी पिण्यासाठी ही एक चांगली जागा आहे असे वाटते. तशी परवानगी आहे का?"
+    },
+    {
+        "key": "description-emergency-door-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/emergency-door-description-mr.png"
+    },
+    {
+        "key": "description-emergency-door-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/emergency-door-outcome-mr.png"
+    },
+    {
+        "key": "reaction-emergency-door-reaction1",
+        "value": "1. होय. आपत्कालीन दरवाजा उघडा देखील राहू शकतो जेणेकरून आपण कॉफी प्यायल्यानंतर सहजपणे परत प्रवेश करू शकता."
+    },
+    {
+        "key": "reaction-emergency-door-reaction2",
+        "value": "2. होय, परंतु आपत्कालीन दरवाजा शक्य तितक्या लवकर योग्यरित्या बंद करणे आवश्यक आहे आणि म्हणूनच आपण यापुढे ते बाहेरून उघडू शकत नाही."
+    },
+    {
+        "key": "reaction-emergency-door-reaction3",
+        "value": "3. नाही, आपत्कालीन दरवाजा केवळ आपत्कालीन परिस्थितीसाठी असतो."
+    },
+    {
+        "key": "feedback-emergency-door",
+        "value": "आपत्कालीन दरवाजा खालील हिरव्या चिन्हाद्वारे दर्शविला गेला आहे.\n \n\n आपत्कालीन दरवाजा सुरक्षिततेच्या दृष्टीने खुला राहू शकतो. \n\n![](https://21cccdn.blob.core.windows.net/21cc/games/images/flashcards/vca/veiligheidsvoorzieningen-uitgang-die-tevens-dient-als-nooduitgang.png)\n \n\n आगीच्या आपत्कालीन दरवाजांमध्ये अग्निप्रतिबंधक यंत्रणा असते आणि ती सहसा उघडता येते, परंतु दरवाजा उघडा ठेवू नये कारण दरवाजा उघडा असल्यास यंत्रणा काम करत नाही. खालच्या बाजूला लाल रंगाच्या चिन्हावरून फायर डोअर ओळखता येतो किंवा दरवाजावर असे लिहिलेले असते. \n\n![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/branddeur.png)\n\n![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/fire-sign-mr.png) \n\n अशी परिस्थिती असते जेव्हा आपण फक्त आपत्कालीन दरवाजा किंवा फायर डोअर वापरणे इष्ट नसते. उदाहरणार्थ जेव्हा त्यावर अलार्म असतो."
+    },
+    {
+        "key": "description-forklift-hole",
+        "value": "एखादा सहकारी कामाच्या दरम्यान फोर्कलिफ्टवर आपल्या जवळून जातो. आपल्याला आढळते की तो मार्गातील एका छिद्राकडे तिरप्या दिशेने जात आहे. आपण त्याला वेळीच हाक मारून धोकादायक ठिकाणावर नेव्हिगेट करण्यात मदत कराल. एकत्रितपणे आपण पर्यवेक्षकाला कॉल करता आणि आपला सहकारी सूचित करतो की मार्गात एक धोकादायक गोष्ट आहे जीे तो फोर्कलिफ्टवरील त्याच्या स्थानावरून स्पष्टपणे पाहू शकत नाही. आपला पर्यवेक्षक आपल्याला छिद्राभोवती योग्य खुणा ठेवण्यास सांगतो, आणि तो स्वतः एका कंपनीला रस्ता दुरुस्त करण्यासाठी बोलावतो.\n \n\n छिद्राभोवती कोणती खूण केली पाहिजे?"
+    },
+    {
+        "key": "reaction-forklift-hole-reaction1",
+        "value": "1. एक पिवळ्या त्रिकोणी चिन्हावर काळ्या रंगाचे उद्गारचिन्ह."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction2",
+        "value": "2. छिद्राच्या पुढे आणि मागे कुंपण."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction3",
+        "value": "3. लाल आणि पांढरी रिबन किंवा टेप."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction4",
+        "value": "4. पिवळी आणि काळी रिबन किंवा टेप."
+    },
+    {
+        "key": "feedback-forklift-hole",
+        "value": "पिवळ्या आणि काळ्या रिबन किंवा टेपचा वापर जिथे लोकांची एकमेकांशी टक्कर होऊ शकते अशा परिस्थितीत, फ्लँक्स आणि अंडरपाससाठी आणि धोकादायक भाग चिन्हांकित करण्यासाठी केला जातो.\n \n\n आपण इतर परिस्थितीत लाल आणि पांढरी रिबन किंवा टेप वापरू शकता. रिबनने वेढलेल्या भागात कधीही जाऊ नये.\n \n\n ते स्वतःच, एक \"जनरल डेंजर\" चिन्ह ठेवण्यायोग्य स्थान आहे. मात्र, केवळ तेवढेच पुरेसे नाही."
+    }
+  ],
+
+  "levelsCompleted": [{
+    "level": 0,
+    "score": 0,
+    "maxScore": 8
+
+  }]
+
+}
+

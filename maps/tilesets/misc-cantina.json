@@ -1,0 +1,44 @@
+{"frames": {
+
+"tile-misc-cantina-counter-left.png":
+{
+	"frame": {"x":0,"y":0,"w":147,"h":144},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":147,"h":144},
+	"sourceSize": {"w":147,"h":144}
+},
+"tile-misc-cantina-counter-right.png":
+{
+	"frame": {"x":0,"y":144,"w":145,"h":144},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":145,"h":144},
+	"sourceSize": {"w":145,"h":144}
+},
+"tile-misc-cantina-vendingmachine-left.png":
+{
+	"frame": {"x":0,"y":288,"w":128,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":180},
+	"sourceSize": {"w":128,"h":180}
+},
+"tile-misc-cantina-vendingmachine-right.png":
+{
+	"frame": {"x":128,"y":288,"w":127,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":127,"h":180},
+	"sourceSize": {"w":127,"h":180}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "misc-cantina.png",
+	"format": "RGBA8888",
+	"size": {"w":255,"h":468},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:cf2f5a084620ed6f800f98a49c672483:59fedd1f697f30a07a71d51d83b52632:42dba03adbed40b39e02b2cd452b4c34$"
+}
+}

@@ -1,0 +1,31 @@
+{"frames": {
+
+"tile-transports-misc-agv-1.png":
+{
+	"frame": {"x":0,"y":0,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"tile-transports-misc-agv-2.png":
+{
+	"frame": {"x":0,"y":128,"w":128,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":96},
+	"sourceSize": {"w":128,"h":96}
+}},
+"animations": {
+	"tile-transports-misc-agv": ["tile-transports-misc-agv-1.png","tile-transports-misc-agv-2.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "transports-misc.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":224},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:24113d15b74b141a73e1f5d5472c0de8:177a7261072e46be6011fa322ae67f22:3089ab92a6b5eb3fc24ee9fc1e7e3291$"
+}
+}

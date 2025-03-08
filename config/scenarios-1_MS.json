@@ -1,0 +1,303 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+      "mapJson": "maps/scenarios-1.json",
+      "stars": 4,
+      "scenarios": {
+        "together-cantina": {
+          "location": [8, 14],
+          "image": "description-together-cantina-image",
+          "imageFeedback": "description-together-cantina-image-feedback",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "agv-walk": {
+          "location": [49, 18],
+          "image": "description-agv-walk-image",
+          "imageFeedback": "description-agv-walk-image-feedback",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "store-cargo": {
+          "location": [45, 25],
+          "image": "description-store-cargo-image",
+          "imageFeedback": "description-store-cargo-image-feedback",
+          "hotspots": [{
+            "image": "description-store-cargo-hotspot-image",
+            "hotspot": "description-store-cargo-hotspot-hotspot",
+            "left": 51.8,
+            "top": 80.7,
+            "width": 14.6
+          }],
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2",
+            "correct": true
+          }, {
+            "id": "reaction3"
+          }]
+        },
+        "emergency-door": {
+          "location": [23, -2],
+          "image": "description-emergency-door-image",
+          "imageFeedback": "description-emergency-door-image-feedback",
+          "reactions": [{
+            "id": "reaction1",
+            "correct": true
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3"
+          }]
+        }
+      }
+  },
+  "translations": [
+    {
+        "key": "intro-header",
+        "value": "Apakah yang anda perlu lakukan dalam senario berikut?"
+    },
+    {
+        "key": "intro-description",
+        "value": "Tanda-tanda merah yang terdapat di dalam gudang ini akan membawa anda ke senario yang berbeza. Apabila anda mengklik penanda merah, satu situasi akan dijelaskan dan anda harus menjawab satu soalan. Setelah menjawab soalan tersebut, anda akan mendapat penjelasan mengenai apakah jawapan yang betul. Setiap kali anda menjawab soalan dengan betul, anda akan mendapat satu bintang."
+    },
+    {
+        "key": "intro-start",
+        "value": "Mula"
+    },
+    {
+        "key": "intro-stars-to-gain",
+        "value": "{0} / {1} diperolehi"
+    },
+    {
+        "key": "button-next",
+        "value": "Seterusnya"
+    },
+    {
+        "key": "button-prev",
+        "value": "Kembali"
+    },
+    {
+        "key": "button-check",
+        "value": "Semak"
+    },
+    {
+        "key": "button-continue",
+        "value": "Teruskan"
+    },
+    {
+        "key": "reactions",
+        "value": "Pilihan"
+    },
+    {
+        "key": "feedback-correct",
+        "value": "Betul!"
+    },
+    {
+        "key": "feedback-wrong",
+        "value": "Salah!"
+    },
+    {
+        "key": "complete-header",
+        "value": "Taniah"
+    },
+    {
+        "key": "complete-score",
+        "value": "Jumlah skor {0}/{1}"
+    },
+    {
+        "key": "complete-try-again",
+        "value": "sekali lagi"
+    },
+    {
+        "key": "complete-exit",
+        "value": "Keluar"
+    },
+    {
+        "key": "feedback",
+        "value": "Maklum balas"
+    },
+    {
+        "key": "description-together-cantina",
+        "value": "Anda akan pergi ke kantin bersama rakan sekerja anda. Anda berdua berjalan berdampingan di sebelah kiri laluan dalam gambar ini. Adakah anda dibenarkan melakukan ini?"
+    },
+    {
+        "key": "description-together-cantina-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/together-cantina/together-cantina-description-ms.png"
+    },
+    {
+        "key": "description-together-cantina-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/together-cantina/together-cantina-outcome-ms.png"
+    },
+    {
+        "key": "reaction-together-cantina-reaction1",
+        "value": "1. Ya, jalan di sebelah kiri adalah untuk pejalan kaki yang menuju ke kantin."
+    },
+    {
+        "key": "reaction-together-cantina-reaction2",
+        "value": "2. Tidak, anda mesti berjalan di sebelah kanan laluan. Sentiasa berada di sebelah kanan sebanyak mungkin."
+    },
+    {
+        "key": "reaction-together-cantina-reaction3",
+        "value": "3. Tidak, laluan tersebut terlalu sempit untuk berjalan berdampingan."
+    },
+    {
+        "key": "reaction-together-cantina-reaction4",
+        "value": "4. Tidak, anda tidak dibenarkan berjalan di laluan ini. Keseluruhan laluan ini adalah untuk Kenderaan Berpandu Automatik (Automated Guided Vehicles)."
+    },
+    {
+        "key": "feedback-together-cantina",
+        "value": "Laluan pejalan kaki yang ditunjuk adalah penting kerana dapat mengelakkan perlanggaran antara orang dengan mesin.\n \n\n Sentiasa ikuti laluan yang ditentukan dan berjaga-jaga dengan kemungkinan bahaya di sekitar anda.\n \n\n Dalam keadaan ini, terdapat satu laluan pejalan kaki di sebelah kiri menuju ke kantin. Tetapi laluan ini tidak cukup luas untuk berjalan berdampingan. Oleh itu, dalam keadaan ini anda berdua harus berjalan satu demi satu di sebelah kiri laluan.\n \n\n Kenderaan Berpandu Automatik (AGV) sangat lengang dan membawa barang berat. Oleh itu, lebih selamat untuk berjalan di lorong yang berbeza seboleh-bolehnya."
+    },
+    {
+        "key": "description-agv-walk",
+        "value": "Anda mesti pergi ke pintu keluar. Adakah anda dibenarkan mengambil jalan terpendek dan berjalan di laluan-laluan Kenderaan Berpandu Automatik (AGV) yang berbeza (dengan garis merah dan hitam di lantai) ke pintu keluar?"
+    },
+    {
+        "key": "description-agv-walk-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/agv-walk/agv-walk-description-ms.png"
+    },
+    {
+        "key": "description-agv-walk-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/agv-walk/agv-walk-outcome-ms.png"
+    },
+    {
+        "key": "reaction-agv-walk-reaction1",
+        "value": "1. Tidak, sebagai pejalan kaki anda tidak dibenarkan berjalan di landasan AGV. Dalam situasi seperti ini, anda mesti selalu mencari laluan pejalan kaki yang ditunjukkan dengan jelas."
+    },
+    {
+        "key": "reaction-agv-walk-reaction2",
+        "value": "2. Ya, tetapi anda mesti memakai kasut kerja dan topi keledar keselamatan."
+    },
+    {
+        "key": "reaction-agv-walk-reaction3",
+        "value": "3. Ya, anda boleh, selagi anda berjaga-jaga."
+    },
+    {
+        "key": "reaction-agv-walk-reaction4",
+        "value": "4. Tidak, ini hanya dibenarkan jika anda sendiri berada dalam forklift dan dapat dilindungi dengan baik sebab itu."
+    },
+    {
+        "key": "feedback-agv-walk",
+        "value": "Laluan pejalan kaki penting untuk mengelakkan perlanggaran dan kesesakan. Malangnya, laluan pejalan kaki yang jelas tidak selalu ditunjukkan atau mungkin ada tempat di mana laluan yang berlainan bersilang. Ia juga adalah tidak wajib mempunyai laluan berjalan mengikut VCA.\n \n\n Sekiranya tidak ada laluan berjalan kaki yang jelas, anda biasanya dibenarkan berjalan atau melintasi jalan AGV.\n \n\n Tanya ketua pasukan anda secara terus mengenai peraturan tentang perkara ini di tempat kerja anda. Perkara ini harus dinyatakan dalam rancangan keselamatan atau arahan keselamatan majikan anda.\n \n\n Akta Keadaan Pekerjaan mewajibkan majikan untuk memberitahu anda dan mengajar anda bagaimana ia berfungsi. Menurut Undang-Undang Keselamatan Pekerjaan anda wajib mengetahui rancangan dan arahan tersebut."
+    },
+    {
+        "key": "description-store-cargo",
+        "value": "Pemandu lori telah meninggalkan enam palet kotak besar di dermaga.\n \n\n  Ketua pasukan anda meminta anda meletakkannya di tempat yang betul dengan trak palet di gudang. Anda dapat melihat borang pesanan yang berkaitan. Anda juga dapat melihat lebih banyak perincian mengenai trak palet yang boleh anda gunakan. Apa yang mesti anda buat?"
+    },
+    {
+        "key": "description-store-cargo-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-description-ms.png"
+    },
+    {
+        "key": "description-store-cargo-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-outcome-ms.png"
+    },
+    {
+        "key": "description-store-cargo-hotspot-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-insert-ms.png"
+    },
+    {
+        "key": "description-store-cargo-hotspot-hotspot",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-hotspot.png"
+    },
+    {
+        "key": "reaction-store-cargo-reaction1",
+        "value": "1. Anda harus menaiki trak palet dan meletakkan palet satu persatu di tempat yang betul."
+    },
+    {
+        "key": "reaction-store-cargo-reaction2",
+        "value": "2. Anda harus memberitahu ketua pasukan anda bahawa trak palet tidak sesuai untuk mengangkut palet ini."
+    },
+    {
+        "key": "reaction-store-cargo-reaction3",
+        "value": "3. Anda harus meminta rakan anda untuk menggerakkan palet dengan forklift."
+    },
+    {
+        "key": "feedback-store-cargo",
+        "value": "Borang pesanan menyatakan bahawa berat palet adalah 2750 kg. Lori pallet anda menyatakan bahawa ia mempunyai muatan 2500 kg.\n \n\n  Semua peralatan kerja hanya boleh digunakan dalam had yang ditentukan. Dengan trak palet ini, anda dapat mengangkut muatan dengan berat 2500 kg atau kurang.\n \n\n  Ada kemungkinan untuk memindahkan 2750 kg palet dengan trak palet ini, tetapi tidak dibenarkan secara rasmi kerana boleh menimbulkan situasi berbahaya.\n \n\n  Beritahu ketua pasukan anda bahawa trak palet ini tidak sesuai kerana palet terlalu berat.\n \n\n  Anda mungkin boleh memindahkan palet-palet ini dengan forklift tetapi dok ini mungkin tidak membenarkan forklift untuk digunakan di atasnya. Oleh itu, maklumkan terlebih dahulu kepada ketua pasukan anda bahawa trak palet tidak sesuai untuk pekerjaan ini."
+    },
+    {
+        "key": "description-emergency-door",
+        "value": "Nampaknya tempat yang bagus untuk minum kopi secara cepat. Adakah itu dibenarkan?"
+    },
+    {
+        "key": "description-emergency-door-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/emergency-door-description-ms.png"
+    },
+    {
+        "key": "description-emergency-door-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/emergency-door-outcome-ms.png"
+    },
+    {
+        "key": "reaction-emergency-door-reaction1",
+        "value": "1. Ya. Satu pintu kecemasan boleh juga dibuka supaya anda boleh masuk semula dengan mudah setelah minum kopi."
+    },
+    {
+        "key": "reaction-emergency-door-reaction2",
+        "value": "2. Ya, tetapi pintu kecemasan tersebut mesti ditutup dengan baik secepat mungkin dan dengan itu anda tidak boleh membukanya lagi dari luar."
+    },
+    {
+        "key": "reaction-emergency-door-reaction3",
+        "value": "3. Tidak, pintu kecemasan adalah untuk keadaan kecemasan sahaja."
+    },
+    {
+        "key": "feedback-emergency-door",
+        "value": "Pintu kecemasan ditunjukkan oleh ikon hijau di bawah.\n \n\n Pintu kecemasan mungkin tetap terbuka. \n\n![](https://21cccdn.blob.core.windows.net/21cc/games/images/flashcards/vca/veiligheidsvoorzieningen-uitgang-die-tevens-dient-als-nooduitgang.png)\n \n\n Pintu kecemasan kebakaran mempunyai sistem tahan api dan biasanya boleh dibuka, tetapi tidak boleh dibiarkan terbuka kerana sistem tidak berfungsi jika pintu dibiarkan terbuka. Pintu api dapat dikenal pasti dengan tanda merah di bahagian bawah atau tertulis huruf di pintu. \n![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/branddeur.png) \n![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/fire-sign-ms.png)\n \n\n Terdapat situasi di mana secara tidak diingini anda hanya boleh menggunakan pintu kecemasan atau pintu api. Contohnya apabila terdapat penggera di dalamnya."
+    },
+    {
+        "key": "description-forklift-hole",
+        "value": "Rakan sekerja berlalu dari depan anda menggunakan forklift semasa bekerja. Anda dapat melihat bahawa dia memandu secara menyerong ke arah lubang di jalan. Anda memanggilnya tepat pada waktunya untuk berhenti dan membantunya menavigasi tempat berbahaya itu. Bersama-sama anda memanggil penyelia dan rakan anda untuk menunjukkan kepada apa yang dia tidak dapat melihat dengan jelas dari kedudukannya di forklift, iaitu bahagian berbahaya di jalan. Penyelia anda meminta anda meletakkan tanda yang betul di sekitar lubang, sementara dia sendiri memanggil syarikat untuk memperbaiki laluan.\n \n\n  Tanda mana yang harus anda letakkan di sekitar lubang?"
+    },
+    {
+        "key": "reaction-forklift-hole-reaction1",
+        "value": "1. Tanda segitiga kuning dengan tanda seru hitam di atasnya."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction2",
+        "value": "2. Pagar di depan dan di belakang lubang."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction3",
+        "value": "3. Riben atau pita berwarna merah dan putih."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction4",
+        "value": "4. Riben atau pita berwarna kuning dan hitam."
+    },
+    {
+        "key": "feedback-forklift-hole",
+        "value": "Riben atau pita berwarna kuning dan hitam digunakan dalam keadaan di mana orang ramai mungkin berlanggaran, untuk tempat sisi dan lintasan bawah, serta untuk menandakan kawasan berbahaya.\n \n\n Anda boleh menggunakan riben atau pita berwarna merah dan putih dalam situasi lain. Anda tidak boleh melintasi kawasan yang dikelilingi oleh pita.\n \n\n Dengan itu, adalah lebih baiknya meletakkan tanda \"bahaya umum\". Namun, itu sahaja tidak mencukupi."
+    }
+  ],
+
+  "levelsCompleted": [{
+    "level": 0,
+    "score": 2,
+    "maxScore": 8
+
+  }]
+
+}
+

@@ -1,0 +1,36 @@
+{"frames": {
+
+"truck-green.png":
+{
+	"frame": {"x":0,"y":0,"w":513,"h":407},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":513,"h":407},
+	"sourceSize": {"w":513,"h":407}
+},
+"truck-whitered-open.png":
+{
+	"frame": {"x":513,"y":0,"w":609,"h":406},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":609,"h":406},
+	"sourceSize": {"w":609,"h":406}
+},
+"truck-whitered.png":
+{
+	"frame": {"x":1122,"y":0,"w":512,"h":406},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":406},
+	"sourceSize": {"w":512,"h":406}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "trucks.png",
+	"format": "RGBA8888",
+	"size": {"w":1634,"h":407},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f64b317c9cd4e77d636eb9e686d0700c:d437c3bbf7224464ccc0474ac2b9c04d:e7371f666a1e0f8b76e6aef0ff52ad4b$"
+}
+}

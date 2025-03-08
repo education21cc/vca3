@@ -1,0 +1,306 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+    "userId": 2,
+    "settings": {
+      "muted": false
+    },
+    "mapJson": "maps/scenarios-1.json",
+    "stars": 4,
+    "scenarios": {
+      "together-cantina": {
+        "location": [8, 14],
+        "image": "description-together-cantina-image",
+        "imageFeedback": "description-together-cantina-image-feedback",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "agv-walk": {
+        "location": [49, 18],
+        "image": "description-agv-walk-image",
+        "imageFeedback": "description-agv-walk-image-feedback",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "store-cargo": {
+        "location": [45, 25],
+        "image": "description-store-cargo-image",
+        "imageFeedback": "description-store-cargo-image-feedback",
+        "hotspots": [{
+          "image": "description-store-cargo-hotspot-image",
+          "hotspot": "description-store-cargo-hotspot-hotspot",
+          "left": 51.8,
+          "top": 80.7,
+          "width": 14.6
+        }],
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }]
+      },
+      "emergency-door": {
+        "location": [23, -2],
+        "image": "description-emergency-door-image",
+        "imageFeedback": "description-emergency-door-image-feedback",
+        "reactions": [{
+          "id": "reaction1",
+          "correct": true
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }]
+      }
+    }
+  },
+  "translations": [
+    {
+        "key": "intro-header",
+        "value": "Wat te doen in de volgende scenario’s"
+    },
+    {
+        "key": "intro-description",
+        "value": "In dit spel krijg je vanuit het warehouse toegang tot de scenario’s door op de rode pijltjes te klikken. Per scenario wordt een situatie omschreven en mag je een vraag beantwoorden. Na het beantwoorden van de vraag krijg je uitleg over wat het juiste antwoord is. Per goed beantwoorde vraag verdien je 1 ster."
+    },
+    {
+        "key": "intro-start",
+        "value": "Start"
+    },
+    {
+        "key": "intro-stars-to-gain",
+        "value": "{0}/{1} verdiend"
+    },
+    {
+        "key": "button-next",
+        "value": "Volgende"
+    },
+    {
+        "key": "button-prev",
+        "value": "Terug"
+    },
+    {
+        "key": "button-check",
+        "value": "Check"
+    },
+    {
+        "key": "button-continue",
+        "value": "Doorgaan"
+    },
+    {
+        "key": "reactions",
+        "value": "Acties"
+    },
+    {
+        "key": "feedback-correct",
+        "value": "Goed!"
+    },
+    {
+        "key": "feedback-wrong",
+        "value": "Fout!"
+    },
+    {
+        "key": "complete-header",
+        "value": "Gefeliciteerd"
+    },
+    {
+        "key": "complete-score",
+        "value": "Totale score {0} / {1}"
+    },
+    {
+        "key": "complete-try-again",
+        "value": "Opnieuw"
+    },
+    {
+        "key": "complete-exit",
+        "value": "Afsluiten"
+    },
+    {
+        "key": "feedback",
+        "value": ""
+    },
+    {
+        "key": "description-together-cantina",
+        "value": "Je loopt gezellig samen met je collega naar de kantine. Je loopt naast elkaar aan de linkerkant van het pad in de bovenstaande tekening. Mag dat?"
+    },
+    {
+        "key": "description-together-cantina-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/together-cantina/together-cantina-description.png"
+    },
+    {
+        "key": "description-together-cantina-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/together-cantina/together-cantina-outcome.png"
+    },
+    {
+        "key": "reaction-together-cantina-reaction1",
+        "value": "1. Ja, aan de linkerkant is het pad voor voetgangers die richting de kantine gaan."
+    },
+    {
+        "key": "reaction-together-cantina-reaction2",
+        "value": "2. Nee, jullie moeten aan de rechterkant van het pad gaan lopen. Altijd zoveel mogelijk rechts aanhouden."
+    },
+    {
+        "key": "reaction-together-cantina-reaction3",
+        "value": "3. Nee, het pad is te smal om naast elkaar te lopen."
+    },
+    {
+        "key": "reaction-together-cantina-reaction4",
+        "value": "4. Nee, je mag op dit pad niet lopen. Dit hele pad is voor AGV’s."
+    },
+    {
+        "key": "feedback-together-cantina",
+        "value": "Looproutes zijn belangrijk omdat ze bijvoorbeeld botsingen tussen mensen en machines kunnen voorkomen.\n\nLooproutes worden niet voor niets aangegeven. Hou je er aan en wees je steeds bewust van de mogelijke gevaren om je heen.\n\nIn bovenstaande situatie is er een duidelijke looproute aangegeven om naar de kantine te lopen aan de linkerkant van het pad. Dit pad is echter niet breed genoeg om naast elkaar te lopen. Loop dus achter elkaar, aan de linkerkant van het pad naar de kantine.\n\nAGV's kunnen heel stil zijn en zware lasten vervoeren. Het is daarom veiliger om met gescheiden banen te werken waar het kan."
+    },
+    {
+        "key": "description-agv-walk",
+        "value": "Je moet naar de uitgang. Mag je de kortste weg nemen en over de verschillende AGV paden (de rode en zwarte lijnen op de vloer) lopen naar de uitgang?"
+    },
+    {
+        "key": "description-agv-walk-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/agv-walk/agv-walk-description.png"
+    },
+    {
+        "key": "description-agv-walk-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/agv-walk/agv-walk-outcome.png"
+    },
+    {
+        "key": "reaction-agv-walk-reaction1",
+        "value": "1. Nee, je mag als voetganger niet over AGV lijnen lopen. Je moet in zo’n situatie altijd op zoek naar een duidelijk aangegeven looproute."
+    },
+    {
+        "key": "reaction-agv-walk-reaction2",
+        "value": "2. Ja, maar je moet dan wel werkschoenen en een veiligheidshelm dragen."
+    },
+    {
+        "key": "reaction-agv-walk-reaction3",
+        "value": "3. Ja, dat mag als je maar goed uitkijkt."
+    },
+    {
+        "key": "reaction-agv-walk-reaction4",
+        "value": "4. Nee, dat mag alleen als je zelf in een heftruck zit en dus goed beschermd bent."
+    },
+    {
+        "key": "feedback-agv-walk",
+        "value": "Looproutes zijn belangrijk om botsingen en opstoppingen te voorkomen. Helaas zijn er niet altijd duidelijke looproutes aangegeven en/of zijn er plekken waarbij verschillende routes elkaar kruisen. Het hebben van looproutes is volgens de VCA ook niet verplicht.\n\nAls er geen duidelijke looproutes zijn mag je meestal wel over AGV-paden lopen of ze oversteken.\n\nVraag direct aan je leidinggevende wat de regels hierover zijn op jouw werkplek. Dit zou in het veiligheidsplan of de veiligheidsinstructie moeten staan.\n\nDe Arbowet verplicht de werkgever dat hij je voorlicht en leert hoe het zit. Jij bent volgens de Arbowet verplicht die plannen en instructies te kennen."
+    },
+    {
+        "key": "description-store-cargo",
+        "value": "De chauffeur van de vrachtwagen is net vertrokken en op het dock staan zes pallets met grote dozen erop. \\n\\n Er wordt je gevraagd om ze met de palletwagen op de juiste plek te zetten wat verderop in het magazijn. Het bijbehorende orderformulier kun je hierboven zien. Ook zie je hierboven meer informatie over de palletwagen die je kunt gebruiken. Wat doe je?"
+    },
+    {
+        "key": "description-store-cargo-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-description.png"
+    },
+    {
+        "key": "description-store-cargo-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-outcome.png"
+    },
+    {
+        "key": "description-store-cargo-hotspot-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-insert.png"
+    },
+    {
+        "key": "description-store-cargo-hotspot-hotspot",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-hotspot.png"
+    },
+    {
+        "key": "reaction-store-cargo-reaction1",
+        "value": "1. Je pakt de palletwagen en zet ze een voor een op de juiste plek."
+    },
+    {
+        "key": "reaction-store-cargo-reaction2",
+        "value": "2. Je weet dat de palletwagen niet geschikt is om deze pallets mee te vervoeren en zult hem niet gebruiken."
+    },
+    {
+        "key": "reaction-store-cargo-reaction3",
+        "value": "3. Je vraagt aan je collega de pallets met de heftruck te verplaatsen."
+    },
+    {
+        "key": "feedback-store-cargo",
+        "value": "Op je orderformulier staat dat de pallets 2750 kilo wegen. Op je palletwagen staat dat het laadvermogen (capacity) 2500 kilo is.\n\nVoor alle arbeidsmiddelen geldt dat je ze alleen mag gebruiken binnen de aangeven grenzen. Met deze palletwagen mag je ladingen verplaatsen die 2500 kilo of minder wegen (zie afbeelding X).\n\nMet deze palletwagen toch pallets van 2750 kilo gaan verplaatsen gaat wellicht wel, maar het is officieel niet toegestaan omdat het voor gevaarlijke situaties kan zorgen.\n\nGevaar voor jezelf, voor collega’s, voor de spullen op de pallet en/of voor constructies (o.a. de stellingen) waar de spullen tegenaan vallen als de palletwagen de last niet meer kan dragen en kapot gaat. Je gebruikt deze palletwagen dus niet.\n\nMet een heftruck mag je deze pallets waarschijnlijk wel verplaatsen. Mits je daarvoor een vergunning hebt natuurlijk.\n"
+    },
+    {
+        "key": "description-emergency-door",
+        "value": "Dit lijkt een goede plaats om snel even naar buiten te gaan voor een kopje koffie. Mag dat?"
+    },
+    {
+        "key": "description-emergency-door-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/emergency-door-description.png"
+    },
+    {
+        "key": "description-emergency-door-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/emergency-door-outcome.png"
+    },
+    {
+        "key": "reaction-emergency-door-reaction1",
+        "value": "1. Ja, hoor. Een nooddeur mag zelfs open blijven staan zodat je na je koffie weer makkelijk naar binnen kan."
+    },
+    {
+        "key": "reaction-emergency-door-reaction2",
+        "value": "2. Ja, maar de nooddeur moet wel weer zo snel mogelijk goed gesloten worden en kan je dus niet meer van buiten openen."
+    },
+    {
+        "key": "reaction-emergency-door-reaction3",
+        "value": "3. Nee, een nooddeur is er alleen voor noodgevallen."
+    },
+    {
+        "key": "feedback-emergency-door",
+        "value": "Een nooddeur wordt aangegeven met het onderstaande groene pictogram. Een nooddeur mag vanuit veiligheidsoogpunt open blijven staan.![](https://21cccdn.blob.core.windows.net/21cc/games/images/flashcards/vca/veiligheidsvoorzieningen-uitgang-die-tevens-dient-als-nooduitgang.png) \n\nEen branddeur heeft een brandwerende functie en mag meestal best geopend worden, maar niet open blijven staan. Dan werkt de brandwerende functie niet. Een branddeur is te herkennen aan het onderstaande rode pictogram of het staat in letters op de deur. ![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/branddeur.png) ![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/branddeur2.jpg)\n\nEr zijn situaties wanneer het niet gewenst is dat je zomaar een nooddeur of branddeur gebruikt. Bijvoorbeeld wanneer er een alarm op zit."
+    },
+    {
+        "key": "description-forklift-hole",
+        "value": "Een collega rijdt tijdens het werk op een heftruck langs je heen. Je ziet dat hij schuin op een kuil in het pad afrijdt. Je roept nog net op tijd naar hem dat hij moet stoppen en helpt hem om de gevaarlijke plek heen te navigeren. Samen bellen jullie de leidinggevende en je collega geeft aan vanuit zijn positie op de heftruck niet duidelijk te kunnen zien dat er een gevaarlijk stuk in het pad zit. Je leidinggevende vraagt jou om de juiste markering rondom de kuil aan te brengen, terwijl hij zelf een bedrijf belt om het pad te laten repareren.\\n\\nWat voor markering moet je in dit geval aanbrengen?"
+    },
+    {
+        "key": "reaction-forklift-hole-reaction1",
+        "value": "1. Een geel driehoekig bord met zwart uitroepteken erop."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction2",
+        "value": "2. Een hek voor en achter de kuil."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction3",
+        "value": "3. Rood/wit lint of tape."
+    },
+    {
+        "key": "reaction-forklift-hole-reaction4",
+        "value": "4. Geel/zwart lint of tape."
+    },
+    {
+        "key": "feedback-forklift-hole",
+        "value": "Geel/zwart lint of tape wordt gebruikt bij afstappen, onderdoorgangen, in situaties waarbij mensen zich kunnen stoten en voor het markeren van gevaarlijke gebieden.\\n\\nDat laatste is hier het geval. Rood/wit lint of tape gebruik je bij overige situaties. Je mag een lint nooit passeren.\\n\\nOp zich is het goed om een ‘algemeen gevaar’ bord te plaatsen. Echter dat alleen is niet voldoende."
+    }
+  ],
+  "levelsCompleted": [{
+    "level": 0,
+    "score": 2,
+    "maxScore": 8
+
+  }]
+
+}
+

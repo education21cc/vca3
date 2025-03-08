@@ -1,0 +1,39 @@
+{"frames": {
+
+"misc-packingtable-01.png":
+{
+	"frame": {"x":4,"y":176,"w":265,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":12,"w":265,"h":157},
+	"sourceSize": {"w":288,"h":192}
+},
+"misc-packingtable-02.png":
+{
+	"frame": {"x":4,"y":4,"w":266,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":18,"w":266,"h":168},
+	"sourceSize": {"w":288,"h":192}
+},
+"misc-packingtable-03.png":
+{
+	"frame": {"x":4,"y":337,"w":265,"h":145},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":24,"w":265,"h":145},
+	"sourceSize": {"w":289,"h":193}
+}},
+"animations": {
+	"misc-packingtable": ["misc-packingtable-01.png","misc-packingtable-02.png","misc-packingtable-03.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "misc-packingtable.png",
+	"format": "RGBA8888",
+	"size": {"w":274,"h":486},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a8d058bee66a9909d4e63b39c4030251:38fe24900a9ce5956e94444c1059ee4b:b84c4aa4ba35ece745fabd44dc793be5$"
+}
+}

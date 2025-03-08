@@ -1,0 +1,68 @@
+{"frames": {
+
+"tile-structure-wall-corner-semitransparent.png":
+{
+	"frame": {"x":2,"y":2,"w":128,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":224},
+	"sourceSize": {"w":128,"h":224}
+},
+"tile-structure-wall-gray-column.png":
+{
+	"frame": {"x":132,"y":2,"w":128,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":224},
+	"sourceSize": {"w":128,"h":224}
+},
+"tile-structure-wall-gray-corner.png":
+{
+	"frame": {"x":262,"y":2,"w":128,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":224},
+	"sourceSize": {"w":128,"h":224}
+},
+"tile-structure-wall-gray-left.png":
+{
+	"frame": {"x":392,"y":2,"w":128,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":224},
+	"sourceSize": {"w":128,"h":224}
+},
+"tile-structure-wall-gray-right.png":
+{
+	"frame": {"x":522,"y":2,"w":128,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":224},
+	"sourceSize": {"w":128,"h":224}
+},
+"tile-structure-wall-left-semitransparent-mid.png":
+{
+	"frame": {"x":652,"y":2,"w":128,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":224},
+	"sourceSize": {"w":128,"h":224}
+},
+"tile-structure-wall-right-semitransparent-mid.png":
+{
+	"frame": {"x":782,"y":2,"w":128,"h":224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":224},
+	"sourceSize": {"w":128,"h":224}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "structure-wall.png",
+	"format": "RGBA8888",
+	"size": {"w":912,"h":228},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0760995c523bbf1bcee4aed744a7a83d:665419121b7ceb07f99ca21f237b9cd9:b1f26009722fad37b9550ceeb1b2f63e$"
+}
+}

@@ -1,0 +1,70 @@
+{"frames": {
+
+"tile-pallet-assortment-large-01.png":
+{
+	"frame": {"x":0,"y":0,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"tile-pallet-assortment-medium-01.png":
+{
+	"frame": {"x":0,"y":128,"w":128,"h":101},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":101},
+	"sourceSize": {"w":128,"h":101}
+},
+"tile-pallet-assortment-messy.png":
+{
+	"frame": {"x":0,"y":229,"w":128,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":96},
+	"sourceSize": {"w":128,"h":96}
+},
+"tile-pallet-assortment-red-01.png":
+{
+	"frame": {"x":0,"y":325,"w":128,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":76},
+	"sourceSize": {"w":128,"h":76}
+},
+"tile-pallet-assortment-small-01.png":
+{
+	"frame": {"x":0,"y":401,"w":128,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":76},
+	"sourceSize": {"w":128,"h":76}
+},
+"tile-pallet-assortment-smallwhite-01.png":
+{
+	"frame": {"x":0,"y":477,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+},
+"tile-pallet-assortment-white-01.png":
+{
+	"frame": {"x":0,"y":605,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":128},
+	"sourceSize": {"w":128,"h":128}
+}},
+"animations": {
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "pallet-assortment.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":733},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:7a8e3dbab3c42392732819737c6c7c0d:c1e615f599374e122c3c774d78308319:acafcf07e3e0c41ec8d666babfaabb97$"
+}
+}

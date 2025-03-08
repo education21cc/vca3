@@ -1,0 +1,515 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+    "userId": 2,
+    "settings": {
+      "muted": false
+    },
+    "mapJson": "maps/scenarios-1.json",
+    "mistakeMode": true,
+    "scenarios": {
+      "multiply": {
+        "location": [54, 1],
+        "image": "multiply-image",
+        "imageFeedback": "multiply-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "subtraction": {
+        "location": [50, 30],
+        "image": "subtraction-image",
+        "imageFeedback": "subtraction-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+          }]
+        },
+      "addition-days": {
+        "location": [1, 20],
+        "image": "addition-days-image",
+        "imageFeedback": "addition-days-image",
+        "reactions": [{
+          "id": "reaction1",
+          "correct": true
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "multiply-2": {
+        "location": [20, 3],
+        "image": "multiply-2-image",
+        "imageFeedback": "multiply-2-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "division": {
+        "location": [0, 0],
+        "image": "division-image",
+        "imageFeedback": "division-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "subtraction-2": {
+        "location": [25, 0],
+        "image": "subtraction-2-image",
+        "imageFeedback": "subtraction-2-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4",
+          "correct": true
+        }]
+      },
+      "multiply-3": {
+        "location": [45, 15],
+        "image": "multiply-3-image",
+        "imageFeedback": "multiply-3-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "combination": {
+        "location": [38, 20],
+        "image": "combination-image",
+        "imageFeedback": "combination-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "division-2": {
+        "location": [25, 20],
+        "image": "division-2-image",
+        "imageFeedback": "division-2-image",
+        "reactions": [{
+          "correct": true,
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "combination-2": {
+        "location": [6, 30],
+        "image": "combination-2-image",
+        "imageFeedback": "combination-2-image",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3",
+          "correct": true
+        }, {
+          "id": "reaction4"
+        }]
+      }
+    },
+    "location": [6, 30, "cantina!"]
+  },
+  "translations": [
+    {
+        "key": "intro-header",
+        "value": "Can you do basic maths?"
+    },
+    {
+        "key": "intro-description",
+        "value": "The yellow marks located in this warehouse will take you to different scenarios. When you click on a marker, a mathematical problem in the warehouse will be shown and you will have to answer a question. After answering the question you will receive an explanation as to what the correct answer is. Every time you answer a question correctly you will get a star."
+    },
+    {
+        "key": "intro-start",
+        "value": "Start"
+    },
+    {
+        "key": "intro-stars-to-gain",
+        "value": "{0}/{1} earned"
+    },
+    {
+        "key": "button-next",
+        "value": "Next"
+    },
+    {
+        "key": "button-prev",
+        "value": "Back"
+    },
+    {
+        "key": "button-check",
+        "value": "Check"
+    },
+    {
+        "key": "button-continue",
+        "value": "Continue"
+    },
+    {
+        "key": "reactions",
+        "value": "Options"
+    },
+    {
+        "key": "feedback-correct",
+        "value": "Correct!"
+    },
+    {
+        "key": "feedback-wrong",
+        "value": "Wrong!"
+    },
+    {
+        "key": "complete-header",
+        "value": "Congratulations"
+    },
+    {
+        "key": "complete-score",
+        "value": "Total score {0}/{1}"
+    },
+    {
+        "key": "complete-try-again",
+        "value": "Again"
+    },
+    {
+        "key": "complete-exit",
+        "value": "Exit"
+    },
+    {
+        "key": "feedback",
+        "value": "Feedback"
+    },
+    {
+        "key": "description-multiply",
+        "value": "If a box of cups has 24 units, how many units would be there in 18 boxes?"
+    },
+    {
+        "key": "multiply-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/multiply.png"
+    },
+    {
+        "key": "reaction-multiply-reaction1",
+        "value": "a. 192"
+    },
+    {
+        "key": "reaction-multiply-reaction2",
+        "value": "b. 312"
+    },
+    {
+        "key": "reaction-multiply-reaction3",
+        "value": "c. 432"
+    },
+    {
+        "key": "reaction-multiply-reaction4",
+        "value": "d. 576"
+    },
+    {
+        "key": "feedback-multiply",
+        "value": " There would be 432 units or cups in 18 boxes.\n\nOne box = 24 units\n\n18 boxes = `18 x 24 units = 432 units`"
+    },
+    {
+        "key": "description-subtraction",
+        "value": "Last month, a customer ordered 44 units of mobile phone cases but this month there is a dip in sales and they want 8 units fewer than what they ordered last time. How many units should you pick?"
+    },
+    {
+        "key": "subtraction-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/subtraction.png"
+    },
+    {
+        "key": "reaction-subtraction-reaction1",
+        "value": "a. 40"
+    },
+    {
+        "key": "reaction-subtraction-reaction2",
+        "value": "b. 36"
+    },
+    {
+        "key": "reaction-subtraction-reaction3",
+        "value": "c. 32"
+    },
+    {
+        "key": "reaction-subtraction-reaction4",
+        "value": "d. 28"
+    },
+    {
+        "key": "feedback-subtraction",
+        "value": "You should pick 36 units.\n\n8 units fewer than 44 units = `44 - 8 units = 36 units`"
+    },
+    {
+        "key": "description-addition-days",
+        "value": "Today is Wednesday, June 13. A customer has sent you an email saying they would like to receive their order by June 28. It takes 5 days for the truck driver to reach the customer's location from the warehouse. \n\nWhen should you ship the order from the warehouse so that it reaches the customer on time?"
+    },
+    {
+        "key": "addition-days-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/addition-days.png"
+    },
+    {
+        "key": "reaction-addition-days-reaction1",
+        "value": "a. June 22"
+    },
+    {
+        "key": "reaction-addition-days-reaction2",
+        "value": "b. June 24"
+    },
+    {
+        "key": "reaction-addition-days-reaction3",
+        "value": "c. June 26"
+    },
+    {
+        "key": "reaction-addition-days-reaction4",
+        "value": "d. June 28"
+    },
+    {
+        "key": "feedback-addition-days",
+        "value": "If it takes 5 days for the truck to reach the customer’s location, then the goods\nshould be shipped out at least 5 days before June 28. So the goods should be\nshipped out before June 23 to reach the customer on time. So the correct answer\nis June 22.\n\n"
+    },
+    {
+        "key": "description-multiply-2",
+        "value": "Goods are received in the warehouse on pallets. The number of goods on a pallet can be counted by multiplying the number of boxes in one layer on the pallet with the total number of layers. \n\nIf there are 9 boxes in one layer of a pallet and there are 4 layers of boxes, how many boxes are there in total on the pallet?"
+    },
+    {
+        "key": "multiply-2-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/multiply-2.png"
+    },
+    {
+        "key": "reaction-multiply-2-reaction1",
+        "value": "a. 30"
+    },
+    {
+        "key": "reaction-multiply-2-reaction2",
+        "value": "b. 32"
+    },
+    {
+        "key": "reaction-multiply-2-reaction3",
+        "value": "c. 36"
+    },
+    {
+        "key": "reaction-multiply-2-reaction4",
+        "value": "d. 40"
+    },
+    {
+        "key": "feedback-multiply-2",
+        "value": "There are 36 boxes in total on the pallet.\n\nBoxes in one layer = `9`\nNumber of layers = `4`\n\nBoxes in 4 layers = `9 x 4 = 36`"
+    },
+    {
+        "key": "description-division",
+        "value": "You will receive a shipment of 400 boxes of laptops today. There are 40 cases on each pallet. The pallets are to be stored in section F1 of the warehouse. \n\nIf 4 pallets fit on a storage rack in this section, how many racks will you need for 400 boxes?"
+    },
+    {
+        "key": "division-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/division.png"
+    },
+    {
+        "key": "reaction-division-reaction1",
+        "value": "a. 2"
+    },
+    {
+        "key": "reaction-division-reaction2",
+        "value": "b. 2.5"
+    },
+    {
+        "key": "reaction-division-reaction3",
+        "value": "c. 3"
+    },
+    {
+        "key": "reaction-division-reaction4",
+        "value": "d. 3.5"
+    },
+    {
+        "key": "feedback-division",
+        "value": "You will need 2.5 racks for 400 boxes.\n\nNumber of total boxes = `400`\n\nNumber of boxes on one pallet = `40`\n\nNumber of pallets = `400/40 = 10`\n\nNumber of pallets that can be stored in one rack = `4`\n\nNumber of racks needed to store 400 boxes or 10 pallets = `10/4 = 2.5`"
+    },
+    {
+        "key": "description-subtraction-2",
+        "value": "If there are 6 open racks in section F2 in the warehouse, then how many\nracks will remain open after storing 400 boxes of laptops that need 2.5 racks\nin that section?\n\n\n\n"
+    },
+    {
+        "key": "subtraction-2-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/open_racks.png"
+    },
+    {
+        "key": "reaction-subtraction-2-reaction1",
+        "value": "a. 2"
+    },
+    {
+        "key": "reaction-subtraction-2-reaction2",
+        "value": "b. 2.5"
+    },
+    {
+        "key": "reaction-subtraction-2-reaction3",
+        "value": "c. 3"
+    },
+    {
+        "key": "reaction-subtraction-2-reaction4",
+        "value": "d. 3.5"
+    },
+    {
+        "key": "feedback-subtraction-2",
+        "value": "Since 2.5 racks are needed to store 400 boxes, so the number of racks that will\nremain open after storing them = `6 - 2.5 = 3.5` racks\n\n\n\n"
+    },
+    {
+        "key": "description-multiply-3",
+        "value": "A pallet of mobile phones has 5 boxes in each layer and there are 7 layers of boxes on the pallet. Each box has 12 units or 12 phones in it. How many units of phones are there on the pallet in total?"
+    },
+    {
+        "key": "multiply-3-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/racks.png"
+    },
+    {
+        "key": "reaction-multiply-3-reaction1",
+        "value": "a. 70"
+    },
+    {
+        "key": "reaction-multiply-3-reaction2",
+        "value": "b. 280"
+    },
+    {
+        "key": "reaction-multiply-3-reaction3",
+        "value": "c. 420"
+    },
+    {
+        "key": "reaction-multiply-3-reaction4",
+        "value": "d. 1008"
+    },
+    {
+        "key": "feedback-multiply-3",
+        "value": "There are 420 units of phones on the pallet in total.\n\nNumber of boxes in one pallet layer = `5`\n\nNumber of pallet layers = `7`\n\nNumber of boxes on the pallet = `5 x 7 = 35` boxes\n\nNumber of units in one box = `12`\n\nNumber of total units in 35 boxes = `12 x 35 = 420` units"
+    },
+    {
+        "key": "description-combination",
+        "value": "You have to take the inventory of computer monitors in the warehouse, that is, you have to count the total number of computer monitors stored in the warehouse. \n\nYou find that there are 12 full pallets of this item in one section and 8 loose boxes in another section of the warehouse. Each pallet has 2 layers with 5 boxes in each layer. Each box has a single unit. How many computer monitors are stored in the warehouse? "
+    },
+    {
+        "key": "combination-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/two_pallets.png"
+    },
+    {
+        "key": "reaction-combination-reaction1",
+        "value": "a. 100"
+    },
+    {
+        "key": "reaction-combination-reaction2",
+        "value": "b. 128"
+    },
+    {
+        "key": "reaction-combination-reaction3",
+        "value": "c. 156"
+    },
+    {
+        "key": "reaction-combination-reaction4",
+        "value": "d. 184"
+    },
+    {
+        "key": "feedback-combination",
+        "value": "Number of pallets = `12`\n\nNumber of pallet layers = `2`\n\nNumber of boxes in a pallet layer = `5`\n\nNumber of boxes on a pallet = `2 x 5 = 10`\n\nNumber of boxes on 12 pallets = `10 x 12 = 120` \n\nNumber of loose boxes = `8`\n\nTotal number of boxes = `120 + 8 = 128`\n\nSince there is only one unit in each box, there are 128 units of computer monitors in the warehouse."
+    },
+    {
+        "key": "description-division-2",
+        "value": "You have to pick 60 units of pressure cookers for a customer order. How\nmany boxes should you pick if there are 4 units in each box?"
+    },
+    {
+        "key": "division-2-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/pallets_and_racks.png"
+    },
+    {
+        "key": "reaction-division-2-reaction1",
+        "value": "a. 15"
+    },
+    {
+        "key": "reaction-division-2-reaction2",
+        "value": "b. 20"
+    },
+    {
+        "key": "reaction-division-2-reaction3",
+        "value": "c. 25"
+    },
+    {
+        "key": "reaction-division-2-reaction4",
+        "value": "d. 30"
+    },
+    {
+        "key": "feedback-division-2",
+        "value": "You should pick 15 boxes.\n\nNumber of units to be picked = `60`\n\nNumber of unts in a box = `4`\n\nNumber of boxes to be picked = `60/4 = 15` boxes\n\n"
+    },
+    {
+        "key": "description-combination-2",
+        "value": "There were 1050 units of pressure cookers in the warehouse. You have picked 15 boxes for a customer order. Each box has 4 units. How many pressure cookers are left in the warehouse now?"
+    },
+    {
+        "key": "combination-2-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/basic-math/cart_with_15_boxes.png"
+    },
+    {
+        "key": "reaction-combination-2-reaction1",
+        "value": "a. 890"
+    },
+    {
+        "key": "reaction-combination-2-reaction2",
+        "value": "b. 900"
+    },
+    {
+        "key": "reaction-combination-2-reaction3",
+        "value": "c. 990"
+    },
+    {
+        "key": "reaction-combination-2-reaction4",
+        "value": "d. 1008"
+    },
+    {
+        "key": "feedback-combination-2",
+        "value": "There are 990 pressure cookers left in the warehouse.\n\nNumber of boxes picked = `15`\n\nNumber of units in a box = `4`\n\nNumber of units picked = `15 x 4 = 60`\n\nNumber of total units before picking = `1050`\n\nNumber of total units after picking = `1050 - 60 = 990`"
+    }
+],
+  "levelsCompleted": []
+}

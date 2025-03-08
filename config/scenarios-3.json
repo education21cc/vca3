@@ -1,0 +1,198 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+    "mapJson": "maps/scenarios-1.json",
+    "stars": 3,
+    "scenarios": {
+      "agv-path": {
+        "location": [53, 2],
+        "image": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/avg-path/avg-path-description.jpg",
+        "imageFeedback": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/avg-path/avg-path-outcome.png",
+        "reactions": [{
+          "id": "reaction1",
+          "correct": true
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }]
+      },
+      "forklift-hole": {
+        "location": [26, 12],
+        "image": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/forklift-hole/forklift-hole-description.png",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4",
+          "correct": true
+        }]
+      },
+      "wet-product": {
+        "location": [25, 5],
+        "image": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/wet-product/wet-product-description.png",
+        "reactions": [{
+          "id": "reaction1",
+          "correct": true
+        }, {
+          "id": "reaction2",
+          "correct": true
+        }, {
+          "id": "reaction3"
+        }, {
+          "id": "reaction4"
+        }, {
+          "id": "reaction5"
+        }]
+      },
+      "misplaced-boxes": {
+        "location": [2, 24],
+        "image": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/misplaced-boxes/misplaced-boxes-description.png",
+        "imageFeedback": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/misplaced-boxes/misplaced-boxes-outcome.jpg",
+        "reactions": [{
+          "id": "reaction1"
+        }, {
+          "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+        }]
+      }
+    }
+  },
+  "translations": [{
+    "key": "intro-header",
+    "value": "The warehouse"
+  }, {
+    "key": "intro-description",
+    "value": "Derde warehouse met 4 scenarios"
+  }, {
+    "key": "intro-start",
+    "value": "Start"
+  }, {
+    "key": "intro-stars-to-gain",
+    "value": "{0}/{1} verdiend"
+  }, {
+    "key": "button-next",
+    "value": "Volgende"
+  }, {
+    "key": "button-prev",
+    "value": "Terug"
+  }, {
+    "key": "button-check",
+    "value": "Check"
+  }, {
+    "key": "button-continue",
+    "value": "Doorgaan"
+  }, {
+    "key": "reactions",
+    "value": "Acties"
+  }, {
+    "key": "feedback-correct",
+    "value": "Goed!"
+  }, {
+    "key": "feedback-wrong",
+    "value": "Fout!"
+  }, {
+    "key": "complete-header",
+    "value": "Gefeliciteerd"
+  }, {
+    "key": "complete-score",
+    "value": "Totale score {0} / {1}"
+  }, {
+    "key": "complete-try-again",
+    "value": "Opnieuw"
+  }, {
+    "key": "complete-exit",
+    "value": "Afsluiten"
+  }, {
+    "key": "feedback",
+    "value": "Feedback"
+  }, {
+    "key": "description-agv-path",
+    "value": "Je bent op weg naar de kantine voor je lunch. Toevallig kijk je links een pad in. Je ziet dat er iets voorbij het midden van het pad wat rommel ligt. Waarschijnlijk is er iets uitgevallen toen er van de andere kant wat in is gezet. Dit pad wordt ook gebruikt door een AGV (Automated Guided Vehicle). Wat doe je?"
+  }, {
+    "key": "reaction-agv-path-reaction1",
+    "value": "1. Je haalt de rommel weg en meldt het bij je teamleider. "
+  }, {
+    "key": "reaction-agv-path-reaction2",
+    "value": "2. Je meldt het direct bij je teamleider en gaat lunchen. "
+  }, {
+    "key": "reaction-agv-path-reaction3",
+    "value": "3. Je ruimt de rommel op en gaat lunchen."
+  }, {
+    "key": "reaction-agv-path-reaction4",
+    "value": "4. Je belt je teamleider om te vragen wat je het beste kunt doen. "
+  }, {
+    "key": "feedback-agv-path",
+    "value": "Aanrijdingen met en struikelen over rommel op het pad kan zorgen voor onveilige situaties. Daarnaast kan het zorgen voor onnodige reparatiekosten door verstrengeling van bijvoorbeeld pallethout in de wielen van een AGV, heftruck etc.\n\nIedereen is verantwoordelijk voor veiligheid. De rommel direct opruimen en het melden is het beste wat je kunt doen. \n\nAls je het alleen meldt en dan gaat lunchen blijft de gevaarlijke situatie op zijn minst toch bestaan totdat je teamleider actie heeft ondernomen. \n\nHet alleen zelf direct opruimen is heel goed, maar je moet het toch ook melden. Hiermee kan je teamleider stappen ondernemen om het in de toekomst te voorkomen.\n\nNatuurlijk kun je eerst je teamleider bellen om te vragen wat je moet doen. Maar waarschijnlijk mag er best wat eigen initiatief van je verwacht worden in dit soort gevallen.\n\n _ VCA 4.3: Orde en netheid op de werkplek._"
+  }, {
+    "key": "description-forklift-hole",
+    "value": "Een collega rijdt tijdens het werk op een heftruck langs je heen. Je ziet dat hij schuin op een kuil in het pad afrijdt. Je roept nog net op tijd naar hem dat hij moet stoppen en helpt hem om de gevaarlijke plek heen te navigeren. Samen bellen jullie de leidinggevende en je collega geeft aan vanuit zijn positie op de heftruck niet duidelijk te kunnen zien dat er een gevaarlijk stuk in het pad zit. Je leidinggevende vraagt jou om de juiste markering rondom de kuil aan te brengen, terwijl hij zelf een bedrijf belt om het pad te laten repareren.\n\nWat voor markering moet je in dit geval aanbrengen?"
+  }, {
+    "key": "reaction-forklift-hole-reaction1",
+    "value": "1. Een geel driehoekig bord met zwart uitroepteken erop."
+  }, {
+    "key": "reaction-forklift-hole-reaction2",
+    "value": "2. Een hek voor en achter de kuil."
+  }, {
+    "key": "reaction-forklift-hole-reaction3",
+    "value": "3. Rood/wit lint of tape."
+  }, {
+    "key": "reaction-forklift-hole-reaction4",
+    "value": "4. Geel/zwart lint of tape."
+  }, {
+    "key": "feedback-forklift-hole",
+    "value": "Geel/zwart lint of tape wordt gebruikt bij afstappen, onderdoorgangen, in situaties waarbij mensen zich kunnen stoten en voor het markeren van gevaarlijke gebieden.\n\nDat laatste is hier het geval. Rood/wit lint of tape gebruik je bij overige situaties. Je mag een lint nooit passeren (VCA 6.4.6: Markeren en afzetten).\n\nOp zich is het goed om een ‘algemeen gevaar’ bord te plaatsen. Echter dat alleen is niet voldoende."
+  }, {
+    "key": "description-misplaced-boxes",
+    "value": "Je krijgt van je teamleider de opdracht om een aantal pallets te verplaatsen om ruimte te maken voor een nieuwe lading pallets. De vrachtwagen met die lading staat al te wachten aan een dock. Je pakt een steekkarretje en gaat naar de betreffende pallets. Je ziet dat er dozen niet goed gestapeld zijn en er losse goederen op de dozen liggen. Wat kun je het beste doen?"
+  }, {
+    "key": "reaction-misplaced-boxes-reaction1",
+    "value": "1. Je laat de pallets staan en gaat terug naar je teamleider om aan te geven dat de pallets niet juist gestapeld zijn en zo niet verplaatst kunnen worden."
+  }, {
+    "key": "reaction-misplaced-boxes-reaction2",
+    "value": "2. Zonder iets aan te passen verplaats je de pallets, maar om te zorgen dat er niets afvalt, loop je wat langzamer naar de nieuwe plek. Je meldt het vervolgens aan je teamleider."
+  }, {
+    "key": "reaction-misplaced-boxes-reaction3",
+    "value": "3. Je neemt de tijd om de pallets opnieuw, op de juiste manier, op te bouwen zodat alles goed staat en verplaatst dan de pallets."
+  }, {
+    "key": "feedback-misplaced-boxes",
+    "value": "Je hebt gezien dat de pallets niet goed gestapeld zijn. Je moet de pallets dan niet gaan verplaatsen. En natuurlijk kan je het eerst even aan je teamleider vragen, maar het beste wat je kunt doen is direct zelf de pallets opnieuw opbouwen en daarna verplaatsen. Het is wel goed om dit voorval daarna te melden aan je teamleider.\n\nVolgens de Arbowet is de werkgever verplicht voorlichting en onderricht aan werknemers (inclusief stagiaires) te geven. Bijvoorbeeld over hoe een pallet gestapeld moet zijn voordat je er mee mag gaan rijden. \n\nVolgens diezelfde Arbowet hebben werknemers de plicht arbeidsmiddelen (steekkar met pallet) op de juiste wijze te gebruiken en de werkgever in te lichten over opgemerkte gevaren voor de veiligheid en gezondheid in het bedrijf. \n\n _ Weet je nog wat een LRMA is? Kijk maar eens naar VCA 2.3._ \n\n _In dit voorbeeld moet je zelf een LMRA doen voordat je begint met het verplaatsen van de pallets. Je ziet dan risico’s (verkeerd gestapelde pallets) en je neemt maatregelen (goed opstapelen) om te zorgen dat het verplaatsen veilig kan gebeuren._\n\n_ Laatste Minuut Risico Analyse (LMRA): Kijk om je heen: zijn er gevaren?_ \n\n1. _Denk goed na over de risico’s._\n1. _Beoordeel de risico’s._\n1. _Beheers de risico’s: neem maatregelen._\n1. _Risico’s aanwezig? Ja! Stop met werken._\n1. _Alles veilig? Ja! Start of hervat je werk._ "
+  }, {
+    "key": "description-wet-product",
+    "value": "Je komt aan bij een bijna lege stelling. Er staat nog maar een doos met het product dat je moet hebben. De doos ziet er aan een kant nat uit. Waarschijnlijk is een product in de doos gaan lekken. Het etiket op de doos kan je daardoor niet goed meer lezen. Je ziet wel dat er twee stickers met een ruit met een rode rand op \n\ngeplakt zijn. Maar ook die zijn doorweekt geweest en het plaatje binnenin de rode rand is een zwarte vlek geworden. Het is de laatste doos in deze stelling, je kunt dus geen andere doos pakken. In het magazijn waar je werkt worden drogisterij spullen opgeslagen. Wat doe je?"
+  }, {
+    "key": "reaction-wet-product-reaction1",
+    "value": "1. Je neemt de doos mee om te kijken of wat erin zit nog goed is en verstuurd kan worden in een nieuwe doos."
+  }, {
+    "key": "reaction-wet-product-reaction2",
+    "value": "2. Je laat de doos staan en vraagt een collega die gecertificeerd is om met gevaarlijke stoffen om te gaan om naar de doos te gaan kijken."
+  }, {
+    "key": "reaction-wet-product-reaction3",
+    "value": "3. Je laat de doos staan en zegt tegen je teamleider dat deze laatste doos beschadigd is en zo niet verzonden kan worden."
+  }, {
+    "key": "reaction-wet-product-reaction4",
+    "value": "4. Je doet handschoenen aan, pakt de doos voorzichtig op en brengt hem naar je teamleider om te vragen wat je er het beste mee kunt doen."
+  }, {
+    "key": "reaction-wet-product-reaction5",
+    "value": "5. Je laat de doos staan en geeft op je orderformulier aan dat het product niet meer op voorraad is."
+  }],
+  "levelsCompleted": [{
+    "level": 0,
+    "score": 2,
+    "maxScore": 8
+
+  }]
+
+}
+

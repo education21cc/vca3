@@ -1,0 +1,80 @@
+{"frames": {
+
+"tile-misc-floormarkings-agv-corner-1.png":
+{
+	"frame": {"x":0,"y":0,"w":128,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":96},
+	"sourceSize": {"w":128,"h":96}
+},
+"tile-misc-floormarkings-agv-corner-2.png":
+{
+	"frame": {"x":128,"y":0,"w":128,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":96},
+	"sourceSize": {"w":128,"h":96}
+},
+"tile-misc-floormarkings-agv-corner-3.png":
+{
+	"frame": {"x":0,"y":96,"w":128,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":96},
+	"sourceSize": {"w":128,"h":96}
+},
+"tile-misc-floormarkings-agv-corner-4.png":
+{
+	"frame": {"x":128,"y":96,"w":128,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":96},
+	"sourceSize": {"w":128,"h":96}
+},
+"tile-misc-floormarkings-agv-left.png":
+{
+	"frame": {"x":0,"y":192,"w":128,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":96},
+	"sourceSize": {"w":128,"h":96}
+},
+"tile-misc-floormarkings-agv-marking1.png":
+{
+	"frame": {"x":0,"y":288,"w":129,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":96},
+	"sourceSize": {"w":129,"h":96}
+},
+"tile-misc-floormarkings-agv-marking2.png":
+{
+	"frame": {"x":0,"y":384,"w":129,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":96},
+	"sourceSize": {"w":129,"h":96}
+},
+"tile-misc-floormarkings-agv-right.png":
+{
+	"frame": {"x":128,"y":192,"w":128,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":96},
+	"sourceSize": {"w":128,"h":96}
+}},
+"animations": {
+	"tile-misc-floormarkings-agv-corner": ["tile-misc-floormarkings-agv-corner-1.png","tile-misc-floormarkings-agv-corner-2.png","tile-misc-floormarkings-agv-corner-3.png","tile-misc-floormarkings-agv-corner-4.png"],
+	"tile-misc-floormarkings-agv-marking": ["tile-misc-floormarkings-agv-marking1.png","tile-misc-floormarkings-agv-marking2.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "misc-floormarkings.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":480},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:40e197bec33bd91b077bbb8e58db8d73:3e00f7177f9a1612e16f5f30bf7b8587:2ba34ac56c324e10eeb9ae1e8ffb2ddc$"
+}
+}

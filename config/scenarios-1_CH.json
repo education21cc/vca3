@@ -1,0 +1,303 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+
+  },
+  "content": {
+      "mapJson": "maps/scenarios-1.json",
+      "stars": 4,
+      "scenarios": {
+        "together-cantina": {
+          "location": [8, 14],
+          "image": "description-together-cantina-image",
+          "imageFeedback": "description-together-cantina-image-feedback",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "agv-walk": {
+          "location": [49, 18],
+          "image": "description-agv-walk-image",
+          "imageFeedback": "description-agv-walk-image-feedback",
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3",
+            "correct": true
+          }, {
+            "id": "reaction4"
+          }]
+        },
+        "store-cargo": {
+          "location": [45, 25],
+          "image": "description-store-cargo-image",
+          "imageFeedback": "description-store-cargo-image-feedback",
+          "hotspots": [{
+            "image": "description-store-cargo-hotspot-image",
+            "hotspot": "description-store-cargo-hotspot-hotspot",
+            "left": 51.8,
+            "top": 80.7,
+            "width": 14.6
+          }],
+          "reactions": [{
+            "id": "reaction1"
+          }, {
+            "id": "reaction2",
+            "correct": true
+          }, {
+            "id": "reaction3"
+          }]
+        },
+        "emergency-door": {
+          "location": [23, -2],
+          "image": "description-emergency-door-image",
+          "imageFeedback": "description-emergency-door-image-feedback",
+          "reactions": [{
+            "id": "reaction1",
+            "correct": true
+          }, {
+            "id": "reaction2"
+          }, {
+            "id": "reaction3"
+          }]
+        }
+      }
+  },
+  "translations": [
+    {
+        "key": "intro-header",
+        "value": "在以下场景中你应该怎么办？"
+    },
+    {
+        "key": "intro-description",
+        "value": "位于该仓库的红色标记将带你进入不同的场景。 当你点击红色标记时，一种情况将被描述，而你必须回答一个问题。 回答问题后，你将收到有关正确答案的说明。 每当你正确回答了一个问题后，你将会获得一颗星。"
+    },
+    {
+        "key": "intro-start",
+        "value": "开始"
+    },
+    {
+        "key": "intro-stars-to-gain",
+        "value": "{0}/{1} 获得"
+    },
+    {
+        "key": "button-next",
+        "value": "下一个"
+    },
+    {
+        "key": "button-prev",
+        "value": "向后"
+    },
+    {
+        "key": "button-check",
+        "value": "查看"
+    },
+    {
+        "key": "button-continue",
+        "value": "继续"
+    },
+    {
+        "key": "reactions",
+        "value": "选项"
+    },
+    {
+        "key": "feedback-correct",
+        "value": "正确!"
+    },
+    {
+        "key": "feedback-wrong",
+        "value": "错误!"
+    },
+    {
+        "key": "complete-header",
+        "value": "恭喜!"
+    },
+    {
+        "key": "complete-score",
+        "value": "总分 {0}/{1}"
+    },
+    {
+        "key": "complete-try-again",
+        "value": "再一次"
+    },
+    {
+        "key": "complete-exit",
+        "value": "退出"
+    },
+    {
+        "key": "feedback",
+        "value": "反馈"
+    },
+    {
+        "key": "description-together-cantina",
+        "value": "你要和你的同事去食堂。 在这张照片中，你并肩走在路径的左侧。 你被允许这样做吗？"
+    },
+    {
+        "key": "description-together-cantina-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/together-cantina/together-cantina-description-ch.png"
+    },
+    {
+        "key": "description-together-cantina-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/together-cantina/together-cantina-outcome-ch.png"
+    },
+    {
+        "key": "reaction-together-cantina-reaction1",
+        "value": "1. 是的，左边的路是行人去食堂的。"
+    },
+    {
+        "key": "reaction-together-cantina-reaction2",
+        "value": "2. 不，你必须走在路的右边。 始终尽可能保持在右侧。"
+    },
+    {
+        "key": "reaction-together-cantina-reaction3",
+        "value": "3. 不行，路太窄，不能并排走。"
+    },
+    {
+        "key": "reaction-together-cantina-reaction4",
+        "value": "4. 不行，你不被允许走这条路。 整个路径只适用于自动导引车 (Automated Guided Vehicles)。"
+    },
+    {
+        "key": "feedback-together-cantina",
+        "value": "指定的走道很重要，因为它们可以防止人与机器之间的碰撞。\n \n\n  始终遵循指定路线并注意你周围的潜在危险。\n \n\n  在这种情况下，左侧有一条通往食堂的步行道。 但这条路不够宽，无法肩并肩地走。 因此，在这种情况下，你们必须在路径的左侧一个接一个地走。\n \n\n  自动导引车 (Automated Guided Vehicles) 非常安静，可承载重型货物。 因此，在尽可能的情况下，走不同的车道会更安全。"
+    },
+    {
+        "key": "description-agv-walk",
+        "value": "你必须去出口。 您是否可以走最短路线，并沿着不同的自动导引车 (Automated Guided Vehicles) 路径（地板上的红线和黑线）走到出口？"
+    },
+    {
+        "key": "description-agv-walk-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/agv-walk/agv-walk-description-ch.png"
+    },
+    {
+        "key": "description-agv-walk-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/agv-walk/agv-walk-outcome-ch.png"
+    },
+    {
+        "key": "reaction-agv-walk-reaction1",
+        "value": "1. 不可以，作为行人不得在AGV线上行走。 在这种情况下，你必须始终寻找明确指示的步行路线。"
+    },
+    {
+        "key": "reaction-agv-walk-reaction2",
+        "value": "2. 可以，但必须穿工作鞋和安全帽。"
+    },
+    {
+        "key": "reaction-agv-walk-reaction3",
+        "value": "3. 是的，你可以，只要你小心。"
+    },
+    {
+        "key": "reaction-agv-walk-reaction4",
+        "value": "4. 不可以，只有当你自己在叉车上并因此受到良好保护时才允许这样做。"
+    },
+    {
+        "key": "feedback-agv-walk",
+        "value": "人行道对于避免碰撞和拥堵很重要。 不幸的是，并不总是指示清晰的步行路线，或者可能存在不同路线交叉的地方。 根据 VCA，步行路线也不是强制性的。\n \n\n 如果没有明确的步行路线，通常允许你步行或穿越 AGV 路径。\n \n\n 直接向你的团队领导询问你工作场所的相关规定。 这应该在你雇主的安全计划或安全说明中说明。\n \n\n 《工作条件法》要求雇主通知你并教你它是如何工作的。 根据《工作条件法》，你有义务了解这些计划和指示。"
+    },
+    {
+        "key": "description-store-cargo",
+        "value": "卡车司机在码头上留下了六个托盘的大箱子。\n \n\n 你的团队负责人要求你将它们与仓库中的托盘车一起放在正确的位置。 你可以查看相关的订购单。 你还可以查看有关你可以使用的托盘搬运车的更多详细信息。 你应该怎么做？"
+    },
+    {
+        "key": "description-store-cargo-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-description-ch.png"
+    },
+    {
+        "key": "description-store-cargo-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-outcome-ch.png"
+    },
+    {
+        "key": "description-store-cargo-hotspot-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-insert-ch.png"
+    },
+    {
+        "key": "description-store-cargo-hotspot-hotspot",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/store-cargo/store-cargo-hotspot.png"
+    },
+    {
+        "key": "reaction-store-cargo-reaction1",
+        "value": "1、你应乘坐托盘车，将托盘一个一个地放在正确的位置。"
+    },
+    {
+        "key": "reaction-store-cargo-reaction2",
+        "value": "2. 你应该告诉你的团队领导，托盘车不适合运输这些托盘。"
+    },
+    {
+        "key": "reaction-store-cargo-reaction3",
+        "value": "3. 你应该让你的同事用叉车移动托盘。"
+    },
+    {
+        "key": "feedback-store-cargo",
+        "value": "订单上说明托盘的重量为 2750 公斤。 你的托盘搬运车显示它的负载能力为 2500 公斤。\n \n\n 所有工作设备只能在规定的范围内使用。 使用这款托盘搬运车，你可以搬运重量不超过 2500 公斤的货物。\n \n\n 这辆托盘车可以搬运 2750 公斤的托盘，但官方不允许这样做，因为这会造成危险。\n \n\n 告诉你的团队领导这辆托盘车不合适，因为托盘太重。\n \n\n  你可能可以使用叉车移动这些托盘，但该码头可能不允许在其上使用叉车。 所以首先通知你的团队领导，托盘车不适合这项工作。"
+    },
+    {
+        "key": "description-emergency-door",
+        "value": "这似乎是个出去喝杯咖啡的好地方。这被允许吗？"
+    },
+    {
+        "key": "description-emergency-door-image",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/emergency-door-description-ch.png"
+    },
+    {
+        "key": "description-emergency-door-image-feedback",
+        "value": "https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/emergency-door-outcome-ch.png"
+    },
+    {
+        "key": "reaction-emergency-door-reaction1",
+        "value": "1. 是的。 应急门甚至可以保持打开状态，这样你就可以在喝完咖啡后轻松返回。"
+    },
+    {
+        "key": "reaction-emergency-door-reaction2",
+        "value": "2. 可以，但应急门必须尽快关好，不能再从外面打开。"
+    },
+    {
+        "key": "reaction-emergency-door-reaction3",
+        "value": "3. 不，应急门仅用于紧急情况。"
+    },
+    {
+        "key": "feedback-emergency-door",
+        "value": "紧急门由下面的绿色图标指示。\n \n\n应急门可以保持打开状态。 \n![]https://21cccdn.blob.core.windows.net/21cc/games/images/flashcards/vca/veiligheidsvoorzieningen-uitgang-die-tevens-dient-als-nooduitgang.png)\n \n\n 消防应急门具有防火系统，通常可以打开，但不应保持打开状态，因为如果门保持打开状态，系统将无法工作。 防火门可以通过底部的红色标志来识别，也可以用字母写在门上。 \n\n![](https://21cccdn.blob.core.windows.net/21cc/games/images/vcaWarehouse/scenarios/emergency-door/branddeur.png) \n\n![](https://21cceducation.nl/content/ games/images/image.php?image=vcaWarehouse/scenarios/emergency-door/fire-sign-ch.png) \n\n  在某些情况下，你不希望只使用应急门或防火门。 例如，当上面有警报时。"
+    },
+    {
+        "key": "description-forklift-hole",
+        "value": "一位同事在工作期间用叉车从你身边驶过。 你可以看到他正斜着驶向小路上的一个洞。 你及时呼叫他停下来和帮助他在危险的地方导航。 你叫来主管，向你的同事指示他不能从他在叉车上的位置清楚地看到的路径上危险部分。 你的主管要求你在洞周围做正确的标记，而他本人则致电公司修复路径。\n \n\n  你应该在洞周围做哪个标记？"
+    },
+    {
+        "key": "reaction-forklift-hole-reaction1",
+        "value": "1. 一个带有黑色感叹号的黄色三角形标志。"
+    },
+    {
+        "key": "reaction-forklift-hole-reaction2",
+        "value": "2.洞前、洞后各设围栏。"
+    },
+    {
+        "key": "reaction-forklift-hole-reaction3",
+        "value": "3. 红白色丝带或胶带。"
+    },
+    {
+        "key": "reaction-forklift-hole-reaction4",
+        "value": "4. 黄色和黑色色丝带或胶带。"
+    },
+    {
+        "key": "feedback-forklift-hole",
+        "value": "黄色和黑色丝带或胶带用于人们可能发生碰撞的情况，或用于侧翼和地下通道，以及用于标记危险区域。\n \n\n 在其他情况下，你可以使用红白丝带或胶带。 你们切勿进入被丝带包围的区域。\n \n\n 就其本身而言，最好放置一个“一般危险”标志。 然而，仅此是不够的。"
+    }
+],
+
+  "levelsCompleted": [{
+    "level": 0,
+    "score": 2,
+    "maxScore": 8
+
+  }]
+
+}
+

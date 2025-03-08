@@ -1,0 +1,62 @@
+{"frames": {
+
+"tile-people-misc-box-a.png":
+{
+	"frame": {"x":0,"y":0,"w":128,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":192},
+	"sourceSize": {"w":128,"h":192}
+},
+"tile-people-misc-handshake-01.png":
+{
+	"frame": {"x":128,"y":0,"w":160,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":192},
+	"sourceSize": {"w":160,"h":192}
+},
+"tile-people-misc-hardhadbox-one.png":
+{
+	"frame": {"x":288,"y":0,"w":128,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":192},
+	"sourceSize": {"w":128,"h":192}
+},
+"tile-people-misc-hardhadbox-tall.png":
+{
+	"frame": {"x":416,"y":0,"w":128,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":192},
+	"sourceSize": {"w":128,"h":192}
+},
+"tile-people-misc-shoulder.png":
+{
+	"frame": {"x":544,"y":0,"w":128,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":134},
+	"sourceSize": {"w":128,"h":134}
+},
+"tile-people-misc-tablet.png":
+{
+	"frame": {"x":672,"y":0,"w":128,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":134},
+	"sourceSize": {"w":128,"h":134}
+}},
+"animations": {
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "people-misc.png",
+	"format": "RGBA8888",
+	"size": {"w":800,"h":192},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:cc0e10e7ca15f355978d1cdceb63f669:2720d5decb407af52a07bbe879eee92a:8b6b403079140aa7dc2eb68bfcf9a703$"
+}
+}
